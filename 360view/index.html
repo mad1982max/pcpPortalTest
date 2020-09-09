@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PANORAMA</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+  <style>
+    @-ms-viewport {
+      width: device-width;
+    }
+  </style>
+  <link rel="stylesheet" href="../vendors/css/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="multiple-scenes view-control-buttons">
+
+  <button class="btn btn-back" onclick=returnFn() type="button" id="backButton">
+    <img class="backArrow" src="../assets/img/icons/back_arrow.svg" alt="">
+  </button>
+
+  <div class="btn-next-group">
+    <button class='btn' id='prev'>
+      <img src="../assets/img/icons/left-arrow.svg" alt="">
+    </button>
+    <button class='btn' id='next'>
+      <img src="../assets/img/icons/right-arrow.svg" alt="">
+    </button>
+  </div>
+
+  <div id="pano"></div>
+
+  <div id="mapList" class="enabled">
+    <div class="mapBtnGroup">
+      <button draggable="true" class="resizeMapBtn" id="resizeMapBtn">
+        <img src="../assets/img/icons/resize-ico.svg" alt="">
+      </button>
+      <button class="centerizeMapBtn mapBtn" id="centerizeMapBtn">
+        <img src="../assets/img/icons/centerize.svg" alt="">
+      </button>
+      <button class="stairsUpBtn mapBtn" id="stairsUpBtn">
+        <img src="../assets/img/icons/stairs_up.svg" alt="">
+      </button>
+      <button class="stairsDownBtn mapBtn" id="stairsDownBtn">
+        <img src="../assets/img/icons/stairs_down.svg" alt="">
+      </button>
+    </div>
+    <div id="wrapper"></div>
+  </div>
+
+  <div id="titleBar">
+    <h1 class="sceneName"></h1>
+  </div>
+
+  <a href="javascript:void(0)" id="mapToggle">
+    <img class="icon off" src="../assets/img/icons/minimap_grey.svg">
+    <img class="icon on" src="../assets/img/icons/minimap_white.svg">
+  </a>
+
+  <script src="../vendors/js/es5-shim.js"></script>
+  <script src="../vendors/js/eventShim.js"></script>
+  <script src="../vendors/js/classList.js"></script>
+  <script src="../vendors/js/requestAnimationFrame.js"></script>
+  <script src="../vendors/js/screenfull.min.js"></script>
+  <script src="../vendors/js/bowser.min.js"></script>
+  <script src="../vendors/js/marzipano.js"></script>
+
+  <script type="text/javascript" src="../vendors/js/d3.js"></script>
+  <script type="text/javascript" src="../vendors/js/d3-zoom.js"></script>
+  <script type="text/javascript" src="../vendors/js/d3-transform.min.js"></script>
+  <script type="text/javascript" src="../shares/js/eventModule.js"></script>
+  <script src="../shares/js/points.js"></script>
+  <script src="../shares/js/sublevels.js"></script>
+  <script src="../shares/js/tail_data.js"></script>
+  <script src="./index.js"></script>
+  <script src="./mainMarzipano.js"></script>
+
+</body>
+
+</html>

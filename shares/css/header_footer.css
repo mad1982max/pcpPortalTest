@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: OstrichSans-Black;
+    src: url('../fonts/OstrichSans-Black.otf');
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(226, 222, 222);
+}
+
+img {
+    width: 100%; 
+}
+
+.header {
+    background:rgb(252, 252, 252);
+    font-size: 25px;
+    font-family: OstrichSans-Black;
+    line-height: 40px;
+}
+
+.footer {
+    background: #000;
+    color: white;
+    padding: 7px;
+    font-size: 18px;
+    font-family: OstrichSans-Black;
+    margin: 0;
+    line-height: 100%;    
+}
+
+.logo {
+    color: aliceblue; 
+}
+
+button, 
+button:active, 
+button:focus, a.btn {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.logoC {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px aliceblue solid;
+    bottom: 3px;
+    padding-bottom: 0px;
+}
+
+.btn-back, .btn-download {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 479px) {
+
+    .header {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    
+    .btn-menu {
+        font-size: 23px;
+    }
+
+    .footer {
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+
+    .header {
+        font-size: 30px;
+        line-height: 47px;
+    }
+    
+    .footer {
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .btn-menu {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 991px){
+
+    .header {
+        font-size: 32px;
+        line-height: 52px;
+    }
+    
+    .btn-menu {
+        font-size: 25px;
+    }
+
+    .footer {
+        padding: 6px;
+        font-size: 26px;
+    }
+}

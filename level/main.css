@@ -1,0 +1,117 @@
+/* @font-face {
+    font-family: OstrichSans-Black;
+    src: url('../../../INTERFACE_CONTENT/fonts/OstrichSans-Black.otf');
+  } */
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #303030;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100%;
+}
+
+button,
+button:active,
+button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+a, 
+a:active, 
+a:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+object {
+    width: 100%;
+}
+
+.imgScheme-block {
+    position: relative;
+    margin: auto;
+}
+
+.aside {
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0;
+    background: rgb(22, 22, 22);
+    background: rgba(22, 22, 22, 0.85);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideAside {
+    position: absolute;
+    color: white;
+    width: 45px;
+    height: 45px;
+    left: 3px;
+    padding: 4px;
+    text-align: center;
+    background: rgb(22, 22, 22);
+    background: rgba(22, 22, 22, 0.8);
+    top: 3px;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 203, 203);
+    cursor: pointer;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    -webkit-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+}
+
+.aside {
+    -webkit-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+#asideSvg {
+    opacity: 0;
+    -webkit-transition: opacity .7s ease-in-out;
+    transition: opacity .7s ease-in-out;
+}
+
+.shevron {
+    -webkit-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+.r {
+    position: relative;
+}
+
+.hide {
+    transform: translateX(100%);
+}
+
+@media (min-width: 550px) {
+    .aside {
+        width: 40%;
+        max-width: 600px;
+    }
+    .hideAside {
+        padding: 3px;
+        top: calc(50% - 45px/2);
+    }
+}
+
+

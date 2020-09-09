@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="sub_level_47.8.svg"
+   viewBox="0 0 1000 1466.6667"
+   height="1466.6667"
+   width="1000"
+   id="asideSvg"
+   version="1.1">
+ 
+  <g>
+    <image
+       y="1.7890625"
+       x="0"
+       pointer-events = "none"
+       width="1000"
+       height="1466.6667"
+       preserveAspectRatio="none"
+       href = "./sub_level_58.0.png"
+       id="image3654" />
+  </g>
+  <a>
+    <path
+      id="sub_1"
+      class="block sub_1"
+      pointer-events = "visible"
+      d="m 402.43904,556.26017 384.55287,-221.7886 39.3496,28.61788 62.60163,-35.77236 -39.3496,-28.61788 L 978.37402,227.15449 733.33337,64.39025 695.77239,85.85367 593.82117,21.46342 l -150.24391,85.85366 26.82927,16.09756 -246.82928,139.51221 -17.88618,-14.30895 -3.57724,3.57724 -41.13821,-3.57724 -1.78862,19.6748 -57.23578,-1.78862 -82.276418,44.71545 -1.78862,73.33334 78.699188,48.29268 114.47155,7.15448 23.25203,14.30894 10.73171,-7.15447 98.37399,62.60163 -5.36585,1.78862 z"
+      style="fill:none;stroke:#000000;stroke-width:1" />
+  </a>
+
+  <a>
+    <path
+    id="sub_0"
+    class="block sub_0"
+    pointer-events = "visible"
+    style="fill:none;stroke:#000000;stroke-width:1"
+    d="m 404.89491,1449.6707 384.55287,-221.7886 39.3496,28.6179 62.60163,-35.7724 -39.3496,-28.6178 128.78048,-71.5448 -245.04065,-162.76419 -37.56098,21.46342 -101.95122,-64.39025 -150.24391,85.85362 26.82927,16.0976 -246.82928,139.5122 -17.88618,-14.3089 -3.57724,3.5772 -41.13821,-3.5772 -1.78862,19.6748 -57.23578,-1.7887 -82.276423,44.7155 -1.78862,73.3333 78.69919,48.2927 114.471553,7.1545 23.25203,14.3089 10.73171,-7.1544 98.37399,62.6016 -5.36585,1.7886 z"/>
+  </a>
+</svg>
