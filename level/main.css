@@ -95,10 +95,6 @@ object {
     transition: transform 0.5s ease-in-out;
 }
 
-.r {
-    position: relative;
-}
-
 .hide {
     transform: translateX(100%);
 }

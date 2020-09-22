@@ -1,11 +1,19 @@
-let obj;
+let obj, oldFloor;
 let resizeDebounce = debounce(resizeFn, 250);
-let oldFloor;
+
+const style = {
+    hoverFillColor: 'rgba(0,0,0,0.2)',
+    hoverStrokeColor: 'rgba(255, 247, 115)',
+    deckFillColor: 'rgba(255, 247, 115, 0.4)',
+    deckStrokeColor: 'rgba(255, 247, 115)',
+    strokeWidth: 3
+};
+const widthEdge = 600;
 
 window.onload = function () {    
     obj = document.getElementById('svg');
-
     resizeFn();
+
     window.addEventListener('resize', () => {
         document.body.style.opacity = 0;
         resizeDebounce();
@@ -43,8 +51,6 @@ function debounce(func, wait, immediate) {
 
 
 function resizeFn() {
-    //document.body.style.opacity = 0;
-
     let header = document.querySelector('.header');
     let footer = document.querySelector('.footer');
     
@@ -53,7 +59,7 @@ function resizeFn() {
         document.body.clientHeight;
     let w = window.innerWidth || document.documentElement.clientWidth ||
         document.body.clientWidth;
-    let currentFloor = w < 600 && w < h ? "small" : "big"
+    let currentFloor = w < widthEdge && w < h ? "small" : "big"
     if (currentFloor !== oldFloor) {
         obj.setAttribute('data', `../assets/img/levels/levels_${currentFloor}.svg`);
         oldFloor = currentFloor;
@@ -61,7 +67,6 @@ function resizeFn() {
     let hSVG = h - headerFooterHeight;
     obj.style.height = hSVG + 'px';
     document.body.style.opacity = 1;
-
 }
 
 function mouseLeave() {
@@ -78,28 +83,25 @@ function mouseLeave() {
 function mouseOverFloor() {
     
     let hoverFloor = this.id.split('.')[0];
-    this.style.fill = 'rgba(0,0,0,0.2)';
-    this.style.stroke = 'rgba(255, 247, 115)';
-    this.style.strokeWidth = 3;
+    this.style.fill = style.hoverFillColor;
+    this.style.stroke = style.hoverStrokeColor;
+    this.style.strokeWidth = style.strokeWidth;
     this.style.cursor = 'pointer';
 
-    let svgDocument = obj.contentDocument;
-    let deck = svgDocument.querySelector(`#pl_${hoverFloor}`);
-    deck.style.fill = 'rgb(255, 247, 115, 0.4)'
-    deck.style.stroke = 'rgba(255, 247, 115)';
-    deck.style.strokeWidth = 3;
-
+    let deck = obj.contentDocument.querySelector(`#pl_${hoverFloor}`);
+    deck.style.fill = style.deckFillColor;
+    deck.style.stroke = style.deckStrokeColor;
+    deck.style.strokeWidth = style.strokeWidth;
 }
 
 function clickBack() {
     setTimeout(function () {
         document.location.href = `../index.html`
-    }, 250);
+    }, 250);  // IOS
 }
 
 function clickFloor(e) {
-    let level = e.target.id;
-    console.log('goTo: ', level);
+    const level = e.target.id;
     setTimeout(function () {
         document.location.href = `../level/index.html?level=${level}`
     }, 250);

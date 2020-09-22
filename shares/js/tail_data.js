@@ -1,7 +1,7 @@
 let tails = [
     {
         "id": 101,
-        "name": "PHASE1_101",
+        "name": 101,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29,7 +29,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 102,
-        "name": "PHASE1_102",
+        "name": 102,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -57,7 +57,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 103,
-        "name": "PHASE1_103",
+        "name": 103,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -85,7 +85,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 104,
-        "name": "PHASE1_104",
+        "name": 104,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -113,7 +113,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 105,
-        "name": "PHASE1_105",
+        "name": 105,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -141,7 +141,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 106,
-        "name": "PHASE1_106",
+        "name": 106,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -169,7 +169,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 107,
-        "name": "PHASE1_107",
+        "name": 107,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -197,7 +197,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 108,
-        "name": "PHASE1_108",
+        "name": 108,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -225,7 +225,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 109,
-        "name": "PHASE1_109",
+        "name": 109,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -253,7 +253,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 110,
-        "name": "PHASE1_110",
+        "name": 110,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -281,7 +281,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 111,
-        "name": "PHASE1_111",
+        "name": 111,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -309,7 +309,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 112,
-        "name": "PHASE1_112",
+        "name": 112,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -337,7 +337,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 113,
-        "name": "PHASE1_113",
+        "name": 113,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -365,7 +365,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 114,
-        "name": "PHASE1_114",
+        "name": 114,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -393,7 +393,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 115,
-        "name": "PHASE1_115",
+        "name": 115,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -421,7 +421,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 116,
-        "name": "PHASE1_116",
+        "name": 116,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -449,7 +449,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 117,
-        "name": "PHASE1_117",
+        "name": 117,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -477,7 +477,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 118,
-        "name": "PHASE1_118",
+        "name": 118,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -505,7 +505,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 119,
-        "name": "PHASE1_119",
+        "name": 119,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -533,7 +533,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 120,
-        "name": "PHASE1_120",
+        "name": 120,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -561,7 +561,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 121,
-        "name": "PHASE1_121",
+        "name": 121,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -589,7 +589,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 122,
-        "name": "PHASE1_122",
+        "name": 122,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -617,7 +617,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 123,
-        "name": "PHASE1_123",
+        "name": 123,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -645,7 +645,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 124,
-        "name": "PHASE1_124",
+        "name": 124,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -673,7 +673,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 125,
-        "name": "PHASE1_125",
+        "name": 125,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -701,7 +701,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 126,
-        "name": "PHASE1_126",
+        "name": 126,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -729,7 +729,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 127,
-        "name": "PHASE1_127",
+        "name": 127,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -757,7 +757,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 128,
-        "name": "PHASE1_128",
+        "name": 128,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -785,7 +785,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 129,
-        "name": "PHASE1_129",
+        "name": 129,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -813,7 +813,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 130,
-        "name": "PHASE1_130",
+        "name": 130,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -841,7 +841,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 131,
-        "name": "PHASE1_131",
+        "name": 131,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -869,7 +869,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 132,
-        "name": "PHASE1_132",
+        "name": 132,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -897,7 +897,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 133,
-        "name": "PHASE1_133",
+        "name": 133,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -925,7 +925,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 134,
-        "name": "PHASE1_134",
+        "name": 134,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -953,7 +953,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 135,
-        "name": "PHASE1_135",
+        "name": 135,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -981,7 +981,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 136,
-        "name": "PHASE1_136",
+        "name": 136,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1009,7 +1009,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 137,
-        "name": "PHASE1_137",
+        "name": 137,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1037,7 +1037,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 138,
-        "name": "PHASE1_138",
+        "name": 138,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1065,7 +1065,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 139,
-        "name": "PHASE1_139",
+        "name": 139,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1093,7 +1093,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 140,
-        "name": "PHASE1_140",
+        "name": 140,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1121,7 +1121,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 141,
-        "name": "PHASE1_141",
+        "name": 141,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1149,7 +1149,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 142,
-        "name": "PHASE1_142",
+        "name": 142,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1177,7 +1177,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 143,
-        "name": "PHASE1_143",
+        "name": 143,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1205,7 +1205,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 144,
-        "name": "PHASE1_144",
+        "name": 144,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1233,7 +1233,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 145,
-        "name": "PHASE1_145",
+        "name": 145,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1261,7 +1261,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 146,
-        "name": "PHASE1_146",
+        "name": 146,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1289,7 +1289,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 147,
-        "name": "PHASE1_147",
+        "name": 147,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1317,7 +1317,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 148,
-        "name": "PHASE1_148",
+        "name": 148,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1345,7 +1345,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 149,
-        "name": "PHASE1_149",
+        "name": 149,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1373,7 +1373,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 150,
-        "name": "PHASE1_150",
+        "name": 150,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1401,7 +1401,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 151,
-        "name": "PHASE1_151",
+        "name": 151,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1429,7 +1429,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 152,
-        "name": "PHASE1_152",
+        "name": 152,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1457,7 +1457,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 153,
-        "name": "PHASE1_153",
+        "name": 153,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1485,7 +1485,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 154,
-        "name": "PHASE1_154",
+        "name": 154,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1513,7 +1513,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 155,
-        "name": "PHASE1_155",
+        "name": 155,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1541,7 +1541,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 156,
-        "name": "PHASE1_156",
+        "name": 156,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1569,7 +1569,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 157,
-        "name": "PHASE1_157",
+        "name": 157,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1597,7 +1597,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 158,
-        "name": "PHASE1_158",
+        "name": 158,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1625,7 +1625,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 159,
-        "name": "PHASE1_159",
+        "name": 159,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1653,7 +1653,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 160,
-        "name": "PHASE1_160",
+        "name": 160,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1681,7 +1681,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 161,
-        "name": "PHASE1_161",
+        "name": 161,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1709,7 +1709,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 162,
-        "name": "PHASE1_162",
+        "name": 162,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1737,7 +1737,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 163,
-        "name": "PHASE1_163",
+        "name": 163,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1765,7 +1765,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 165,
-        "name": "PHASE1_165",
+        "name": 165,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1793,7 +1793,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 166,
-        "name": "PHASE1_166",
+        "name": 166,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1821,7 +1821,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 167,
-        "name": "PHASE1_167",
+        "name": 167,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1849,7 +1849,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 168,
-        "name": "PHASE1_168",
+        "name": 168,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1877,7 +1877,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 169,
-        "name": "PHASE1_169",
+        "name": 169,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1905,7 +1905,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 170,
-        "name": "PHASE1_170",
+        "name": 170,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1933,7 +1933,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 171,
-        "name": "PHASE1_171",
+        "name": 171,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1961,7 +1961,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 172,
-        "name": "PHASE1_172",
+        "name": 172,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -1989,7 +1989,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 173,
-        "name": "PHASE1_173",
+        "name": 173,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2017,7 +2017,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 174,
-        "name": "PHASE1_174",
+        "name": 174,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2045,7 +2045,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 175,
-        "name": "PHASE1_175",
+        "name": 175,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2073,7 +2073,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 176,
-        "name": "PHASE1_176",
+        "name": 176,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2101,7 +2101,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 177,
-        "name": "PHASE1_177",
+        "name": 177,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2129,7 +2129,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 178,
-        "name": "PHASE1_178",
+        "name": 178,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2157,7 +2157,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 179,
-        "name": "PHASE1_179",
+        "name": 179,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2185,7 +2185,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 180,
-        "name": "PHASE1_180",
+        "name": 180,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2213,7 +2213,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 181,
-        "name": "PHASE1_181",
+        "name": 181,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2241,7 +2241,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 182,
-        "name": "PHASE1_182",
+        "name": 182,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2269,7 +2269,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 183,
-        "name": "PHASE1_183",
+        "name": 183,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2297,7 +2297,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 184,
-        "name": "PHASE1_184",
+        "name": 184,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2325,7 +2325,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 185,
-        "name": "PHASE1_185",
+        "name": 185,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2353,7 +2353,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 186,
-        "name": "PHASE1_186",
+        "name": 186,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2381,7 +2381,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 187,
-        "name": "PHASE1_187",
+        "name": 187,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2409,7 +2409,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 188,
-        "name": "PHASE1_188",
+        "name": 188,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2437,7 +2437,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 189,
-        "name": "PHASE1_189",
+        "name": 189,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2465,7 +2465,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 190,
-        "name": "PHASE1_190",
+        "name": 190,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2493,7 +2493,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 191,
-        "name": "PHASE1_191",
+        "name": 191,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2521,7 +2521,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 192,
-        "name": "PHASE1_192",
+        "name": 192,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2549,7 +2549,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 193,
-        "name": "PHASE1_193",
+        "name": 193,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2577,7 +2577,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 194,
-        "name": "PHASE1_194",
+        "name": 194,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2605,7 +2605,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 195,
-        "name": "PHASE1_195",
+        "name": 195,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2633,7 +2633,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 196,
-        "name": "PHASE1_196",
+        "name": 196,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2661,7 +2661,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 197,
-        "name": "PHASE1_197",
+        "name": 197,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2689,7 +2689,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 198,
-        "name": "PHASE1_198",
+        "name": 198,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2717,7 +2717,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 199,
-        "name": "PHASE1_199",
+        "name": 199,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2745,7 +2745,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 200,
-        "name": "PHASE1_200",
+        "name": 200,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2773,7 +2773,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 201,
-        "name": "PHASE1_201",
+        "name": 201,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2801,7 +2801,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 202,
-        "name": "PHASE1_202",
+        "name": 202,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2829,7 +2829,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 203,
-        "name": "PHASE1_203",
+        "name": 203,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2857,7 +2857,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 204,
-        "name": "PHASE1_204",
+        "name": 204,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2885,7 +2885,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 205,
-        "name": "PHASE1_205",
+        "name": 205,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2913,7 +2913,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 206,
-        "name": "PHASE1_206",
+        "name": 206,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2941,7 +2941,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 207,
-        "name": "PHASE1_207",
+        "name": 207,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2969,7 +2969,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 208,
-        "name": "PHASE1_208",
+        "name": 208,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -2997,7 +2997,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 209,
-        "name": "PHASE1_209",
+        "name": 209,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3025,7 +3025,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 210,
-        "name": "PHASE1_210",
+        "name": 210,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3053,7 +3053,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 211,
-        "name": "PHASE1_211",
+        "name": 211,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3081,7 +3081,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 212,
-        "name": "PHASE1_212",
+        "name": 212,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3109,7 +3109,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 213,
-        "name": "PHASE1_213",
+        "name": 213,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3137,7 +3137,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 214,
-        "name": "PHASE1_214",
+        "name": 214,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3165,7 +3165,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 215,
-        "name": "PHASE1_215",
+        "name": 215,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3193,7 +3193,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 216,
-        "name": "PHASE1_216",
+        "name": 216,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3221,7 +3221,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 217,
-        "name": "PHASE1_217",
+        "name": 217,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3249,7 +3249,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 218,
-        "name": "PHASE1_218",
+        "name": 218,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3277,7 +3277,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 219,
-        "name": "PHASE1_219",
+        "name": 219,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3305,7 +3305,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 220,
-        "name": "PHASE1_220",
+        "name": 220,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3333,7 +3333,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 221,
-        "name": "PHASE1_221",
+        "name": 221,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3361,7 +3361,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 222,
-        "name": "PHASE1_222",
+        "name": 222,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3389,7 +3389,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 223,
-        "name": "PHASE1_223",
+        "name": 223,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3417,7 +3417,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 224,
-        "name": "PHASE1_224",
+        "name": 224,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3445,7 +3445,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 225,
-        "name": "PHASE1_225",
+        "name": 225,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3473,7 +3473,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 226,
-        "name": "PHASE1_226",
+        "name": 226,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3501,7 +3501,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 227,
-        "name": "PHASE1_227",
+        "name": 227,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3529,7 +3529,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 228,
-        "name": "PHASE1_228",
+        "name": 228,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3557,7 +3557,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 229,
-        "name": "PHASE1_229",
+        "name": 229,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3585,7 +3585,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 230,
-        "name": "PHASE1_230",
+        "name": 230,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3613,7 +3613,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 231,
-        "name": "PHASE1_231",
+        "name": 231,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3641,7 +3641,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 232,
-        "name": "PHASE1_232",
+        "name": 232,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3669,7 +3669,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 233,
-        "name": "PHASE1_233",
+        "name": 233,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3697,7 +3697,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 234,
-        "name": "PHASE1_234",
+        "name": 234,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3725,7 +3725,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 235,
-        "name": "PHASE1_235",
+        "name": 235,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3753,7 +3753,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 236,
-        "name": "PHASE1_236",
+        "name": 236,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3781,7 +3781,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 237,
-        "name": "PHASE1_237",
+        "name": 237,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3809,7 +3809,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 238,
-        "name": "PHASE1_238",
+        "name": 238,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3837,7 +3837,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 239,
-        "name": "PHASE1_239",
+        "name": 239,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3865,7 +3865,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 240,
-        "name": "PHASE1_240",
+        "name": 240,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3893,7 +3893,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 241,
-        "name": "PHASE1_241",
+        "name": 241,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3921,7 +3921,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 242,
-        "name": "PHASE1_242",
+        "name": 242,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3949,7 +3949,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 243,
-        "name": "PHASE1_243",
+        "name": 243,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -3977,7 +3977,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 244,
-        "name": "PHASE1_244",
+        "name": 244,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4005,7 +4005,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 245,
-        "name": "PHASE1_245",
+        "name": 245,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4033,7 +4033,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 246,
-        "name": "PHASE1_246",
+        "name": 246,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4061,7 +4061,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 247,
-        "name": "PHASE1_247",
+        "name": 247,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4089,7 +4089,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 248,
-        "name": "PHASE1_248",
+        "name": 248,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4117,7 +4117,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 249,
-        "name": "PHASE1_249",
+        "name": 249,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4145,7 +4145,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 250,
-        "name": "PHASE1_250",
+        "name": 250,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4173,7 +4173,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 251,
-        "name": "PHASE1_251",
+        "name": 251,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4201,7 +4201,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 252,
-        "name": "PHASE1_252",
+        "name": 252,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4229,7 +4229,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 253,
-        "name": "PHASE1_253",
+        "name": 253,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4257,7 +4257,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 254,
-        "name": "PHASE1_254",
+        "name": 254,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4285,7 +4285,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 255,
-        "name": "PHASE1_255",
+        "name": 255,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4313,7 +4313,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 256,
-        "name": "PHASE1_256",
+        "name": 256,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4341,7 +4341,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 257,
-        "name": "PHASE1_257",
+        "name": 257,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4369,7 +4369,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 258,
-        "name": "PHASE1_258",
+        "name": 258,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4397,7 +4397,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 259,
-        "name": "PHASE1_259",
+        "name": 259,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4425,7 +4425,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 260,
-        "name": "PHASE1_260",
+        "name": 260,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4453,7 +4453,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 261,
-        "name": "PHASE1_261",
+        "name": 261,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4481,7 +4481,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 262,
-        "name": "PHASE1_262",
+        "name": 262,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4509,7 +4509,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 263,
-        "name": "PHASE1_263",
+        "name": 263,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4537,7 +4537,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 264,
-        "name": "PHASE1_264",
+        "name": 264,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4565,7 +4565,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 265,
-        "name": "PHASE1_265",
+        "name": 265,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4593,7 +4593,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 266,
-        "name": "PHASE1_266",
+        "name": 266,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4621,7 +4621,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 267,
-        "name": "PHASE1_267",
+        "name": 267,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4649,7 +4649,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 268,
-        "name": "PHASE1_268",
+        "name": 268,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4677,7 +4677,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 269,
-        "name": "PHASE1_269",
+        "name": 269,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4705,7 +4705,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 270,
-        "name": "PHASE1_270",
+        "name": 270,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4733,7 +4733,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 271,
-        "name": "PHASE1_271",
+        "name": 271,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4761,7 +4761,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 272,
-        "name": "PHASE1_272",
+        "name": 272,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4789,7 +4789,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 273,
-        "name": "PHASE1_273",
+        "name": 273,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4817,7 +4817,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 274,
-        "name": "PHASE1_274",
+        "name": 274,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4845,7 +4845,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 275,
-        "name": "PHASE1_275",
+        "name": 275,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4873,7 +4873,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 276,
-        "name": "PHASE1_276",
+        "name": 276,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4901,7 +4901,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 277,
-        "name": "PHASE1_277",
+        "name": 277,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4929,7 +4929,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 278,
-        "name": "PHASE1_278",
+        "name": 278,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4957,7 +4957,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 279,
-        "name": "PHASE1_279",
+        "name": 279,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -4985,7 +4985,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 280,
-        "name": "PHASE1_280",
+        "name": 280,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5013,7 +5013,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 281,
-        "name": "PHASE1_281",
+        "name": 281,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5041,7 +5041,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 282,
-        "name": "PHASE1_282",
+        "name": 282,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5069,7 +5069,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 283,
-        "name": "PHASE1_283",
+        "name": 283,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5097,7 +5097,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 284,
-        "name": "PHASE1_284",
+        "name": 284,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5125,7 +5125,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 285,
-        "name": "PHASE1_285",
+        "name": 285,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5153,7 +5153,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 286,
-        "name": "PHASE1_286",
+        "name": 286,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5181,7 +5181,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 287,
-        "name": "PHASE1_287",
+        "name": 287,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5209,7 +5209,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 288,
-        "name": "PHASE1_288",
+        "name": 288,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5237,7 +5237,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 289,
-        "name": "PHASE1_289",
+        "name": 289,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5265,7 +5265,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 291,
-        "name": "PHASE1_291",
+        "name": 291,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5293,7 +5293,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 292,
-        "name": "PHASE1_292",
+        "name": 292,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5321,7 +5321,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 293,
-        "name": "PHASE1_293",
+        "name": 293,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5349,7 +5349,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 294,
-        "name": "PHASE1_294",
+        "name": 294,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5377,7 +5377,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 295,
-        "name": "PHASE1_295",
+        "name": 295,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5405,7 +5405,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 296,
-        "name": "PHASE1_296",
+        "name": 296,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5433,7 +5433,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 297,
-        "name": "PHASE1_297",
+        "name": 297,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5461,7 +5461,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 298,
-        "name": "PHASE1_298",
+        "name": 298,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5489,7 +5489,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 299,
-        "name": "PHASE1_299",
+        "name": 299,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5517,7 +5517,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 300,
-        "name": "PHASE1_300",
+        "name": 300,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5545,7 +5545,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 301,
-        "name": "PHASE1_301",
+        "name": 301,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5573,7 +5573,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 302,
-        "name": "PHASE1_302",
+        "name": 302,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5601,7 +5601,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 303,
-        "name": "PHASE1_303",
+        "name": 303,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5629,7 +5629,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 304,
-        "name": "PHASE1_304",
+        "name": 304,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5657,7 +5657,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 305,
-        "name": "PHASE1_305",
+        "name": 305,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5685,7 +5685,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 306,
-        "name": "PHASE1_306",
+        "name": 306,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5713,7 +5713,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 307,
-        "name": "PHASE1_307",
+        "name": 307,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5741,7 +5741,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 308,
-        "name": "PHASE1_308",
+        "name": 308,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5769,7 +5769,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 309,
-        "name": "PHASE1_309",
+        "name": 309,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5797,7 +5797,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 310,
-        "name": "PHASE1_310",
+        "name": 310,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5825,7 +5825,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 311,
-        "name": "PHASE1_311",
+        "name": 311,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5853,7 +5853,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 312,
-        "name": "PHASE1_312",
+        "name": 312,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5881,7 +5881,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 313,
-        "name": "PHASE1_313",
+        "name": 313,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5909,7 +5909,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 314,
-        "name": "PHASE1_314",
+        "name": 314,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5937,7 +5937,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 315,
-        "name": "PHASE1_315",
+        "name": 315,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5965,7 +5965,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 316,
-        "name": "PHASE1_316",
+        "name": 316,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -5993,7 +5993,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 317,
-        "name": "PHASE1_317",
+        "name": 317,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6021,7 +6021,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 318,
-        "name": "PHASE1_318",
+        "name": 318,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6049,7 +6049,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 319,
-        "name": "PHASE1_319",
+        "name": 319,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6077,7 +6077,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 320,
-        "name": "PHASE1_320",
+        "name": 320,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6105,7 +6105,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 321,
-        "name": "PHASE1_321",
+        "name": 321,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6133,7 +6133,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 322,
-        "name": "PHASE1_322",
+        "name": 322,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6161,7 +6161,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 323,
-        "name": "PHASE1_323",
+        "name": 323,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6189,7 +6189,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 324,
-        "name": "PHASE1_324",
+        "name": 324,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6217,7 +6217,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 325,
-        "name": "PHASE1_325",
+        "name": 325,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6245,7 +6245,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 326,
-        "name": "PHASE1_326",
+        "name": 326,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6273,7 +6273,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 327,
-        "name": "PHASE1_327",
+        "name": 327,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6301,7 +6301,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 328,
-        "name": "PHASE1_328",
+        "name": 328,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6329,7 +6329,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 329,
-        "name": "PHASE1_329",
+        "name": 329,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6357,7 +6357,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 330,
-        "name": "PHASE1_330",
+        "name": 330,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6385,7 +6385,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 331,
-        "name": "PHASE1_331",
+        "name": 331,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6413,7 +6413,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 332,
-        "name": "PHASE1_332",
+        "name": 332,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6441,7 +6441,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 333,
-        "name": "PHASE1_333",
+        "name": 333,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6469,7 +6469,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 334,
-        "name": "PHASE1_334",
+        "name": 334,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6497,7 +6497,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 336,
-        "name": "PHASE1_336",
+        "name": 336,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6525,7 +6525,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 337,
-        "name": "PHASE1_337",
+        "name": 337,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6553,7 +6553,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 338,
-        "name": "PHASE1_338",
+        "name": 338,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6581,7 +6581,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 339,
-        "name": "PHASE1_339",
+        "name": 339,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6609,7 +6609,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 340,
-        "name": "PHASE1_340",
+        "name": 340,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6637,7 +6637,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 341,
-        "name": "PHASE1_341",
+        "name": 341,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6665,7 +6665,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 342,
-        "name": "PHASE1_342",
+        "name": 342,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6693,7 +6693,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 343,
-        "name": "PHASE1_343",
+        "name": 343,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6721,7 +6721,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 344,
-        "name": "PHASE1_344",
+        "name": 344,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6749,7 +6749,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 345,
-        "name": "PHASE1_345",
+        "name": 345,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6777,7 +6777,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 346,
-        "name": "PHASE1_346",
+        "name": 346,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6805,7 +6805,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 347,
-        "name": "PHASE1_347",
+        "name": 347,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6833,7 +6833,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 348,
-        "name": "PHASE1_348",
+        "name": 348,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6861,7 +6861,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 349,
-        "name": "PHASE1_349",
+        "name": 349,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6889,7 +6889,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 350,
-        "name": "PHASE1_350",
+        "name": 350,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6917,7 +6917,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 351,
-        "name": "PHASE1_351",
+        "name": 351,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6945,7 +6945,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 352,
-        "name": "PHASE1_352",
+        "name": 352,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -6973,7 +6973,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 353,
-        "name": "PHASE1_353",
+        "name": 353,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7001,7 +7001,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 354,
-        "name": "PHASE1_354",
+        "name": 354,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7029,7 +7029,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 355,
-        "name": "PHASE1_355",
+        "name": 355,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7057,7 +7057,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 356,
-        "name": "PHASE1_356",
+        "name": 356,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7085,7 +7085,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 357,
-        "name": "PHASE1_357",
+        "name": 357,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7113,7 +7113,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 358,
-        "name": "PHASE1_358",
+        "name": 358,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7141,7 +7141,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 359,
-        "name": "PHASE1_359",
+        "name": 359,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7169,7 +7169,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 360,
-        "name": "PHASE1_360",
+        "name": 360,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7197,7 +7197,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 361,
-        "name": "PHASE1_361",
+        "name": 361,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7225,7 +7225,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 362,
-        "name": "PHASE1_362",
+        "name": 362,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7253,7 +7253,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 363,
-        "name": "PHASE1_363",
+        "name": 363,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7281,7 +7281,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 364,
-        "name": "PHASE1_364",
+        "name": 364,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7309,7 +7309,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 365,
-        "name": "PHASE1_365",
+        "name": 365,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7337,7 +7337,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 366,
-        "name": "PHASE1_366",
+        "name": 366,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7365,7 +7365,7 @@ let tails = [
         "infoHotspots": []
     }, {
         "id": 367,
-        "name": "PHASE1_367",
+        "name": 367,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7394,7 +7394,7 @@ let tails = [
     },
     {
         "id": 368,
-        "name": "PHASE2_368",
+        "name": 368,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7420,10 +7420,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_001"
+        "oldName": "001"
     }, {
         "id": 369,
-        "name": "PHASE2_369",
+        "name": 369,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7449,10 +7449,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_002"
+        "oldName": "002"
     }, {
         "id": 370,
-        "name": "PHASE2_370",
+        "name": 370,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7478,10 +7478,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_003"
+        "oldName": "003"
     }, {
         "id": 371,
-        "name": "PHASE2_371",
+        "name": 371,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7507,10 +7507,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_004"
+        "oldName": "004"
     }, {
         "id": 372,
-        "name": "PHASE2_372",
+        "name": 372,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7536,10 +7536,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_005"
+        "oldName": "005"
     }, {
         "id": 373,
-        "name": "PHASE2_373",
+        "name": 373,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7565,10 +7565,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_006"
+        "oldName": "006"
     }, {
         "id": 374,
-        "name": "PHASE2_374",
+        "name": 374,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7594,10 +7594,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_007"
+        "oldName": "007"
     }, {
         "id": 375,
-        "name": "PHASE2_375",
+        "name": 375,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7623,10 +7623,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_008"
+        "oldName": "008"
     }, {
         "id": 376,
-        "name": "PHASE2_376",
+        "name": 376,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7652,10 +7652,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_009"
+        "oldName": "009"
     }, {
         "id": 377,
-        "name": "PHASE2_377",
+        "name": 377,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7681,10 +7681,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_010"
+        "oldName": "010"
     }, {
         "id": 378,
-        "name": "PHASE2_378",
+        "name": 378,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7710,10 +7710,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_011"
+        "oldName": "011"
     }, {
         "id": 379,
-        "name": "PHASE2_379",
+        "name": 379,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7739,10 +7739,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_012"
+        "oldName": "012"
     }, {
         "id": 380,
-        "name": "PHASE2_380",
+        "name": 380,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7768,10 +7768,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_013"
+        "oldName": "013"
     }, {
         "id": 381,
-        "name": "PHASE2_381",
+        "name": 381,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7797,10 +7797,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_014"
+        "oldName": "014"
     }, {
         "id": 382,
-        "name": "PHASE2_382",
+        "name": 382,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7826,10 +7826,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_015"
+        "oldName": "015"
     }, {
         "id": 383,
-        "name": "PHASE2_383",
+        "name": 383,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7855,10 +7855,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_016"
+        "oldName": "016"
     }, {
         "id": 384,
-        "name": "PHASE2_384",
+        "name": 384,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7884,10 +7884,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_017"
+        "oldName": "017"
     }, {
         "id": 385,
-        "name": "PHASE2_385",
+        "name": 385,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7913,10 +7913,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_018"
+        "oldName": "018"
     }, {
         "id": 386,
-        "name": "PHASE2_386",
+        "name": 386,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7942,10 +7942,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_019"
+        "oldName": "019"
     }, {
         "id": 387,
-        "name": "PHASE2_387",
+        "name": 387,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -7971,10 +7971,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_020"
+        "oldName": "020"
     }, {
         "id": 388,
-        "name": "PHASE2_388",
+        "name": 388,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8000,10 +8000,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_021"
+        "oldName": "021"
     }, {
         "id": 389,
-        "name": "PHASE2_389",
+        "name": 389,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8029,10 +8029,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_022"
+        "oldName": "022"
     }, {
         "id": 390,
-        "name": "PHASE2_390",
+        "name": 390,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8058,10 +8058,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_023"
+        "oldName": "023"
     }, {
         "id": 391,
-        "name": "PHASE2_391",
+        "name": 391,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8087,10 +8087,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_024"
+        "oldName": "024"
     }, {
         "id": 392,
-        "name": "PHASE2_392",
+        "name": 392,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8116,10 +8116,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_025"
+        "oldName": "025"
     }, {
         "id": 393,
-        "name": "PHASE2_393",
+        "name": 393,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8145,10 +8145,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_026"
+        "oldName": "026"
     }, {
         "id": 394,
-        "name": "PHASE2_394",
+        "name": 394,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8174,10 +8174,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_027"
+        "oldName": "027"
     }, {
         "id": 395,
-        "name": "PHASE2_395",
+        "name": 395,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8203,10 +8203,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_028"
+        "oldName": "028"
     }, {
         "id": 396,
-        "name": "PHASE2_396",
+        "name": 396,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8232,10 +8232,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_029"
+        "oldName": "029"
     }, {
         "id": 397,
-        "name": "PHASE2_397",
+        "name": 397,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8261,10 +8261,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_030"
+        "oldName": "030"
     }, {
         "id": 398,
-        "name": "PHASE2_398",
+        "name": 398,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8290,10 +8290,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_031"
+        "oldName": "031"
     }, {
         "id": 399,
-        "name": "PHASE2_399",
+        "name": 399,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8319,10 +8319,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_032"
+        "oldName": "032"
     }, {
         "id": 400,
-        "name": "PHASE2_400",
+        "name": 400,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8348,10 +8348,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_033"
+        "oldName": "033"
     }, {
         "id": 401,
-        "name": "PHASE2_401",
+        "name": 401,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8377,10 +8377,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_034"
+        "oldName": "034"
     }, {
         "id": 402,
-        "name": "PHASE2_402",
+        "name": 402,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8406,10 +8406,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_035"
+        "oldName": "035"
     }, {
         "id": 403,
-        "name": "PHASE2_403",
+        "name": 403,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8435,10 +8435,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_036"
+        "oldName": "036"
     }, {
         "id": 404,
-        "name": "PHASE2_404",
+        "name": 404,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8464,10 +8464,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_037"
+        "oldName": "037"
     }, {
         "id": 405,
-        "name": "PHASE2_405",
+        "name": 405,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8493,10 +8493,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_038"
+        "oldName": "038"
     }, {
         "id": 406,
-        "name": "PHASE2_406",
+        "name": 406,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8522,10 +8522,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_039"
+        "oldName": "039"
     }, {
         "id": 407,
-        "name": "PHASE2_407",
+        "name": 407,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8551,10 +8551,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_040"
+        "oldName": "040"
     }, {
         "id": 408,
-        "name": "PHASE2_408",
+        "name": 408,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8580,10 +8580,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_041"
+        "oldName": "041"
     }, {
         "id": 409,
-        "name": "PHASE2_409",
+        "name": 409,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8609,10 +8609,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_042"
+        "oldName": "042"
     }, {
         "id": 410,
-        "name": "PHASE2_410",
+        "name": 410,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8638,10 +8638,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_043"
+        "oldName": "043"
     }, {
         "id": 411,
-        "name": "PHASE2_411",
+        "name": 411,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8667,10 +8667,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_044"
+        "oldName": "044"
     }, {
         "id": 412,
-        "name": "PHASE2_412",
+        "name": 412,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8696,10 +8696,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_045"
+        "oldName": "045"
     }, {
         "id": 413,
-        "name": "PHASE2_413",
+        "name": 413,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8725,10 +8725,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_046"
+        "oldName": "046"
     }, {
         "id": 414,
-        "name": "PHASE2_414",
+        "name": 414,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8754,10 +8754,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_047"
+        "oldName": "047"
     }, {
         "id": 415,
-        "name": "PHASE2_415",
+        "name": 415,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8783,10 +8783,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_048"
+        "oldName": "048"
     }, {
         "id": 416,
-        "name": "PHASE2_416",
+        "name": 416,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8812,10 +8812,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_049"
+        "oldName": "049"
     }, {
         "id": 417,
-        "name": "PHASE2_417",
+        "name": 417,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8841,10 +8841,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_050"
+        "oldName": "050"
     }, {
         "id": 418,
-        "name": "PHASE2_418",
+        "name": 418,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8870,10 +8870,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_051"
+        "oldName": "051"
     }, {
         "id": 419,
-        "name": "PHASE2_419",
+        "name": 419,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8899,10 +8899,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_052"
+        "oldName": "052"
     }, {
         "id": 420,
-        "name": "PHASE2_420",
+        "name": 420,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8928,10 +8928,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_053"
+        "oldName": "053"
     }, {
         "id": 421,
-        "name": "PHASE2_421",
+        "name": 421,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8957,10 +8957,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_054"
+        "oldName": "054"
     }, {
         "id": 422,
-        "name": "PHASE2_422",
+        "name": 422,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -8986,10 +8986,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_055"
+        "oldName": "055"
     }, {
         "id": 423,
-        "name": "PHASE2_423",
+        "name": 423,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9015,10 +9015,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_056"
+        "oldName": "056"
     }, {
         "id": 424,
-        "name": "PHASE2_424",
+        "name": 424,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9044,10 +9044,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_057"
+        "oldName": "057"
     }, {
         "id": 425,
-        "name": "PHASE2_425",
+        "name": 425,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9073,10 +9073,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_058"
+        "oldName": "058"
     }, {
         "id": 426,
-        "name": "PHASE2_426",
+        "name": 426,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9102,10 +9102,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_059"
+        "oldName": "059"
     }, {
         "id": 427,
-        "name": "PHASE2_427",
+        "name": 427,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9131,10 +9131,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_060"
+        "oldName": "060"
     }, {
         "id": 428,
-        "name": "PHASE2_428",
+        "name": 428,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9160,10 +9160,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_061"
+        "oldName": "061"
     }, {
         "id": 429,
-        "name": "PHASE2_429",
+        "name": 429,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9189,10 +9189,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_062"
+        "oldName": "062"
     }, {
         "id": 430,
-        "name": "PHASE2_430",
+        "name": 430,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9218,10 +9218,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_063"
+        "oldName": "063"
     }, {
         "id": 431,
-        "name": "PHASE2_431",
+        "name": 431,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9247,10 +9247,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_064"
+        "oldName": "064"
     }, {
         "id": 432,
-        "name": "PHASE2_432",
+        "name": 432,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9276,10 +9276,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_065"
+        "oldName": "065"
     }, {
         "id": 433,
-        "name": "PHASE2_433",
+        "name": 433,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9305,10 +9305,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_066"
+        "oldName": "066"
     }, {
         "id": 434,
-        "name": "PHASE2_434",
+        "name": 434,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9334,10 +9334,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_067"
+        "oldName": "067"
     }, {
         "id": 435,
-        "name": "PHASE2_435",
+        "name": 435,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9363,10 +9363,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_068"
+        "oldName": "068"
     }, {
         "id": 436,
-        "name": "PHASE2_436",
+        "name": 436,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9392,10 +9392,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_069"
+        "oldName": "069"
     }, {
         "id": 437,
-        "name": "PHASE2_437",
+        "name": 437,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9421,10 +9421,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_070"
+        "oldName": "070"
     }, {
         "id": 438,
-        "name": "PHASE2_438",
+        "name": 438,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9450,10 +9450,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_071"
+        "oldName": "071"
     }, {
         "id": 439,
-        "name": "PHASE2_439",
+        "name": 439,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9479,10 +9479,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_072"
+        "oldName": "072"
     }, {
         "id": 440,
-        "name": "PHASE2_440",
+        "name": 440,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9508,10 +9508,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_073"
+        "oldName": "073"
     }, {
         "id": 441,
-        "name": "PHASE2_441",
+        "name": 441,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9537,10 +9537,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_074"
+        "oldName": "074"
     }, {
         "id": 442,
-        "name": "PHASE2_442",
+        "name": 442,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9566,10 +9566,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_075"
+        "oldName": "075"
     }, {
         "id": 443,
-        "name": "PHASE2_443",
+        "name": 443,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9595,10 +9595,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_076"
+        "oldName": "076"
     }, {
         "id": 444,
-        "name": "PHASE2_444",
+        "name": 444,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9624,10 +9624,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_077"
+        "oldName": "077"
     }, {
         "id": 445,
-        "name": "PHASE2_445",
+        "name": 445,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9653,10 +9653,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_078"
+        "oldName": "078"
     }, {
         "id": 446,
-        "name": "PHASE2_446",
+        "name": 446,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9682,10 +9682,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_079"
+        "oldName": "079"
     }, {
         "id": 447,
-        "name": "PHASE2_447",
+        "name": 447,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9711,10 +9711,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_080"
+        "oldName": "080"
     }, {
         "id": 448,
-        "name": "PHASE2_448",
+        "name": 448,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9740,10 +9740,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_081"
+        "oldName": "081"
     }, {
         "id": 449,
-        "name": "PHASE2_449",
+        "name": 449,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9769,10 +9769,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_082"
+        "oldName": "082"
     }, {
         "id": 450,
-        "name": "PHASE2_450",
+        "name": 450,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9798,10 +9798,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_083"
+        "oldName": "083"
     }, {
         "id": 451,
-        "name": "PHASE2_451",
+        "name": 451,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9827,10 +9827,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_084"
+        "oldName": "084"
     }, {
         "id": 452,
-        "name": "PHASE2_452",
+        "name": 452,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9856,10 +9856,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_085"
+        "oldName": "085"
     }, {
         "id": 453,
-        "name": "PHASE2_453",
+        "name": 453,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9885,10 +9885,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_086"
+        "oldName": "086"
     }, {
         "id": 454,
-        "name": "PHASE2_454",
+        "name": 454,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9914,10 +9914,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_087"
+        "oldName": "087"
     }, {
         "id": 455,
-        "name": "PHASE2_455",
+        "name": 455,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9943,10 +9943,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_088"
+        "oldName": "088"
     }, {
         "id": 456,
-        "name": "PHASE2_456",
+        "name": 456,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -9972,10 +9972,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_089"
+        "oldName": "089"
     }, {
         "id": 457,
-        "name": "PHASE2_457",
+        "name": 457,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10001,10 +10001,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_090"
+        "oldName": "090"
     }, {
         "id": 458,
-        "name": "PHASE2_458",
+        "name": 458,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10030,10 +10030,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_091"
+        "oldName": "091"
     }, {
         "id": 459,
-        "name": "PHASE2_459",
+        "name": 459,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10059,10 +10059,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_092"
+        "oldName": "092"
     }, {
         "id": 460,
-        "name": "PHASE2_460",
+        "name": 460,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10088,10 +10088,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_093"
+        "oldName": "093"
     }, {
         "id": 461,
-        "name": "PHASE2_461",
+        "name": 461,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10117,10 +10117,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_094"
+        "oldName": "094"
     }, {
         "id": 462,
-        "name": "PHASE2_462",
+        "name": 462,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10146,10 +10146,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_095"
+        "oldName": "095"
     }, {
         "id": 463,
-        "name": "PHASE2_463",
+        "name": 463,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10175,10 +10175,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_096"
+        "oldName": "096"
     }, {
         "id": 464,
-        "name": "PHASE2_464",
+        "name": 464,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10204,10 +10204,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_097"
+        "oldName": "097"
     }, {
         "id": 465,
-        "name": "PHASE2_465",
+        "name": 465,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10233,10 +10233,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_098"
+        "oldName": "098"
     }, {
         "id": 466,
-        "name": "PHASE2_466",
+        "name": 466,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10262,10 +10262,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_099"
+        "oldName": "099"
     }, {
         "id": 467,
-        "name": "PHASE2_467",
+        "name": 467,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10291,10 +10291,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_100"
+        "oldName": "100"
     }, {
         "id": 468,
-        "name": "PHASE2_468",
+        "name": 468,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10320,10 +10320,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_101"
+        "oldName": "101"
     }, {
         "id": 469,
-        "name": "PHASE2_469",
+        "name": 469,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10349,10 +10349,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_102"
+        "oldName": "102"
     }, {
         "id": 470,
-        "name": "PHASE2_470",
+        "name": 470,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10378,10 +10378,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_103"
+        "oldName": "103"
     }, {
         "id": 471,
-        "name": "PHASE2_471",
+        "name": 471,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10407,10 +10407,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_104"
+        "oldName": "104"
     }, {
         "id": 472,
-        "name": "PHASE2_472",
+        "name": 472,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10436,10 +10436,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_105"
+        "oldName": "105"
     }, {
         "id": 473,
-        "name": "PHASE2_473",
+        "name": 473,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10465,10 +10465,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_106"
+        "oldName": "106"
     }, {
         "id": 474,
-        "name": "PHASE2_474",
+        "name": 474,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10494,10 +10494,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_107"
+        "oldName": "107"
     }, {
         "id": 475,
-        "name": "PHASE2_475",
+        "name": 475,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10523,10 +10523,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_108"
+        "oldName": "108"
     }, {
         "id": 476,
-        "name": "PHASE2_476",
+        "name": 476,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10552,10 +10552,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_109"
+        "oldName": "109"
     }, {
         "id": 477,
-        "name": "PHASE2_477",
+        "name": 477,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10581,10 +10581,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_110"
+        "oldName": "110"
     }, {
         "id": 478,
-        "name": "PHASE2_478",
+        "name": 478,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10610,10 +10610,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_111"
+        "oldName": "111"
     }, {
         "id": 479,
-        "name": "PHASE2_479",
+        "name": 479,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10639,10 +10639,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_112"
+        "oldName": "112"
     }, {
         "id": 480,
-        "name": "PHASE2_480",
+        "name": 480,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10668,10 +10668,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_113"
+        "oldName": "113"
     }, {
         "id": 481,
-        "name": "PHASE2_481",
+        "name": 481,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10697,10 +10697,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_114"
+        "oldName": "114"
     }, {
         "id": 482,
-        "name": "PHASE2_482",
+        "name": 482,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10726,10 +10726,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_115"
+        "oldName": "115"
     }, {
         "id": 483,
-        "name": "PHASE2_483",
+        "name": 483,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10755,10 +10755,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_116"
+        "oldName": "116"
     }, {
         "id": 484,
-        "name": "PHASE2_484",
+        "name": 484,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10784,10 +10784,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_117"
+        "oldName": "117"
     }, {
         "id": 485,
-        "name": "PHASE2_485",
+        "name": 485,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10813,10 +10813,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_118"
+        "oldName": "118"
     }, {
         "id": 486,
-        "name": "PHASE2_486",
+        "name": 486,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10842,10 +10842,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_119"
+        "oldName": "119"
     }, {
         "id": 487,
-        "name": "PHASE2_487",
+        "name": 487,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10871,10 +10871,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_120"
+        "oldName": "120"
     }, {
         "id": 488,
-        "name": "PHASE2_488",
+        "name": 488,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10900,10 +10900,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_121"
+        "oldName": "121"
     }, {
         "id": 489,
-        "name": "PHASE2_489",
+        "name": 489,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10929,10 +10929,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_122"
+        "oldName": "122"
     }, {
         "id": 490,
-        "name": "PHASE2_490",
+        "name": 490,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10958,10 +10958,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_123"
+        "oldName": "123"
     }, {
         "id": 491,
-        "name": "PHASE2_491",
+        "name": 491,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -10987,10 +10987,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_124"
+        "oldName": "124"
     }, {
         "id": 492,
-        "name": "PHASE2_492",
+        "name": 492,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11016,10 +11016,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_125"
+        "oldName": "125"
     }, {
         "id": 493,
-        "name": "PHASE2_493",
+        "name": 493,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11045,10 +11045,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_126"
+        "oldName": "126"
     }, {
         "id": 494,
-        "name": "PHASE2_494",
+        "name": 494,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11074,10 +11074,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_127"
+        "oldName": "127"
     }, {
         "id": 495,
-        "name": "PHASE2_495",
+        "name": 495,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11103,10 +11103,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_128"
+        "oldName": "128"
     }, {
         "id": 496,
-        "name": "PHASE2_496",
+        "name": 496,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11132,10 +11132,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_129"
+        "oldName": "129"
     }, {
         "id": 497,
-        "name": "PHASE2_497",
+        "name": 497,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11161,10 +11161,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_130"
+        "oldName": "130"
     }, {
         "id": 498,
-        "name": "PHASE2_498",
+        "name": 498,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11190,10 +11190,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_131"
+        "oldName": "131"
     }, {
         "id": 499,
-        "name": "PHASE2_499",
+        "name": 499,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11219,10 +11219,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_132"
+        "oldName": "132"
     }, {
         "id": 500,
-        "name": "PHASE2_500",
+        "name": 500,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11248,10 +11248,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_133"
+        "oldName": "133"
     }, {
         "id": 501,
-        "name": "PHASE2_501",
+        "name": 501,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11277,10 +11277,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_134"
+        "oldName": "134"
     }, {
         "id": 502,
-        "name": "PHASE2_502",
+        "name": 502,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11306,10 +11306,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_135"
+        "oldName": "135"
     }, {
         "id": 503,
-        "name": "PHASE2_503",
+        "name": 503,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11335,10 +11335,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_136"
+        "oldName": "136"
     }, {
         "id": 504,
-        "name": "PHASE2_504",
+        "name": 504,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11364,10 +11364,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_137"
+        "oldName": "137"
     }, {
         "id": 505,
-        "name": "PHASE2_505",
+        "name": 505,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11393,10 +11393,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_138"
+        "oldName": "138"
     }, {
         "id": 506,
-        "name": "PHASE2_506",
+        "name": 506,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11422,10 +11422,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_139"
+        "oldName": "139"
     }, {
         "id": 507,
-        "name": "PHASE2_507",
+        "name": 507,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11451,10 +11451,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_140"
+        "oldName": "140"
     }, {
         "id": 508,
-        "name": "PHASE2_508",
+        "name": 508,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11480,10 +11480,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_141"
+        "oldName": "141"
     }, {
         "id": 509,
-        "name": "PHASE2_509",
+        "name": 509,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11509,10 +11509,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_142"
+        "oldName": "142"
     }, {
         "id": 510,
-        "name": "PHASE2_510",
+        "name": 510,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11538,10 +11538,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_143"
+        "oldName": "143"
     }, {
         "id": 511,
-        "name": "PHASE2_511",
+        "name": 511,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11567,10 +11567,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_144"
+        "oldName": "144"
     }, {
         "id": 512,
-        "name": "PHASE2_512",
+        "name": 512,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11596,10 +11596,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_145"
+        "oldName": "145"
     }, {
         "id": 513,
-        "name": "PHASE2_513",
+        "name": 513,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11625,10 +11625,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_146"
+        "oldName": "146"
     }, {
         "id": 514,
-        "name": "PHASE2_514",
+        "name": 514,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11654,10 +11654,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_147"
+        "oldName": "147"
     }, {
         "id": 515,
-        "name": "PHASE2_515",
+        "name": 515,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11683,10 +11683,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_148"
+        "oldName": "148"
     }, {
         "id": 516,
-        "name": "PHASE2_516",
+        "name": 516,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11712,10 +11712,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_149"
+        "oldName": "149"
     }, {
         "id": 517,
-        "name": "PHASE2_517",
+        "name": 517,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11741,10 +11741,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_150"
+        "oldName": "150"
     }, {
         "id": 518,
-        "name": "PHASE2_518",
+        "name": 518,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11770,10 +11770,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_151"
+        "oldName": "151"
     }, {
         "id": 519,
-        "name": "PHASE2_519",
+        "name": 519,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11799,10 +11799,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_152"
+        "oldName": "152"
     }, {
         "id": 520,
-        "name": "PHASE2_520",
+        "name": 520,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11828,10 +11828,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_153"
+        "oldName": "153"
     }, {
         "id": 521,
-        "name": "PHASE2_521",
+        "name": 521,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11857,10 +11857,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_154"
+        "oldName": "154"
     }, {
         "id": 522,
-        "name": "PHASE2_522",
+        "name": 522,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11886,10 +11886,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_155"
+        "oldName": "155"
     }, {
         "id": 523,
-        "name": "PHASE2_523",
+        "name": 523,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11915,10 +11915,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_156"
+        "oldName": "156"
     }, {
         "id": 524,
-        "name": "PHASE2_524",
+        "name": 524,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11944,10 +11944,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_157"
+        "oldName": "157"
     }, {
         "id": 525,
-        "name": "PHASE2_525",
+        "name": 525,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -11973,10 +11973,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_158"
+        "oldName": "158"
     }, {
         "id": 526,
-        "name": "PHASE2_526",
+        "name": 526,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12002,10 +12002,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_159"
+        "oldName": "159"
     }, {
         "id": 527,
-        "name": "PHASE2_527",
+        "name": 527,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12031,10 +12031,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_160"
+        "oldName": "160"
     }, {
         "id": 528,
-        "name": "PHASE2_528",
+        "name": 528,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12060,10 +12060,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_161"
+        "oldName": "161"
     }, {
         "id": 529,
-        "name": "PHASE2_529",
+        "name": 529,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12089,10 +12089,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_162"
+        "oldName": "162"
     }, {
         "id": 530,
-        "name": "PHASE2_530",
+        "name": 530,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12118,10 +12118,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_163"
+        "oldName": "163"
     }, {
         "id": 531,
-        "name": "PHASE2_531",
+        "name": 531,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12147,10 +12147,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_164"
+        "oldName": "164"
     }, {
         "id": 532,
-        "name": "PHASE2_532",
+        "name": 532,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12176,10 +12176,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_165"
+        "oldName": "165"
     }, {
         "id": 533,
-        "name": "PHASE2_533",
+        "name": 533,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12205,10 +12205,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_166"
+        "oldName": "166"
     }, {
         "id": 534,
-        "name": "PHASE2_534",
+        "name": 534,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12234,10 +12234,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_167"
+        "oldName": "167"
     }, {
         "id": 535,
-        "name": "PHASE2_535",
+        "name": 535,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12263,10 +12263,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_168"
+        "oldName": "168"
     }, {
         "id": 536,
-        "name": "PHASE2_536",
+        "name": 536,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12292,10 +12292,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_169"
+        "oldName": "169"
     }, {
         "id": 537,
-        "name": "PHASE2_537",
+        "name": 537,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12321,10 +12321,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_170"
+        "oldName": "170"
     }, {
         "id": 538,
-        "name": "PHASE2_538",
+        "name": 538,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12350,10 +12350,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_171"
+        "oldName": "171"
     }, {
         "id": 539,
-        "name": "PHASE2_539",
+        "name": 539,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12379,10 +12379,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_172"
+        "oldName": "172"
     }, {
         "id": 540,
-        "name": "PHASE2_540",
+        "name": 540,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12408,10 +12408,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_173"
+        "oldName": "173"
     }, {
         "id": 541,
-        "name": "PHASE2_541",
+        "name": 541,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12437,10 +12437,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_174"
+        "oldName": "174"
     }, {
         "id": 542,
-        "name": "PHASE2_542",
+        "name": 542,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12466,10 +12466,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_175"
+        "oldName": "175"
     }, {
         "id": 543,
-        "name": "PHASE2_543",
+        "name": 543,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12495,10 +12495,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_176"
+        "oldName": "176"
     }, {
         "id": 544,
-        "name": "PHASE2_544",
+        "name": 544,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12524,10 +12524,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_177"
+        "oldName": "177"
     }, {
         "id": 545,
-        "name": "PHASE2_545",
+        "name": 545,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12553,10 +12553,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_178"
+        "oldName": "178"
     }, {
         "id": 546,
-        "name": "PHASE2_546",
+        "name": 546,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12582,10 +12582,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_179"
+        "oldName": "179"
     }, {
         "id": 547,
-        "name": "PHASE2_547",
+        "name": 547,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12611,10 +12611,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_180"
+        "oldName": "180"
     }, {
         "id": 548,
-        "name": "PHASE2_548",
+        "name": 548,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12640,10 +12640,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_181"
+        "oldName": "181"
     }, {
         "id": 549,
-        "name": "PHASE2_549",
+        "name": 549,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12669,10 +12669,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_182"
+        "oldName": "182"
     }, {
         "id": 550,
-        "name": "PHASE2_550",
+        "name": 550,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12698,10 +12698,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_183"
+        "oldName": "183"
     }, {
         "id": 551,
-        "name": "PHASE2_551",
+        "name": 551,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12727,10 +12727,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_184"
+        "oldName": "184"
     }, {
         "id": 552,
-        "name": "PHASE2_552",
+        "name": 552,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12756,10 +12756,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_185"
+        "oldName": "185"
     }, {
         "id": 553,
-        "name": "PHASE2_553",
+        "name": 553,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12785,10 +12785,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_186"
+        "oldName": "186"
     }, {
         "id": 554,
-        "name": "PHASE2_554",
+        "name": 554,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12814,10 +12814,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_187"
+        "oldName": "187"
     }, {
         "id": 555,
-        "name": "PHASE2_555",
+        "name": 555,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12843,10 +12843,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_188"
+        "oldName": "188"
     }, {
         "id": 556,
-        "name": "PHASE2_556",
+        "name": 556,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12872,10 +12872,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_189"
+        "oldName": "189"
     }, {
         "id": 557,
-        "name": "PHASE2_557",
+        "name": 557,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12901,10 +12901,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_190"
+        "oldName": "190"
     }, {
         "id": 558,
-        "name": "PHASE2_558",
+        "name": 558,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12930,10 +12930,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_191"
+        "oldName": "191"
     }, {
         "id": 559,
-        "name": "PHASE2_559",
+        "name": 559,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12959,10 +12959,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_192"
+        "oldName": "192"
     }, {
         "id": 560,
-        "name": "PHASE2_560",
+        "name": 560,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -12988,10 +12988,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_193"
+        "oldName": "193"
     }, {
         "id": 561,
-        "name": "PHASE2_561",
+        "name": 561,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13017,10 +13017,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_194"
+        "oldName": "194"
     }, {
         "id": 562,
-        "name": "PHASE2_562",
+        "name": 562,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13046,10 +13046,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_195"
+        "oldName": "195"
     }, {
         "id": 563,
-        "name": "PHASE2_563",
+        "name": 563,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13075,10 +13075,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_196"
+        "oldName": "196"
     }, {
         "id": 564,
-        "name": "PHASE2_564",
+        "name": 564,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13104,10 +13104,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_197"
+        "oldName": "197"
     }, {
         "id": 565,
-        "name": "PHASE2_565",
+        "name": 565,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13133,10 +13133,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_198"
+        "oldName": "198"
     }, {
         "id": 566,
-        "name": "PHASE2_566",
+        "name": 566,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13162,10 +13162,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_199"
+        "oldName": "199"
     }, {
         "id": 567,
-        "name": "PHASE2_567",
+        "name": 567,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13191,10 +13191,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_200"
+        "oldName": "200"
     }, {
         "id": 568,
-        "name": "PHASE2_568",
+        "name": 568,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13220,10 +13220,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_201"
+        "oldName": "201"
     }, {
         "id": 569,
-        "name": "PHASE2_569",
+        "name": 569,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13249,10 +13249,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_202"
+        "oldName": "202"
     }, {
         "id": 570,
-        "name": "PHASE2_570",
+        "name": 570,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13278,10 +13278,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_203"
+        "oldName": "203"
     }, {
         "id": 571,
-        "name": "PHASE2_571",
+        "name": 571,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13307,10 +13307,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_204"
+        "oldName": "204"
     }, {
         "id": 572,
-        "name": "PHASE2_572",
+        "name": 572,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13336,10 +13336,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_205"
+        "oldName": "205"
     }, {
         "id": 573,
-        "name": "PHASE2_573",
+        "name": 573,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13365,10 +13365,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_206"
+        "oldName": "206"
     }, {
         "id": 574,
-        "name": "PHASE2_574",
+        "name": 574,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13394,10 +13394,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_207"
+        "oldName": "207"
     }, {
         "id": 575,
-        "name": "PHASE2_575",
+        "name": 575,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13423,10 +13423,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_208"
+        "oldName": "208"
     }, {
         "id": 576,
-        "name": "PHASE2_576",
+        "name": 576,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13452,10 +13452,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_209"
+        "oldName": "209"
     }, {
         "id": 577,
-        "name": "PHASE2_577",
+        "name": 577,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13481,10 +13481,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_210"
+        "oldName": "210"
     }, {
         "id": 578,
-        "name": "PHASE2_578",
+        "name": 578,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13510,10 +13510,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_211"
+        "oldName": "211"
     }, {
         "id": 579,
-        "name": "PHASE2_579",
+        "name": 579,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13539,10 +13539,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_212"
+        "oldName": "212"
     }, {
         "id": 580,
-        "name": "PHASE2_580",
+        "name": 580,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13568,10 +13568,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_213"
+        "oldName": "213"
     }, {
         "id": 581,
-        "name": "PHASE2_581",
+        "name": 581,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13597,10 +13597,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_214"
+        "oldName": "214"
     }, {
         "id": 582,
-        "name": "PHASE2_582",
+        "name": 582,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13626,10 +13626,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_215"
+        "oldName": "215"
     }, {
         "id": 583,
-        "name": "PHASE2_583",
+        "name": 583,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13655,10 +13655,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_216"
+        "oldName": "216"
     }, {
         "id": 584,
-        "name": "PHASE2_584",
+        "name": 584,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13684,10 +13684,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_217"
+        "oldName": "217"
     }, {
         "id": 585,
-        "name": "PHASE2_585",
+        "name": 585,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13713,10 +13713,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_218"
+        "oldName": "218"
     }, {
         "id": 586,
-        "name": "PHASE2_586",
+        "name": 586,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13742,10 +13742,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_219"
+        "oldName": "219"
     }, {
         "id": 587,
-        "name": "PHASE2_587",
+        "name": 587,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13771,10 +13771,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_220"
+        "oldName": "220"
     }, {
         "id": 588,
-        "name": "PHASE2_588",
+        "name": 588,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13800,10 +13800,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_221"
+        "oldName": "221"
     }, {
         "id": 589,
-        "name": "PHASE2_589",
+        "name": 589,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13829,10 +13829,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_222"
+        "oldName": "222"
     }, {
         "id": 590,
-        "name": "PHASE2_590",
+        "name": 590,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13858,10 +13858,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_223"
+        "oldName": "223"
     }, {
         "id": 591,
-        "name": "PHASE2_591",
+        "name": 591,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13887,10 +13887,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_224"
+        "oldName": "224"
     }, {
         "id": 592,
-        "name": "PHASE2_592",
+        "name": 592,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13916,10 +13916,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_225"
+        "oldName": "225"
     }, {
         "id": 593,
-        "name": "PHASE2_593",
+        "name": 593,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13945,10 +13945,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_226"
+        "oldName": "226"
     }, {
         "id": 594,
-        "name": "PHASE2_594",
+        "name": 594,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -13974,10 +13974,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_227"
+        "oldName": "227"
     }, {
         "id": 595,
-        "name": "PHASE2_595",
+        "name": 595,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14003,10 +14003,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_228"
+        "oldName": "228"
     }, {
         "id": 596,
-        "name": "PHASE2_596",
+        "name": 596,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14032,10 +14032,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_229"
+        "oldName": "229"
     }, {
         "id": 597,
-        "name": "PHASE2_597",
+        "name": 597,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14061,10 +14061,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_230"
+        "oldName": "230"
     }, {
         "id": 598,
-        "name": "PHASE2_598",
+        "name": 598,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14090,10 +14090,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_231"
+        "oldName": "231"
     }, {
         "id": 599,
-        "name": "PHASE2_599",
+        "name": 599,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14119,10 +14119,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_232"
+        "oldName": "232"
     }, {
         "id": 600,
-        "name": "PHASE2_600",
+        "name": 600,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14148,10 +14148,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_233"
+        "oldName": "233"
     }, {
         "id": 601,
-        "name": "PHASE2_601",
+        "name": 601,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14177,10 +14177,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_234"
+        "oldName": "234"
     }, {
         "id": 602,
-        "name": "PHASE2_602",
+        "name": 602,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14206,10 +14206,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_235"
+        "oldName": "235"
     }, {
         "id": 603,
-        "name": "PHASE2_603",
+        "name": 603,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14235,10 +14235,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_236"
+        "oldName": "236"
     }, {
         "id": 604,
-        "name": "PHASE2_604",
+        "name": 604,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14264,10 +14264,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_237"
+        "oldName": "237"
     }, {
         "id": 605,
-        "name": "PHASE2_605",
+        "name": 605,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14293,10 +14293,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_238"
+        "oldName": "238"
     }, {
         "id": 606,
-        "name": "PHASE2_606",
+        "name": 606,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14322,10 +14322,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_239"
+        "oldName": "239"
     }, {
         "id": 607,
-        "name": "PHASE2_607",
+        "name": 607,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14351,10 +14351,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_240"
+        "oldName": "240"
     }, {
         "id": 608,
-        "name": "PHASE2_608",
+        "name": 608,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14380,10 +14380,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_241"
+        "oldName": "241"
     }, {
         "id": 609,
-        "name": "PHASE2_609",
+        "name": 609,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14409,10 +14409,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_242"
+        "oldName": "242"
     }, {
         "id": 610,
-        "name": "PHASE2_610",
+        "name": 610,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14438,10 +14438,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_243"
+        "oldName": "243"
     }, {
         "id": 611,
-        "name": "PHASE2_611",
+        "name": 611,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14467,10 +14467,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_244"
+        "oldName": "244"
     }, {
         "id": 612,
-        "name": "PHASE2_612",
+        "name": 612,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14496,10 +14496,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_245"
+        "oldName": "245"
     }, {
         "id": 613,
-        "name": "PHASE2_613",
+        "name": 613,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14525,10 +14525,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_246"
+        "oldName": "246"
     }, {
         "id": 614,
-        "name": "PHASE2_614",
+        "name": 614,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14554,10 +14554,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_247"
+        "oldName": "247"
     }, {
         "id": 615,
-        "name": "PHASE2_615",
+        "name": 615,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14583,10 +14583,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_248"
+        "oldName": "248"
     }, {
         "id": 616,
-        "name": "PHASE2_616",
+        "name": 616,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14612,10 +14612,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_249"
+        "oldName": "249"
     }, {
         "id": 617,
-        "name": "PHASE2_617",
+        "name": 617,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14641,10 +14641,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_250"
+        "oldName": "250"
     }, {
         "id": 618,
-        "name": "PHASE2_618",
+        "name": 618,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14670,10 +14670,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_251"
+        "oldName": "251"
     }, {
         "id": 619,
-        "name": "PHASE2_619",
+        "name": 619,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14699,10 +14699,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_252"
+        "oldName": "252"
     }, {
         "id": 620,
-        "name": "PHASE2_620",
+        "name": 620,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14728,10 +14728,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_253"
+        "oldName": "253"
     }, {
         "id": 621,
-        "name": "PHASE2_621",
+        "name": 621,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14757,10 +14757,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_254"
+        "oldName": "254"
     }, {
         "id": 622,
-        "name": "PHASE2_622",
+        "name": 622,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14786,10 +14786,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_255"
+        "oldName": "255"
     }, {
         "id": 623,
-        "name": "PHASE2_623",
+        "name": 623,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14815,10 +14815,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_256"
+        "oldName": "256"
     }, {
         "id": 624,
-        "name": "PHASE2_624",
+        "name": 624,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14844,10 +14844,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_257"
+        "oldName": "257"
     }, {
         "id": 625,
-        "name": "PHASE2_625",
+        "name": 625,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14873,10 +14873,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_258"
+        "oldName": "258"
     }, {
         "id": 626,
-        "name": "PHASE2_626",
+        "name": 626,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14902,10 +14902,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_259"
+        "oldName": "259"
     }, {
         "id": 627,
-        "name": "PHASE2_627",
+        "name": 627,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14931,10 +14931,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_260"
+        "oldName": "260"
     }, {
         "id": 628,
-        "name": "PHASE2_628",
+        "name": 628,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14960,10 +14960,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_261"
+        "oldName": "261"
     }, {
         "id": 629,
-        "name": "PHASE2_629",
+        "name": 629,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -14989,10 +14989,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_262"
+        "oldName": "262"
     }, {
         "id": 630,
-        "name": "PHASE2_630",
+        "name": 630,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15018,10 +15018,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_263"
+        "oldName": "263"
     }, {
         "id": 631,
-        "name": "PHASE2_631",
+        "name": 631,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15047,10 +15047,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_264"
+        "oldName": "264"
     }, {
         "id": 632,
-        "name": "PHASE2_632",
+        "name": 632,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15076,10 +15076,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_265"
+        "oldName": "265"
     }, {
         "id": 633,
-        "name": "PHASE2_633",
+        "name": 633,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15105,10 +15105,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_266"
+        "oldName": "266"
     }, {
         "id": 634,
-        "name": "PHASE2_634",
+        "name": 634,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15134,10 +15134,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_267"
+        "oldName": "267"
     }, {
         "id": 635,
-        "name": "PHASE2_635",
+        "name": 635,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15163,10 +15163,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_268"
+        "oldName": "268"
     }, {
         "id": 636,
-        "name": "PHASE2_636",
+        "name": 636,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15192,10 +15192,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_269"
+        "oldName": "269"
     }, {
         "id": 637,
-        "name": "PHASE2_637",
+        "name": 637,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15221,10 +15221,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_270"
+        "oldName": "270"
     }, {
         "id": 638,
-        "name": "PHASE2_638",
+        "name": 638,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15250,10 +15250,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_271"
+        "oldName": "271"
     }, {
         "id": 639,
-        "name": "PHASE2_639",
+        "name": 639,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15279,10 +15279,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_272"
+        "oldName": "272"
     }, {
         "id": 640,
-        "name": "PHASE2_640",
+        "name": 640,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15308,10 +15308,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_273"
+        "oldName": "273"
     }, {
         "id": 641,
-        "name": "PHASE2_641",
+        "name": 641,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15337,10 +15337,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_274"
+        "oldName": "274"
     }, {
         "id": 642,
-        "name": "PHASE2_642",
+        "name": 642,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15366,10 +15366,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_275"
+        "oldName": "275"
     }, {
         "id": 643,
-        "name": "PHASE2_643",
+        "name": 643,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15395,10 +15395,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_276"
+        "oldName": "276"
     }, {
         "id": 644,
-        "name": "PHASE2_644",
+        "name": 644,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15424,10 +15424,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_277"
+        "oldName": "277"
     }, {
         "id": 645,
-        "name": "PHASE2_645",
+        "name": 645,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15453,10 +15453,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_278"
+        "oldName": "278"
     }, {
         "id": 646,
-        "name": "PHASE2_646",
+        "name": 646,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15482,10 +15482,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_279"
+        "oldName": "279"
     }, {
         "id": 647,
-        "name": "PHASE2_647",
+        "name": 647,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15511,10 +15511,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_280"
+        "oldName": "280"
     }, {
         "id": 648,
-        "name": "PHASE2_648",
+        "name": 648,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15540,10 +15540,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_281"
+        "oldName": "281"
     }, {
         "id": 649,
-        "name": "PHASE2_649",
+        "name": 649,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15569,10 +15569,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_282"
+        "oldName": "282"
     }, {
         "id": 650,
-        "name": "PHASE2_650",
+        "name": 650,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15598,10 +15598,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_283"
+        "oldName": "283"
     }, {
         "id": 651,
-        "name": "PHASE2_651",
+        "name": 651,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15627,10 +15627,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_284"
+        "oldName": "284"
     }, {
         "id": 652,
-        "name": "PHASE2_652",
+        "name": 652,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15656,10 +15656,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_285"
+        "oldName": "285"
     }, {
         "id": 653,
-        "name": "PHASE2_653",
+        "name": 653,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15685,10 +15685,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_286"
+        "oldName": "286"
     }, {
         "id": 654,
-        "name": "PHASE2_654",
+        "name": 654,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15714,10 +15714,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_287"
+        "oldName": "287"
     }, {
         "id": 655,
-        "name": "PHASE2_655",
+        "name": 655,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15743,10 +15743,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_288"
+        "oldName": "288"
     }, {
         "id": 656,
-        "name": "PHASE2_656",
+        "name": 656,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15772,10 +15772,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_289"
+        "oldName": "289"
     }, {
         "id": 657,
-        "name": "PHASE2_657",
+        "name": 657,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15801,10 +15801,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_290"
+        "oldName": "290"
     }, {
         "id": 658,
-        "name": "PHASE2_658",
+        "name": 658,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15830,10 +15830,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_291"
+        "oldName": "291"
     }, {
         "id": 659,
-        "name": "PHASE2_659",
+        "name": 659,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15859,10 +15859,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_292"
+        "oldName": "292"
     }, {
         "id": 660,
-        "name": "PHASE2_660",
+        "name": 660,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15888,10 +15888,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_293"
+        "oldName": "293"
     }, {
         "id": 661,
-        "name": "PHASE2_661",
+        "name": 661,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15917,10 +15917,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_294"
+        "oldName": "294"
     }, {
         "id": 662,
-        "name": "PHASE2_662",
+        "name": 662,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15946,10 +15946,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_295"
+        "oldName": "295"
     }, {
         "id": 663,
-        "name": "PHASE2_663",
+        "name": 663,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -15975,10 +15975,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_296"
+        "oldName": "296"
     }, {
         "id": 664,
-        "name": "PHASE2_664",
+        "name": 664,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16004,10 +16004,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_297"
+        "oldName": "297"
     }, {
         "id": 665,
-        "name": "PHASE2_665",
+        "name": 665,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16033,10 +16033,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_298"
+        "oldName": "298"
     }, {
         "id": 666,
-        "name": "PHASE2_666",
+        "name": 666,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16062,10 +16062,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_299"
+        "oldName": "299"
     }, {
         "id": 667,
-        "name": "PHASE2_667",
+        "name": 667,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16091,10 +16091,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_300"
+        "oldName": "300"
     }, {
         "id": 668,
-        "name": "PHASE2_668",
+        "name": 668,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16120,10 +16120,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_301"
+        "oldName": "301"
     }, {
         "id": 669,
-        "name": "PHASE2_669",
+        "name": 669,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16149,10 +16149,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_302"
+        "oldName": "302"
     }, {
         "id": 670,
-        "name": "PHASE2_670",
+        "name": 670,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16178,10 +16178,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_303"
+        "oldName": "303"
     }, {
         "id": 671,
-        "name": "PHASE2_671",
+        "name": 671,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16207,10 +16207,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_304"
+        "oldName": "304"
     }, {
         "id": 672,
-        "name": "PHASE2_672",
+        "name": 672,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16236,10 +16236,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_305"
+        "oldName": "305"
     }, {
         "id": 673,
-        "name": "PHASE2_673",
+        "name": 673,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16265,10 +16265,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_306"
+        "oldName": "306"
     }, {
         "id": 674,
-        "name": "PHASE2_674",
+        "name": 674,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16294,10 +16294,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_307"
+        "oldName": "307"
     }, {
         "id": 675,
-        "name": "PHASE2_675",
+        "name": 675,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16323,10 +16323,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_308"
+        "oldName": "308"
     }, {
         "id": 676,
-        "name": "PHASE2_676",
+        "name": 676,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16352,10 +16352,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_309"
+        "oldName": "309"
     }, {
         "id": 677,
-        "name": "PHASE2_677",
+        "name": 677,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16381,10 +16381,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_310"
+        "oldName": "310"
     }, {
         "id": 678,
-        "name": "PHASE2_678",
+        "name": 678,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16410,10 +16410,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_311"
+        "oldName": "311"
     }, {
         "id": 679,
-        "name": "PHASE2_679",
+        "name": 679,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16439,10 +16439,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_312"
+        "oldName": "312"
     }, {
         "id": 680,
-        "name": "PHASE2_680",
+        "name": 680,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16468,10 +16468,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_313"
+        "oldName": "313"
     }, {
         "id": 681,
-        "name": "PHASE2_681",
+        "name": 681,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16497,10 +16497,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_314"
+        "oldName": "314"
     }, {
         "id": 682,
-        "name": "PHASE2_682",
+        "name": 682,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16526,10 +16526,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_315"
+        "oldName": "315"
     }, {
         "id": 683,
-        "name": "PHASE2_683",
+        "name": 683,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16555,10 +16555,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_316"
+        "oldName": "316"
     }, {
         "id": 684,
-        "name": "PHASE2_684",
+        "name": 684,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16584,10 +16584,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_317"
+        "oldName": "317"
     }, {
         "id": 685,
-        "name": "PHASE2_685",
+        "name": 685,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16613,10 +16613,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_318"
+        "oldName": "318"
     }, {
         "id": 686,
-        "name": "PHASE2_686",
+        "name": 686,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16642,10 +16642,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_319"
+        "oldName": "319"
     }, {
         "id": 687,
-        "name": "PHASE2_687",
+        "name": 687,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16671,10 +16671,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_320"
+        "oldName": "320"
     }, {
         "id": 688,
-        "name": "PHASE2_688",
+        "name": 688,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16700,10 +16700,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_321"
+        "oldName": "321"
     }, {
         "id": 689,
-        "name": "PHASE2_689",
+        "name": 689,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16729,10 +16729,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_322"
+        "oldName": "322"
     }, {
         "id": 690,
-        "name": "PHASE2_690",
+        "name": 690,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16758,10 +16758,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_323"
+        "oldName": "323"
     }, {
         "id": 691,
-        "name": "PHASE2_691",
+        "name": 691,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16787,10 +16787,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_324"
+        "oldName": "324"
     }, {
         "id": 692,
-        "name": "PHASE2_692",
+        "name": 692,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16816,10 +16816,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_325"
+        "oldName": "325"
     }, {
         "id": 693,
-        "name": "PHASE2_693",
+        "name": 693,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16845,10 +16845,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_326"
+        "oldName": "326"
     }, {
         "id": 694,
-        "name": "PHASE2_694",
+        "name": 694,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16874,10 +16874,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_327"
+        "oldName": "327"
     }, {
         "id": 695,
-        "name": "PHASE2_695",
+        "name": 695,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16903,10 +16903,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_328"
+        "oldName": "328"
     }, {
         "id": 696,
-        "name": "PHASE2_696",
+        "name": 696,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16932,10 +16932,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_329"
+        "oldName": "329"
     }, {
         "id": 697,
-        "name": "PHASE2_697",
+        "name": 697,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16961,10 +16961,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_330"
+        "oldName": "330"
     }, {
         "id": 698,
-        "name": "PHASE2_698",
+        "name": 698,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -16990,10 +16990,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_331"
+        "oldName": "331"
     }, {
         "id": 699,
-        "name": "PHASE2_699",
+        "name": 699,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17019,10 +17019,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_332"
+        "oldName": "332"
     }, {
         "id": 700,
-        "name": "PHASE2_700",
+        "name": 700,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17048,10 +17048,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_333"
+        "oldName": "333"
     }, {
         "id": 701,
-        "name": "PHASE2_701",
+        "name": 701,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17077,10 +17077,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_334"
+        "oldName": "334"
     }, {
         "id": 702,
-        "name": "PHASE2_702",
+        "name": 702,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17106,10 +17106,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_335"
+        "oldName": "335"
     }, {
         "id": 703,
-        "name": "PHASE2_703",
+        "name": 703,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17135,10 +17135,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_336"
+        "oldName": "336"
     }, {
         "id": 704,
-        "name": "PHASE2_704",
+        "name": 704,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17164,10 +17164,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_337"
+        "oldName": "337"
     }, {
         "id": 705,
-        "name": "PHASE2_705",
+        "name": 705,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17193,10 +17193,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_338"
+        "oldName": "338"
     }, {
         "id": 706,
-        "name": "PHASE2_706",
+        "name": 706,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17222,10 +17222,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_339"
+        "oldName": "339"
     }, {
         "id": 707,
-        "name": "PHASE2_707",
+        "name": 707,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17251,10 +17251,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_340"
+        "oldName": "340"
     }, {
         "id": 708,
-        "name": "PHASE2_708",
+        "name": 708,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17280,10 +17280,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_341"
+        "oldName": "341"
     }, {
         "id": 709,
-        "name": "PHASE2_709",
+        "name": 709,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17309,10 +17309,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_342"
+        "oldName": "342"
     }, {
         "id": 710,
-        "name": "PHASE2_710",
+        "name": 710,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17338,10 +17338,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_343"
+        "oldName": "343"
     }, {
         "id": 711,
-        "name": "PHASE2_711",
+        "name": 711,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17367,10 +17367,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_344"
+        "oldName": "344"
     }, {
         "id": 712,
-        "name": "PHASE2_712",
+        "name": 712,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17396,10 +17396,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_345"
+        "oldName": "345"
     }, {
         "id": 713,
-        "name": "PHASE2_713",
+        "name": 713,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17425,10 +17425,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_346"
+        "oldName": "346"
     }, {
         "id": 714,
-        "name": "PHASE2_714",
+        "name": 714,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17454,10 +17454,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_347"
+        "oldName": "347"
     }, {
         "id": 715,
-        "name": "PHASE2_715",
+        "name": 715,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17483,10 +17483,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_348"
+        "oldName": "348"
     }, {
         "id": 716,
-        "name": "PHASE2_716",
+        "name": 716,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17512,10 +17512,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_349"
+        "oldName": "349"
     }, {
         "id": 717,
-        "name": "PHASE2_717",
+        "name": 717,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17541,10 +17541,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_350"
+        "oldName": "350"
     }, {
         "id": 718,
-        "name": "PHASE2_718",
+        "name": 718,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17570,10 +17570,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_351"
+        "oldName": "351"
     }, {
         "id": 719,
-        "name": "PHASE2_719",
+        "name": 719,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17599,10 +17599,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_352"
+        "oldName": "352"
     }, {
         "id": 720,
-        "name": "PHASE2_720",
+        "name": 720,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17628,10 +17628,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_353"
+        "oldName": "353"
     }, {
         "id": 721,
-        "name": "PHASE2_721",
+        "name": 721,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17657,10 +17657,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_354"
+        "oldName": "354"
     }, {
         "id": 722,
-        "name": "PHASE2_722",
+        "name": 722,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17686,10 +17686,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_355"
+        "oldName": "355"
     }, {
         "id": 723,
-        "name": "PHASE2_723",
+        "name": 723,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17715,10 +17715,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_356"
+        "oldName": "356"
     }, {
         "id": 724,
-        "name": "PHASE2_724",
+        "name": 724,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17744,10 +17744,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_357"
+        "oldName": "357"
     }, {
         "id": 725,
-        "name": "PHASE2_725",
+        "name": 725,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17773,10 +17773,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_358"
+        "oldName": "358"
     }, {
         "id": 726,
-        "name": "PHASE2_726",
+        "name": 726,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17802,10 +17802,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_359"
+        "oldName": "359"
     }, {
         "id": 727,
-        "name": "PHASE2_727",
+        "name": 727,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17831,10 +17831,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_360"
+        "oldName": "360"
     }, {
         "id": 728,
-        "name": "PHASE2_728",
+        "name": 728,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17860,10 +17860,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_361"
+        "oldName": "361"
     }, {
         "id": 729,
-        "name": "PHASE2_729",
+        "name": 729,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17889,10 +17889,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_362"
+        "oldName": "362"
     }, {
         "id": 730,
-        "name": "PHASE2_730",
+        "name": 730,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17918,10 +17918,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_363"
+        "oldName": "363"
     }, {
         "id": 731,
-        "name": "PHASE2_731",
+        "name": 731,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17947,10 +17947,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_364"
+        "oldName": "364"
     }, {
         "id": 732,
-        "name": "PHASE2_732",
+        "name": 732,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -17976,10 +17976,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_365"
+        "oldName": "365"
     }, {
         "id": 733,
-        "name": "PHASE2_733",
+        "name": 733,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18005,10 +18005,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_366"
+        "oldName": "366"
     }, {
         "id": 734,
-        "name": "PHASE2_734",
+        "name": 734,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18034,10 +18034,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_367"
+        "oldName": "367"
     }, {
         "id": 735,
-        "name": "PHASE2_735",
+        "name": 735,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18063,10 +18063,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_368"
+        "oldName": "368"
     }, {
         "id": 736,
-        "name": "PHASE2_736",
+        "name": 736,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18092,10 +18092,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_369"
+        "oldName": "369"
     }, {
         "id": 737,
-        "name": "PHASE2_737",
+        "name": 737,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18121,10 +18121,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_370"
+        "oldName": "370"
     }, {
         "id": 738,
-        "name": "PHASE2_738",
+        "name": 738,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18150,10 +18150,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_371"
+        "oldName": "371"
     }, {
         "id": 739,
-        "name": "PHASE2_739",
+        "name": 739,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18179,10 +18179,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_372"
+        "oldName": "372"
     }, {
         "id": 740,
-        "name": "PHASE2_740",
+        "name": 740,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18208,10 +18208,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_373"
+        "oldName": "373"
     }, {
         "id": 741,
-        "name": "PHASE2_741",
+        "name": 741,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18237,10 +18237,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_374"
+        "oldName": "374"
     }, {
         "id": 742,
-        "name": "PHASE2_742",
+        "name": 742,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18266,10 +18266,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_375"
+        "oldName": "375"
     }, {
         "id": 743,
-        "name": "PHASE2_743",
+        "name": 743,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18295,10 +18295,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_376"
+        "oldName": "376"
     }, {
         "id": 744,
-        "name": "PHASE2_744",
+        "name": 744,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18324,10 +18324,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_377"
+        "oldName": "377"
     }, {
         "id": 745,
-        "name": "PHASE2_745",
+        "name": 745,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18353,10 +18353,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_378"
+        "oldName": "378"
     }, {
         "id": 746,
-        "name": "PHASE2_746",
+        "name": 746,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18382,10 +18382,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_379"
+        "oldName": "379"
     }, {
         "id": 747,
-        "name": "PHASE2_747",
+        "name": 747,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18411,10 +18411,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_380"
+        "oldName": "380"
     }, {
         "id": 748,
-        "name": "PHASE2_748",
+        "name": 748,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18440,10 +18440,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_381"
+        "oldName": "381"
     }, {
         "id": 749,
-        "name": "PHASE2_749",
+        "name": 749,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18469,10 +18469,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_382"
+        "oldName": "382"
     }, {
         "id": 750,
-        "name": "PHASE2_750",
+        "name": 750,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18498,10 +18498,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_383"
+        "oldName": "383"
     }, {
         "id": 751,
-        "name": "PHASE2_751",
+        "name": 751,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18527,10 +18527,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_384"
+        "oldName": "384"
     }, {
         "id": 752,
-        "name": "PHASE2_752",
+        "name": 752,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18556,10 +18556,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_385"
+        "oldName": "385"
     }, {
         "id": 753,
-        "name": "PHASE2_753",
+        "name": 753,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18585,10 +18585,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_386"
+        "oldName": "386"
     }, {
         "id": 754,
-        "name": "PHASE2_754",
+        "name": 754,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18614,10 +18614,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_387"
+        "oldName": "387"
     }, {
         "id": 755,
-        "name": "PHASE2_755",
+        "name": 755,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18643,10 +18643,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_388"
+        "oldName": "388"
     }, {
         "id": 756,
-        "name": "PHASE2_756",
+        "name": 756,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18672,10 +18672,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_389"
+        "oldName": "389"
     }, {
         "id": 757,
-        "name": "PHASE2_757",
+        "name": 757,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18701,10 +18701,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_390"
+        "oldName": "390"
     }, {
         "id": 758,
-        "name": "PHASE2_758",
+        "name": 758,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18730,10 +18730,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_391"
+        "oldName": "391"
     }, {
         "id": 759,
-        "name": "PHASE2_759",
+        "name": 759,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18759,10 +18759,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_392"
+        "oldName": "392"
     }, {
         "id": 760,
-        "name": "PHASE2_760",
+        "name": 760,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18788,10 +18788,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_393"
+        "oldName": "393"
     }, {
         "id": 761,
-        "name": "PHASE2_761",
+        "name": 761,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18817,10 +18817,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_394"
+        "oldName": "394"
     }, {
         "id": 762,
-        "name": "PHASE2_762",
+        "name": 762,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18846,10 +18846,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_395"
+        "oldName": "395"
     }, {
         "id": 763,
-        "name": "PHASE2_763",
+        "name": 763,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18875,10 +18875,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_396"
+        "oldName": "396"
     }, {
         "id": 764,
-        "name": "PHASE2_764",
+        "name": 764,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18904,10 +18904,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_397"
+        "oldName": "397"
     }, {
         "id": 765,
-        "name": "PHASE2_765",
+        "name": 765,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18933,10 +18933,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_398"
+        "oldName": "398"
     }, {
         "id": 766,
-        "name": "PHASE2_766",
+        "name": 766,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18962,10 +18962,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_399"
+        "oldName": "399"
     }, {
         "id": 767,
-        "name": "PHASE2_767",
+        "name": 767,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -18991,10 +18991,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_400"
+        "oldName": "400"
     }, {
         "id": 768,
-        "name": "PHASE2_768",
+        "name": 768,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19020,10 +19020,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_401"
+        "oldName": "401"
     }, {
         "id": 769,
-        "name": "PHASE2_769",
+        "name": 769,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19049,10 +19049,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_402"
+        "oldName": "402"
     }, {
         "id": 770,
-        "name": "PHASE2_770",
+        "name": 770,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19078,10 +19078,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_403"
+        "oldName": "403"
     }, {
         "id": 771,
-        "name": "PHASE2_771",
+        "name": 771,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19107,10 +19107,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_404"
+        "oldName": "404"
     }, {
         "id": 772,
-        "name": "PHASE2_772",
+        "name": 772,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19136,10 +19136,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_405"
+        "oldName": "405"
     }, {
         "id": 773,
-        "name": "PHASE2_773",
+        "name": 773,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19165,10 +19165,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_406"
+        "oldName": "406"
     }, {
         "id": 774,
-        "name": "PHASE2_774",
+        "name": 774,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19194,10 +19194,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_407"
+        "oldName": "407"
     }, {
         "id": 775,
-        "name": "PHASE2_775",
+        "name": 775,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19223,10 +19223,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_408"
+        "oldName": "408"
     }, {
         "id": 776,
-        "name": "PHASE2_776",
+        "name": 776,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19252,10 +19252,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_409"
+        "oldName": "409"
     }, {
         "id": 777,
-        "name": "PHASE2_777",
+        "name": 777,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19281,10 +19281,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_410"
+        "oldName": "410"
     }, {
         "id": 778,
-        "name": "PHASE2_778",
+        "name": 778,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19310,10 +19310,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_411"
+        "oldName": "411"
     }, {
         "id": 779,
-        "name": "PHASE2_779",
+        "name": 779,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19339,10 +19339,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_412"
+        "oldName": "412"
     }, {
         "id": 780,
-        "name": "PHASE2_780",
+        "name": 780,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19368,10 +19368,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_413"
+        "oldName": "413"
     }, {
         "id": 781,
-        "name": "PHASE2_781",
+        "name": 781,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19397,10 +19397,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_414"
+        "oldName": "414"
     }, {
         "id": 782,
-        "name": "PHASE2_782",
+        "name": 782,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19426,10 +19426,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_415"
+        "oldName": "415"
     }, {
         "id": 783,
-        "name": "PHASE2_783",
+        "name": 783,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19455,10 +19455,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_416"
+        "oldName": "416"
     }, {
         "id": 784,
-        "name": "PHASE2_784",
+        "name": 784,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19484,10 +19484,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_417"
+        "oldName": "417"
     }, {
         "id": 785,
-        "name": "PHASE2_785",
+        "name": 785,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19513,10 +19513,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_418"
+        "oldName": "418"
     }, {
         "id": 786,
-        "name": "PHASE2_786",
+        "name": 786,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19542,10 +19542,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_419"
+        "oldName": "419"
     }, {
         "id": 787,
-        "name": "PHASE2_787",
+        "name": 787,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19571,10 +19571,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_420"
+        "oldName": "420"
     }, {
         "id": 788,
-        "name": "PHASE2_788",
+        "name": 788,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19600,10 +19600,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_421"
+        "oldName": "421"
     }, {
         "id": 789,
-        "name": "PHASE2_789",
+        "name": 789,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19629,10 +19629,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_422"
+        "oldName": "422"
     }, {
         "id": 790,
-        "name": "PHASE2_790",
+        "name": 790,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19658,10 +19658,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_423"
+        "oldName": "423"
     }, {
         "id": 791,
-        "name": "PHASE2_791",
+        "name": 791,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19687,10 +19687,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_424"
+        "oldName": "424"
     }, {
         "id": 792,
-        "name": "PHASE2_792",
+        "name": 792,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19716,10 +19716,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_425"
+        "oldName": "425"
     }, {
         "id": 793,
-        "name": "PHASE2_793",
+        "name": 793,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19745,10 +19745,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_426"
+        "oldName": "426"
     }, {
         "id": 794,
-        "name": "PHASE2_794",
+        "name": 794,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19774,10 +19774,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_427"
+        "oldName": "427"
     }, {
         "id": 795,
-        "name": "PHASE2_795",
+        "name": 795,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19803,10 +19803,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_428"
+        "oldName": "428"
     }, {
         "id": 796,
-        "name": "PHASE2_796",
+        "name": 796,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19832,10 +19832,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_429"
+        "oldName": "429"
     }, {
         "id": 797,
-        "name": "PHASE2_797",
+        "name": 797,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19861,10 +19861,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_430"
+        "oldName": "430"
     }, {
         "id": 798,
-        "name": "PHASE2_798",
+        "name": 798,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19890,10 +19890,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_431"
+        "oldName": "431"
     }, {
         "id": 799,
-        "name": "PHASE2_799",
+        "name": 799,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19919,10 +19919,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_432"
+        "oldName": "432"
     }, {
         "id": 800,
-        "name": "PHASE2_800",
+        "name": 800,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19948,10 +19948,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_433"
+        "oldName": "433"
     }, {
         "id": 801,
-        "name": "PHASE2_801",
+        "name": 801,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -19977,10 +19977,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_434"
+        "oldName": "434"
     }, {
         "id": 802,
-        "name": "PHASE2_802",
+        "name": 802,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20006,10 +20006,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_435"
+        "oldName": "435"
     }, {
         "id": 803,
-        "name": "PHASE2_803",
+        "name": 803,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20035,10 +20035,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_436"
+        "oldName": "436"
     }, {
         "id": 804,
-        "name": "PHASE2_804",
+        "name": 804,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20064,10 +20064,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_437"
+        "oldName": "437"
     }, {
         "id": 805,
-        "name": "PHASE2_805",
+        "name": 805,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20093,10 +20093,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_438"
+        "oldName": "438"
     }, {
         "id": 806,
-        "name": "PHASE2_806",
+        "name": 806,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20122,10 +20122,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_439"
+        "oldName": "439"
     }, {
         "id": 807,
-        "name": "PHASE2_807",
+        "name": 807,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20151,10 +20151,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_440"
+        "oldName": "440"
     }, {
         "id": 808,
-        "name": "PHASE2_808",
+        "name": 808,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20180,10 +20180,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_441"
+        "oldName": "441"
     }, {
         "id": 809,
-        "name": "PHASE2_809",
+        "name": 809,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20209,10 +20209,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_442"
+        "oldName": "442"
     }, {
         "id": 810,
-        "name": "PHASE2_810",
+        "name": 810,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20238,10 +20238,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_443"
+        "oldName": "443"
     }, {
         "id": 811,
-        "name": "PHASE2_811",
+        "name": 811,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20267,10 +20267,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_444"
+        "oldName": "444"
     }, {
         "id": 812,
-        "name": "PHASE2_812",
+        "name": 812,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20296,10 +20296,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_445"
+        "oldName": "445"
     }, {
         "id": 813,
-        "name": "PHASE2_813",
+        "name": 813,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20325,10 +20325,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_446"
+        "oldName": "446"
     }, {
         "id": 814,
-        "name": "PHASE2_814",
+        "name": 814,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20354,10 +20354,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_447"
+        "oldName": "447"
     }, {
         "id": 815,
-        "name": "PHASE2_815",
+        "name": 815,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20383,10 +20383,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_448"
+        "oldName": "448"
     }, {
         "id": 816,
-        "name": "PHASE2_816",
+        "name": 816,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20412,10 +20412,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_449"
+        "oldName": "449"
     }, {
         "id": 817,
-        "name": "PHASE2_817",
+        "name": 817,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20441,10 +20441,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_450"
+        "oldName": "450"
     }, {
         "id": 818,
-        "name": "PHASE2_818",
+        "name": 818,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20470,10 +20470,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_451"
+        "oldName": "451"
     }, {
         "id": 819,
-        "name": "PHASE2_819",
+        "name": 819,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20499,10 +20499,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_452"
+        "oldName": "452"
     }, {
         "id": 820,
-        "name": "PHASE2_820",
+        "name": 820,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20528,10 +20528,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_453"
+        "oldName": "453"
     }, {
         "id": 821,
-        "name": "PHASE2_821",
+        "name": 821,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20557,10 +20557,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_454"
+        "oldName": "454"
     }, {
         "id": 822,
-        "name": "PHASE2_822",
+        "name": 822,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20586,10 +20586,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_455"
+        "oldName": "455"
     }, {
         "id": 823,
-        "name": "PHASE2_823",
+        "name": 823,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20615,10 +20615,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_456"
+        "oldName": "456"
     }, {
         "id": 824,
-        "name": "PHASE2_824",
+        "name": 824,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20644,10 +20644,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_457"
+        "oldName": "457"
     }, {
         "id": 825,
-        "name": "PHASE2_825",
+        "name": 825,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20673,10 +20673,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_458"
+        "oldName": "458"
     }, {
         "id": 826,
-        "name": "PHASE2_826",
+        "name": 826,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20702,10 +20702,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_459"
+        "oldName": "459"
     }, {
         "id": 827,
-        "name": "PHASE2_827",
+        "name": 827,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20731,10 +20731,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_460"
+        "oldName": "460"
     }, {
         "id": 828,
-        "name": "PHASE2_828",
+        "name": 828,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20760,10 +20760,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_461"
+        "oldName": "461"
     }, {
         "id": 829,
-        "name": "PHASE2_829",
+        "name": 829,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20789,10 +20789,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_462"
+        "oldName": "462"
     }, {
         "id": 830,
-        "name": "PHASE2_830",
+        "name": 830,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20818,10 +20818,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_463"
+        "oldName": "463"
     }, {
         "id": 831,
-        "name": "PHASE2_831",
+        "name": 831,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20847,10 +20847,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_464"
+        "oldName": "464"
     }, {
         "id": 832,
-        "name": "PHASE2_832",
+        "name": 832,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20876,10 +20876,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_465"
+        "oldName": "465"
     }, {
         "id": 833,
-        "name": "PHASE2_833",
+        "name": 833,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20905,10 +20905,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_466"
+        "oldName": "466"
     }, {
         "id": 834,
-        "name": "PHASE2_834",
+        "name": 834,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20934,10 +20934,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_467"
+        "oldName": "467"
     }, {
         "id": 835,
-        "name": "PHASE2_835",
+        "name": 835,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20963,10 +20963,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_468"
+        "oldName": "468"
     }, {
         "id": 836,
-        "name": "PHASE2_836",
+        "name": 836,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -20992,10 +20992,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_469"
+        "oldName": "469"
     }, {
         "id": 837,
-        "name": "PHASE2_837",
+        "name": 837,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21021,10 +21021,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_470"
+        "oldName": "470"
     }, {
         "id": 838,
-        "name": "PHASE2_838",
+        "name": 838,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21050,10 +21050,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_471"
+        "oldName": "471"
     }, {
         "id": 839,
-        "name": "PHASE2_839",
+        "name": 839,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21079,10 +21079,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_472"
+        "oldName": "472"
     }, {
         "id": 840,
-        "name": "PHASE2_840",
+        "name": 840,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21108,10 +21108,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_473"
+        "oldName": "473"
     }, {
         "id": 841,
-        "name": "PHASE2_841",
+        "name": 841,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21137,10 +21137,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_474"
+        "oldName": "474"
     }, {
         "id": 842,
-        "name": "PHASE2_842",
+        "name": 842,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21166,10 +21166,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_475"
+        "oldName": "475"
     }, {
         "id": 843,
-        "name": "PHASE2_843",
+        "name": 843,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21195,10 +21195,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_476"
+        "oldName": "476"
     }, {
         "id": 844,
-        "name": "PHASE2_844",
+        "name": 844,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21224,10 +21224,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_477"
+        "oldName": "477"
     }, {
         "id": 845,
-        "name": "PHASE2_845",
+        "name": 845,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21253,10 +21253,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_478"
+        "oldName": "478"
     }, {
         "id": 846,
-        "name": "PHASE2_846",
+        "name": 846,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21282,10 +21282,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_479"
+        "oldName": "479"
     }, {
         "id": 847,
-        "name": "PHASE2_847",
+        "name": 847,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21311,10 +21311,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_480"
+        "oldName": "480"
     }, {
         "id": 848,
-        "name": "PHASE2_848",
+        "name": 848,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21340,10 +21340,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_481"
+        "oldName": "481"
     }, {
         "id": 849,
-        "name": "PHASE2_849",
+        "name": 849,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21369,10 +21369,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_482"
+        "oldName": "482"
     }, {
         "id": 850,
-        "name": "PHASE2_850",
+        "name": 850,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21398,10 +21398,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_483"
+        "oldName": "483"
     }, {
         "id": 851,
-        "name": "PHASE2_851",
+        "name": 851,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21427,10 +21427,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_484"
+        "oldName": "484"
     }, {
         "id": 852,
-        "name": "PHASE2_852",
+        "name": 852,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21456,10 +21456,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_485"
+        "oldName": "485"
     }, {
         "id": 853,
-        "name": "PHASE2_853",
+        "name": 853,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21485,10 +21485,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_486"
+        "oldName": "486"
     }, {
         "id": 854,
-        "name": "PHASE2_854",
+        "name": 854,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21514,10 +21514,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_487"
+        "oldName": "487"
     }, {
         "id": 855,
-        "name": "PHASE2_855",
+        "name": 855,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21543,10 +21543,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_488"
+        "oldName": "488"
     }, {
         "id": 856,
-        "name": "PHASE2_856",
+        "name": 856,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21572,10 +21572,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_489"
+        "oldName": "489"
     }, {
         "id": 857,
-        "name": "PHASE2_857",
+        "name": 857,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21601,10 +21601,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_490"
+        "oldName": "490"
     }, {
         "id": 858,
-        "name": "PHASE2_858",
+        "name": 858,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21630,10 +21630,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_491"
+        "oldName": "491"
     }, {
         "id": 859,
-        "name": "PHASE2_859",
+        "name": 859,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21659,10 +21659,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_492"
+        "oldName": "492"
     }, {
         "id": 860,
-        "name": "PHASE2_860",
+        "name": 860,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21688,10 +21688,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_493"
+        "oldName": "493"
     }, {
         "id": 861,
-        "name": "PHASE2_861",
+        "name": 861,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21717,10 +21717,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_494"
+        "oldName": "494"
     }, {
         "id": 862,
-        "name": "PHASE2_862",
+        "name": 862,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21746,10 +21746,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_495"
+        "oldName": "495"
     }, {
         "id": 863,
-        "name": "PHASE2_863",
+        "name": 863,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21775,10 +21775,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_496"
+        "oldName": "496"
     }, {
         "id": 864,
-        "name": "PHASE2_864",
+        "name": 864,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21804,10 +21804,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_497"
+        "oldName": "497"
     }, {
         "id": 865,
-        "name": "PHASE2_865",
+        "name": 865,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21833,10 +21833,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_498"
+        "oldName": "498"
     }, {
         "id": 866,
-        "name": "PHASE2_866",
+        "name": 866,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21862,10 +21862,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_499"
+        "oldName": "499"
     }, {
         "id": 867,
-        "name": "PHASE2_867",
+        "name": 867,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21891,10 +21891,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_500"
+        "oldName": "500"
     }, {
         "id": 868,
-        "name": "PHASE2_868",
+        "name": 868,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21920,10 +21920,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_501"
+        "oldName": "501"
     }, {
         "id": 869,
-        "name": "PHASE2_869",
+        "name": 869,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21949,10 +21949,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_502"
+        "oldName": "502"
     }, {
         "id": 870,
-        "name": "PHASE2_870",
+        "name": 870,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -21978,10 +21978,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_503"
+        "oldName": "503"
     }, {
         "id": 871,
-        "name": "PHASE2_871",
+        "name": 871,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22007,10 +22007,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_504"
+        "oldName": "504"
     }, {
         "id": 872,
-        "name": "PHASE2_872",
+        "name": 872,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22036,10 +22036,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_505"
+        "oldName": "505"
     }, {
         "id": 873,
-        "name": "PHASE2_873",
+        "name": 873,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22065,10 +22065,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_506"
+        "oldName": "506"
     }, {
         "id": 874,
-        "name": "PHASE2_874",
+        "name": 874,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22094,10 +22094,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_507"
+        "oldName": "507"
     }, {
         "id": 875,
-        "name": "PHASE2_875",
+        "name": 875,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22123,10 +22123,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_508"
+        "oldName": "508"
     }, {
         "id": 876,
-        "name": "PHASE2_876",
+        "name": 876,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22152,10 +22152,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_509"
+        "oldName": "509"
     }, {
         "id": 877,
-        "name": "PHASE2_877",
+        "name": 877,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22181,10 +22181,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_510"
+        "oldName": "510"
     }, {
         "id": 878,
-        "name": "PHASE2_878",
+        "name": 878,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22210,10 +22210,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_511"
+        "oldName": "511"
     }, {
         "id": 879,
-        "name": "PHASE2_879",
+        "name": 879,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22239,10 +22239,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_512"
+        "oldName": "512"
     }, {
         "id": 880,
-        "name": "PHASE2_880",
+        "name": 880,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22268,10 +22268,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_513"
+        "oldName": "513"
     }, {
         "id": 881,
-        "name": "PHASE2_881",
+        "name": 881,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22297,10 +22297,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_514"
+        "oldName": "514"
     }, {
         "id": 882,
-        "name": "PHASE2_882",
+        "name": 882,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22326,10 +22326,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_515"
+        "oldName": "515"
     }, {
         "id": 883,
-        "name": "PHASE2_883",
+        "name": 883,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22355,10 +22355,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_516"
+        "oldName": "516"
     }, {
         "id": 884,
-        "name": "PHASE2_884",
+        "name": 884,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22384,10 +22384,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_517"
+        "oldName": "517"
     }, {
         "id": 885,
-        "name": "PHASE2_885",
+        "name": 885,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22413,10 +22413,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_518"
+        "oldName": "518"
     }, {
         "id": 886,
-        "name": "PHASE2_886",
+        "name": 886,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22442,10 +22442,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_519"
+        "oldName": "519"
     }, {
         "id": 887,
-        "name": "PHASE2_887",
+        "name": 887,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22471,10 +22471,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_520"
+        "oldName": "520"
     }, {
         "id": 888,
-        "name": "PHASE2_888",
+        "name": 888,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22500,10 +22500,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_521"
+        "oldName": "521"
     }, {
         "id": 889,
-        "name": "PHASE2_889",
+        "name": 889,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22529,10 +22529,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_522"
+        "oldName": "522"
     }, {
         "id": 890,
-        "name": "PHASE2_890",
+        "name": 890,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22558,10 +22558,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_523"
+        "oldName": "523"
     }, {
         "id": 891,
-        "name": "PHASE2_891",
+        "name": 891,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22587,10 +22587,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_524"
+        "oldName": "524"
     }, {
         "id": 892,
-        "name": "PHASE2_892",
+        "name": 892,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22616,10 +22616,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_525"
+        "oldName": "525"
     }, {
         "id": 893,
-        "name": "PHASE2_893",
+        "name": 893,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22645,10 +22645,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_526"
+        "oldName": "526"
     }, {
         "id": 894,
-        "name": "PHASE2_894",
+        "name": 894,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22674,10 +22674,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_527"
+        "oldName": "527"
     }, {
         "id": 895,
-        "name": "PHASE2_895",
+        "name": 895,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22703,10 +22703,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_528"
+        "oldName": "528"
     }, {
         "id": 896,
-        "name": "PHASE2_896",
+        "name": 896,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22732,10 +22732,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_529"
+        "oldName": "529"
     }, {
         "id": 897,
-        "name": "PHASE2_897",
+        "name": 897,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22761,10 +22761,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_530"
+        "oldName": "530"
     }, {
         "id": 898,
-        "name": "PHASE2_898",
+        "name": 898,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22790,10 +22790,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_531"
+        "oldName": "531"
     }, {
         "id": 899,
-        "name": "PHASE2_899",
+        "name": 899,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22819,10 +22819,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_532"
+        "oldName": "532"
     }, {
         "id": 900,
-        "name": "PHASE2_900",
+        "name": 900,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22848,10 +22848,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_533"
+        "oldName": "533"
     }, {
         "id": 901,
-        "name": "PHASE2_901",
+        "name": 901,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22877,10 +22877,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_534"
+        "oldName": "534"
     }, {
         "id": 902,
-        "name": "PHASE2_902",
+        "name": 902,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22906,10 +22906,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_535"
+        "oldName": "535"
     }, {
         "id": 903,
-        "name": "PHASE2_903",
+        "name": 903,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22935,10 +22935,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_536"
+        "oldName": "536"
     }, {
         "id": 904,
-        "name": "PHASE2_904",
+        "name": 904,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22964,10 +22964,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_537"
+        "oldName": "537"
     }, {
         "id": 905,
-        "name": "PHASE2_905",
+        "name": 905,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -22993,10 +22993,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_538"
+        "oldName": "538"
     }, {
         "id": 906,
-        "name": "PHASE2_906",
+        "name": 906,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23022,10 +23022,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_539"
+        "oldName": "539"
     }, {
         "id": 907,
-        "name": "PHASE2_907",
+        "name": 907,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23051,10 +23051,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_540"
+        "oldName": "540"
     }, {
         "id": 908,
-        "name": "PHASE2_908",
+        "name": 908,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23080,10 +23080,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_541"
+        "oldName": "541"
     }, {
         "id": 909,
-        "name": "PHASE2_909",
+        "name": 909,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23109,10 +23109,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_542"
+        "oldName": "542"
     }, {
         "id": 910,
-        "name": "PHASE2_910",
+        "name": 910,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23138,10 +23138,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_543"
+        "oldName": "543"
     }, {
         "id": 911,
-        "name": "PHASE2_911",
+        "name": 911,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23167,10 +23167,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_544"
+        "oldName": "544"
     }, {
         "id": 912,
-        "name": "PHASE2_912",
+        "name": 912,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23196,10 +23196,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_545"
+        "oldName": "545"
     }, {
         "id": 913,
-        "name": "PHASE2_913",
+        "name": 913,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23225,10 +23225,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_546"
+        "oldName": "546"
     }, {
         "id": 914,
-        "name": "PHASE2_914",
+        "name": 914,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23254,10 +23254,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_547"
+        "oldName": "547"
     }, {
         "id": 915,
-        "name": "PHASE2_915",
+        "name": 915,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23283,10 +23283,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_548"
+        "oldName": "548"
     }, {
         "id": 916,
-        "name": "PHASE2_916",
+        "name": 916,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23312,10 +23312,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_549"
+        "oldName": "549"
     }, {
         "id": 917,
-        "name": "PHASE2_917",
+        "name": 917,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23341,10 +23341,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_550"
+        "oldName": "550"
     }, {
         "id": 918,
-        "name": "PHASE2_918",
+        "name": 918,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23370,10 +23370,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_551"
+        "oldName": "551"
     }, {
         "id": 919,
-        "name": "PHASE2_919",
+        "name": 919,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23399,10 +23399,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_552"
+        "oldName": "552"
     }, {
         "id": 920,
-        "name": "PHASE2_920",
+        "name": 920,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23428,10 +23428,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_553"
+        "oldName": "553"
     }, {
         "id": 921,
-        "name": "PHASE2_921",
+        "name": 921,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23457,10 +23457,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_554"
+        "oldName": "554"
     }, {
         "id": 922,
-        "name": "PHASE2_922",
+        "name": 922,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23486,10 +23486,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_555"
+        "oldName": "555"
     }, {
         "id": 923,
-        "name": "PHASE2_923",
+        "name": 923,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23515,10 +23515,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_556"
+        "oldName": "556"
     }, {
         "id": 924,
-        "name": "PHASE2_924",
+        "name": 924,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23544,10 +23544,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_557"
+        "oldName": "557"
     }, {
         "id": 925,
-        "name": "PHASE2_925",
+        "name": 925,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23573,10 +23573,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_558"
+        "oldName": "558"
     }, {
         "id": 926,
-        "name": "PHASE2_926",
+        "name": 926,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23602,10 +23602,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_559"
+        "oldName": "559"
     }, {
         "id": 927,
-        "name": "PHASE2_927",
+        "name": 927,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23631,10 +23631,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_560"
+        "oldName": "560"
     }, {
         "id": 928,
-        "name": "PHASE2_928",
+        "name": 928,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23660,10 +23660,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_561"
+        "oldName": "561"
     }, {
         "id": 929,
-        "name": "PHASE2_929",
+        "name": 929,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23689,10 +23689,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_562"
+        "oldName": "562"
     }, {
         "id": 930,
-        "name": "PHASE2_930",
+        "name": 930,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23718,10 +23718,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_563"
+        "oldName": "563"
     }, {
         "id": 931,
-        "name": "PHASE2_931",
+        "name": 931,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23747,10 +23747,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_564"
+        "oldName": "564"
     }, {
         "id": 932,
-        "name": "PHASE2_932",
+        "name": 932,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23776,10 +23776,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_565"
+        "oldName": "565"
     }, {
         "id": 933,
-        "name": "PHASE2_933",
+        "name": 933,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23805,10 +23805,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_566"
+        "oldName": "566"
     }, {
         "id": 934,
-        "name": "PHASE2_934",
+        "name": 934,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23834,10 +23834,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_567"
+        "oldName": "567"
     }, {
         "id": 935,
-        "name": "PHASE2_935",
+        "name": 935,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23863,10 +23863,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_568"
+        "oldName": "568"
     }, {
         "id": 936,
-        "name": "PHASE2_936",
+        "name": 936,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23892,10 +23892,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_569"
+        "oldName": "569"
     }, {
         "id": 937,
-        "name": "PHASE2_937",
+        "name": 937,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23921,10 +23921,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_570"
+        "oldName": "570"
     }, {
         "id": 938,
-        "name": "PHASE2_938",
+        "name": 938,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23950,10 +23950,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_571"
+        "oldName": "571"
     }, {
         "id": 939,
-        "name": "PHASE2_939",
+        "name": 939,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -23979,10 +23979,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_572"
+        "oldName": "572"
     }, {
         "id": 940,
-        "name": "PHASE2_940",
+        "name": 940,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24008,10 +24008,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_573"
+        "oldName": "573"
     }, {
         "id": 941,
-        "name": "PHASE2_941",
+        "name": 941,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24037,10 +24037,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_574"
+        "oldName": "574"
     }, {
         "id": 942,
-        "name": "PHASE2_942",
+        "name": 942,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24066,10 +24066,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_575"
+        "oldName": "575"
     }, {
         "id": 943,
-        "name": "PHASE2_943",
+        "name": 943,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24095,10 +24095,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_576"
+        "oldName": "576"
     }, {
         "id": 944,
-        "name": "PHASE2_944",
+        "name": 944,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24124,10 +24124,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_577"
+        "oldName": "577"
     }, {
         "id": 945,
-        "name": "PHASE2_945",
+        "name": 945,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24153,10 +24153,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_578"
+        "oldName": "578"
     }, {
         "id": 946,
-        "name": "PHASE2_946",
+        "name": 946,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24182,10 +24182,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_579"
+        "oldName": "579"
     }, {
         "id": 947,
-        "name": "PHASE2_947",
+        "name": 947,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24211,10 +24211,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_580"
+        "oldName": "580"
     }, {
         "id": 948,
-        "name": "PHASE2_948",
+        "name": 948,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24240,10 +24240,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_581"
+        "oldName": "581"
     }, {
         "id": 949,
-        "name": "PHASE2_949",
+        "name": 949,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24269,10 +24269,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_582"
+        "oldName": "582"
     }, {
         "id": 950,
-        "name": "PHASE2_950",
+        "name": 950,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24298,10 +24298,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_583"
+        "oldName": "583"
     }, {
         "id": 951,
-        "name": "PHASE2_951",
+        "name": 951,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24327,10 +24327,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_584"
+        "oldName": "584"
     }, {
         "id": 952,
-        "name": "PHASE2_952",
+        "name": 952,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24356,10 +24356,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_585"
+        "oldName": "585"
     }, {
         "id": 953,
-        "name": "PHASE2_953",
+        "name": 953,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24385,10 +24385,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_586"
+        "oldName": "586"
     }, {
         "id": 954,
-        "name": "PHASE2_954",
+        "name": 954,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24414,10 +24414,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_587"
+        "oldName": "587"
     }, {
         "id": 955,
-        "name": "PHASE2_955",
+        "name": 955,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24443,10 +24443,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_588"
+        "oldName": "588"
     }, {
         "id": 956,
-        "name": "PHASE2_956",
+        "name": 956,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24472,10 +24472,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_589"
+        "oldName": "589"
     }, {
         "id": 957,
-        "name": "PHASE2_957",
+        "name": 957,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24501,10 +24501,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_590"
+        "oldName": "590"
     }, {
         "id": 958,
-        "name": "PHASE2_958",
+        "name": 958,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24530,10 +24530,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_591"
+        "oldName": "591"
     }, {
         "id": 959,
-        "name": "PHASE2_959",
+        "name": 959,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24559,10 +24559,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_592"
+        "oldName": "592"
     }, {
         "id": 960,
-        "name": "PHASE2_960",
+        "name": 960,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24588,10 +24588,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_593"
+        "oldName": "593"
     }, {
         "id": 961,
-        "name": "PHASE2_961",
+        "name": 961,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24617,10 +24617,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_594"
+        "oldName": "594"
     }, {
         "id": 962,
-        "name": "PHASE2_962",
+        "name": 962,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24646,10 +24646,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_595"
+        "oldName": "595"
     }, {
         "id": 963,
-        "name": "PHASE2_963",
+        "name": 963,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24675,10 +24675,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_596"
+        "oldName": "596"
     }, {
         "id": 964,
-        "name": "PHASE2_964",
+        "name": 964,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24704,10 +24704,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_597"
+        "oldName": "597"
     }, {
         "id": 965,
-        "name": "PHASE2_965",
+        "name": 965,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24733,10 +24733,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_598"
+        "oldName": "598"
     }, {
         "id": 966,
-        "name": "PHASE2_966",
+        "name": 966,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24762,10 +24762,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_599"
+        "oldName": "599"
     }, {
         "id": 967,
-        "name": "PHASE2_967",
+        "name": 967,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24791,10 +24791,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_600"
+        "oldName": "600"
     }, {
         "id": 968,
-        "name": "PHASE2_968",
+        "name": 968,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24820,10 +24820,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_601"
+        "oldName": "601"
     }, {
         "id": 969,
-        "name": "PHASE2_969",
+        "name": 969,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24849,10 +24849,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_602"
+        "oldName": "602"
     }, {
         "id": 970,
-        "name": "PHASE2_970",
+        "name": 970,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24878,10 +24878,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_603"
+        "oldName": "603"
     }, {
         "id": 971,
-        "name": "PHASE2_971",
+        "name": 971,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24907,10 +24907,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_604"
+        "oldName": "604"
     }, {
         "id": 972,
-        "name": "PHASE2_972",
+        "name": 972,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24936,10 +24936,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_605"
+        "oldName": "605"
     }, {
         "id": 973,
-        "name": "PHASE2_973",
+        "name": 973,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24965,10 +24965,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_606"
+        "oldName": "606"
     }, {
         "id": 974,
-        "name": "PHASE2_974",
+        "name": 974,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -24994,10 +24994,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_607"
+        "oldName": "607"
     }, {
         "id": 975,
-        "name": "PHASE2_975",
+        "name": 975,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25023,10 +25023,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_608"
+        "oldName": "608"
     }, {
         "id": 976,
-        "name": "PHASE2_976",
+        "name": 976,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25052,10 +25052,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_609"
+        "oldName": "609"
     }, {
         "id": 977,
-        "name": "PHASE2_977",
+        "name": 977,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25081,10 +25081,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_610"
+        "oldName": "610"
     }, {
         "id": 978,
-        "name": "PHASE2_978",
+        "name": 978,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25110,10 +25110,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_611"
+        "oldName": "611"
     }, {
         "id": 979,
-        "name": "PHASE2_979",
+        "name": 979,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25139,10 +25139,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_612"
+        "oldName": "612"
     }, {
         "id": 980,
-        "name": "PHASE2_980",
+        "name": 980,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25168,10 +25168,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_613"
+        "oldName": "613"
     }, {
         "id": 981,
-        "name": "PHASE2_981",
+        "name": 981,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25197,10 +25197,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_614"
+        "oldName": "614"
     }, {
         "id": 982,
-        "name": "PHASE2_982",
+        "name": 982,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25226,10 +25226,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_615"
+        "oldName": "615"
     }, {
         "id": 983,
-        "name": "PHASE2_983",
+        "name": 983,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25255,10 +25255,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_616"
+        "oldName": "616"
     }, {
         "id": 984,
-        "name": "PHASE2_984",
+        "name": 984,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25284,10 +25284,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_617"
+        "oldName": "617"
     }, {
         "id": 985,
-        "name": "PHASE2_985",
+        "name": 985,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25313,10 +25313,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_618"
+        "oldName": "618"
     }, {
         "id": 986,
-        "name": "PHASE2_986",
+        "name": 986,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25342,10 +25342,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_619"
+        "oldName": "619"
     }, {
         "id": 987,
-        "name": "PHASE2_987",
+        "name": 987,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25371,10 +25371,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_620"
+        "oldName": "620"
     }, {
         "id": 988,
-        "name": "PHASE2_988",
+        "name": 988,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25400,10 +25400,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_621"
+        "oldName": "621"
     }, {
         "id": 989,
-        "name": "PHASE2_989",
+        "name": 989,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25429,10 +25429,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_622"
+        "oldName": "622"
     }, {
         "id": 990,
-        "name": "PHASE2_990",
+        "name": 990,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25458,10 +25458,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_623"
+        "oldName": "623"
     }, {
         "id": 991,
-        "name": "PHASE2_991",
+        "name": 991,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25487,10 +25487,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_624"
+        "oldName": "624"
     }, {
         "id": 992,
-        "name": "PHASE2_992",
+        "name": 992,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25516,10 +25516,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_625"
+        "oldName": "625"
     }, {
         "id": 993,
-        "name": "PHASE2_993",
+        "name": 993,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25545,10 +25545,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_626"
+        "oldName": "626"
     }, {
         "id": 994,
-        "name": "PHASE2_994",
+        "name": 994,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25574,10 +25574,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_627"
+        "oldName": "627"
     }, {
         "id": 995,
-        "name": "PHASE2_995",
+        "name": 995,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25603,10 +25603,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_628"
+        "oldName": "628"
     }, {
         "id": 996,
-        "name": "PHASE2_996",
+        "name": 996,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25632,10 +25632,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_629"
+        "oldName": "629"
     }, {
         "id": 997,
-        "name": "PHASE2_997",
+        "name": 997,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25661,10 +25661,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_630"
+        "oldName": "630"
     }, {
         "id": 998,
-        "name": "PHASE2_998",
+        "name": 998,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25690,10 +25690,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_631"
+        "oldName": "631"
     }, {
         "id": 999,
-        "name": "PHASE2_999",
+        "name": 999,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25719,10 +25719,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_632"
+        "oldName": "632"
     }, {
         "id": 1000,
-        "name": "PHASE2_1000",
+        "name": 1000,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25748,10 +25748,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_633"
+        "oldName": "633"
     }, {
         "id": 1001,
-        "name": "PHASE2_1001",
+        "name": 1001,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25777,10 +25777,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_634"
+        "oldName": "634"
     }, {
         "id": 1002,
-        "name": "PHASE2_1002",
+        "name": 1002,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25806,10 +25806,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_635"
+        "oldName": "635"
     }, {
         "id": 1003,
-        "name": "PHASE2_1003",
+        "name": 1003,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25835,10 +25835,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_636"
+        "oldName": "636"
     }, {
         "id": 1004,
-        "name": "PHASE2_1004",
+        "name": 1004,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25864,10 +25864,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_637"
+        "oldName": "637"
     }, {
         "id": 1005,
-        "name": "PHASE2_1005",
+        "name": 1005,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25893,10 +25893,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_638"
+        "oldName": "638"
     }, {
         "id": 1006,
-        "name": "PHASE2_1006",
+        "name": 1006,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25922,10 +25922,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_639"
+        "oldName": "639"
     }, {
         "id": 1007,
-        "name": "PHASE2_1007",
+        "name": 1007,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25951,10 +25951,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_640"
+        "oldName": "640"
     }, {
         "id": 1008,
-        "name": "PHASE2_1008",
+        "name": 1008,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -25980,10 +25980,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_641"
+        "oldName": "641"
     }, {
         "id": 1009,
-        "name": "PHASE2_1009",
+        "name": 1009,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26009,10 +26009,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_642"
+        "oldName": "642"
     }, {
         "id": 1010,
-        "name": "PHASE2_1010",
+        "name": 1010,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26038,10 +26038,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_643"
+        "oldName": "643"
     }, {
         "id": 1011,
-        "name": "PHASE2_1011",
+        "name": 1011,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26067,10 +26067,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_644"
+        "oldName": "644"
     }, {
         "id": 1012,
-        "name": "PHASE2_1012",
+        "name": 1012,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26096,10 +26096,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_645"
+        "oldName": "645"
     }, {
         "id": 1013,
-        "name": "PHASE2_1013",
+        "name": 1013,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26125,10 +26125,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_646"
+        "oldName": "646"
     }, {
         "id": 1014,
-        "name": "PHASE2_1014",
+        "name": 1014,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26154,10 +26154,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_647"
+        "oldName": "647"
     }, {
         "id": 1015,
-        "name": "PHASE2_1015",
+        "name": 1015,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26183,10 +26183,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_648"
+        "oldName": "648"
     }, {
         "id": 1016,
-        "name": "PHASE2_1016",
+        "name": 1016,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26212,10 +26212,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_649"
+        "oldName": "649"
     }, {
         "id": 1017,
-        "name": "PHASE2_1017",
+        "name": 1017,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26241,10 +26241,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_650"
+        "oldName": "650"
     }, {
         "id": 1018,
-        "name": "PHASE2_1018",
+        "name": 1018,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26270,10 +26270,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_651"
+        "oldName": "651"
     }, {
         "id": 1019,
-        "name": "PHASE2_1019",
+        "name": 1019,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26299,10 +26299,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_652"
+        "oldName": "652"
     }, {
         "id": 1020,
-        "name": "PHASE2_1020",
+        "name": 1020,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26328,10 +26328,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_653"
+        "oldName": "653"
     }, {
         "id": 1021,
-        "name": "PHASE2_1021",
+        "name": 1021,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26357,10 +26357,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_654"
+        "oldName": "654"
     }, {
         "id": 1022,
-        "name": "PHASE2_1022",
+        "name": 1022,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26386,10 +26386,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_655"
+        "oldName": "655"
     }, {
         "id": 1023,
-        "name": "PHASE2_1023",
+        "name": 1023,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26415,10 +26415,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_656"
+        "oldName": "656"
     }, {
         "id": 1024,
-        "name": "PHASE2_1024",
+        "name": 1024,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26444,10 +26444,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_657"
+        "oldName": "657"
     }, {
         "id": 1025,
-        "name": "PHASE2_1025",
+        "name": 1025,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26473,10 +26473,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_658"
+        "oldName": "658"
     }, {
         "id": 1026,
-        "name": "PHASE2_1026",
+        "name": 1026,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26502,10 +26502,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_659"
+        "oldName": "659"
     }, {
         "id": 1027,
-        "name": "PHASE2_1027",
+        "name": 1027,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26531,10 +26531,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_660"
+        "oldName": "660"
     }, {
         "id": 1028,
-        "name": "PHASE2_1028",
+        "name": 1028,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26560,10 +26560,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_661"
+        "oldName": "661"
     }, {
         "id": 1029,
-        "name": "PHASE2_1029",
+        "name": 1029,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26589,10 +26589,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_662"
+        "oldName": "662"
     }, {
         "id": 1030,
-        "name": "PHASE2_1030",
+        "name": 1030,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26618,10 +26618,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_663"
+        "oldName": "663"
     }, {
         "id": 1031,
-        "name": "PHASE2_1031",
+        "name": 1031,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26647,10 +26647,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_664"
+        "oldName": "664"
     }, {
         "id": 1032,
-        "name": "PHASE2_1032",
+        "name": 1032,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26676,10 +26676,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_665"
+        "oldName": "665"
     }, {
         "id": 1033,
-        "name": "PHASE2_1033",
+        "name": 1033,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26705,10 +26705,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_666"
+        "oldName": "666"
     }, {
         "id": 1034,
-        "name": "PHASE2_1034",
+        "name": 1034,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26734,10 +26734,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_667"
+        "oldName": "667"
     }, {
         "id": 1035,
-        "name": "PHASE2_1035",
+        "name": 1035,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26763,10 +26763,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_668"
+        "oldName": "668"
     }, {
         "id": 1036,
-        "name": "PHASE2_1036",
+        "name": 1036,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26792,10 +26792,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_669"
+        "oldName": "669"
     }, {
         "id": 1037,
-        "name": "PHASE2_1037",
+        "name": 1037,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26821,10 +26821,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_670"
+        "oldName": "670"
     }, {
         "id": 1038,
-        "name": "PHASE2_1038",
+        "name": 1038,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26850,10 +26850,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_671"
+        "oldName": "671"
     }, {
         "id": 1039,
-        "name": "PHASE2_1039",
+        "name": 1039,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26879,10 +26879,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_672"
+        "oldName": "672"
     }, {
         "id": 1040,
-        "name": "PHASE2_1040",
+        "name": 1040,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26908,10 +26908,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_673"
+        "oldName": "673"
     }, {
         "id": 1041,
-        "name": "PHASE2_1041",
+        "name": 1041,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26937,10 +26937,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_674"
+        "oldName": "674"
     }, {
         "id": 1042,
-        "name": "PHASE2_1042",
+        "name": 1042,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26966,10 +26966,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_675"
+        "oldName": "675"
     }, {
         "id": 1043,
-        "name": "PHASE2_1043",
+        "name": 1043,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -26995,10 +26995,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_676"
+        "oldName": "676"
     }, {
         "id": 1044,
-        "name": "PHASE2_1044",
+        "name": 1044,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27024,10 +27024,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_677"
+        "oldName": "677"
     }, {
         "id": 1045,
-        "name": "PHASE2_1045",
+        "name": 1045,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27053,10 +27053,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_678"
+        "oldName": "678"
     }, {
         "id": 1046,
-        "name": "PHASE2_1046",
+        "name": 1046,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27082,10 +27082,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_679"
+        "oldName": "679"
     }, {
         "id": 1047,
-        "name": "PHASE2_1047",
+        "name": 1047,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27111,10 +27111,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_680"
+        "oldName": "680"
     }, {
         "id": 1048,
-        "name": "PHASE2_1048",
+        "name": 1048,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27140,10 +27140,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_681"
+        "oldName": "681"
     }, {
         "id": 1049,
-        "name": "PHASE2_1049",
+        "name": 1049,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27169,10 +27169,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_682"
+        "oldName": "682"
     }, {
         "id": 1050,
-        "name": "PHASE2_1050",
+        "name": 1050,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27198,10 +27198,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_683"
+        "oldName": "683"
     }, {
         "id": 1051,
-        "name": "PHASE2_1051",
+        "name": 1051,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27227,10 +27227,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_684"
+        "oldName": "684"
     }, {
         "id": 1052,
-        "name": "PHASE2_1052",
+        "name": 1052,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27256,10 +27256,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_685"
+        "oldName": "685"
     }, {
         "id": 1053,
-        "name": "PHASE2_1053",
+        "name": 1053,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27285,10 +27285,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_686"
+        "oldName": "686"
     }, {
         "id": 1054,
-        "name": "PHASE2_1054",
+        "name": 1054,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27314,10 +27314,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_687"
+        "oldName": "687"
     }, {
         "id": 1055,
-        "name": "PHASE2_1055",
+        "name": 1055,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27343,10 +27343,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_688"
+        "oldName": "688"
     }, {
         "id": 1056,
-        "name": "PHASE2_1056",
+        "name": 1056,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27372,10 +27372,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_689"
+        "oldName": "689"
     }, {
         "id": 1057,
-        "name": "PHASE2_1057",
+        "name": 1057,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27401,10 +27401,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_690"
+        "oldName": "690"
     }, {
         "id": 1058,
-        "name": "PHASE2_1058",
+        "name": 1058,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27430,10 +27430,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_691"
+        "oldName": "691"
     }, {
         "id": 1059,
-        "name": "PHASE2_1059",
+        "name": 1059,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27459,10 +27459,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_692"
+        "oldName": "692"
     }, {
         "id": 1060,
-        "name": "PHASE2_1060",
+        "name": 1060,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27488,10 +27488,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_693"
+        "oldName": "693"
     }, {
         "id": 1061,
-        "name": "PHASE2_1061",
+        "name": 1061,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27517,10 +27517,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_694"
+        "oldName": "694"
     }, {
         "id": 1062,
-        "name": "PHASE2_1062",
+        "name": 1062,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27546,10 +27546,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_695"
+        "oldName": "695"
     }, {
         "id": 1063,
-        "name": "PHASE2_1063",
+        "name": 1063,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27575,10 +27575,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_696"
+        "oldName": "696"
     }, {
         "id": 1064,
-        "name": "PHASE2_1064",
+        "name": 1064,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27604,10 +27604,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_697"
+        "oldName": "697"
     }, {
         "id": 1065,
-        "name": "PHASE2_1065",
+        "name": 1065,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27633,10 +27633,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_698"
+        "oldName": "698"
     }, {
         "id": 1066,
-        "name": "PHASE2_1066",
+        "name": 1066,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27662,10 +27662,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_699"
+        "oldName": "699"
     }, {
         "id": 1067,
-        "name": "PHASE2_1067",
+        "name": 1067,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27691,10 +27691,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_700"
+        "oldName": "700"
     }, {
         "id": 1068,
-        "name": "PHASE2_1068",
+        "name": 1068,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27720,10 +27720,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_701"
+        "oldName": "701"
     }, {
         "id": 1069,
-        "name": "PHASE2_1069",
+        "name": 1069,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27749,10 +27749,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_702"
+        "oldName": "702"
     }, {
         "id": 1070,
-        "name": "PHASE2_1070",
+        "name": 1070,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27778,10 +27778,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_703"
+        "oldName": "703"
     }, {
         "id": 1071,
-        "name": "PHASE2_1071",
+        "name": 1071,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27807,10 +27807,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_704"
+        "oldName": "704"
     }, {
         "id": 1072,
-        "name": "PHASE2_1072",
+        "name": 1072,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27836,10 +27836,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_705"
+        "oldName": "705"
     }, {
         "id": 1073,
-        "name": "PHASE2_1073",
+        "name": 1073,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27865,10 +27865,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_706"
+        "oldName": "706"
     }, {
         "id": 1074,
-        "name": "PHASE2_1074",
+        "name": 1074,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27894,10 +27894,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_707"
+        "oldName": "707"
     }, {
         "id": 1075,
-        "name": "PHASE2_1075",
+        "name": 1075,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27923,10 +27923,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_708"
+        "oldName": "708"
     }, {
         "id": 1076,
-        "name": "PHASE2_1076",
+        "name": 1076,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27952,10 +27952,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_709"
+        "oldName": "709"
     }, {
         "id": 1077,
-        "name": "PHASE2_1077",
+        "name": 1077,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -27981,10 +27981,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_710"
+        "oldName": "710"
     }, {
         "id": 1078,
-        "name": "PHASE2_1078",
+        "name": 1078,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28010,10 +28010,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_711"
+        "oldName": "711"
     }, {
         "id": 1079,
-        "name": "PHASE2_1079",
+        "name": 1079,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28039,10 +28039,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_712"
+        "oldName": "712"
     }, {
         "id": 1080,
-        "name": "PHASE2_1080",
+        "name": 1080,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28068,10 +28068,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_713"
+        "oldName": "713"
     }, {
         "id": 1081,
-        "name": "PHASE2_1081",
+        "name": 1081,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28097,10 +28097,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_714"
+        "oldName": "714"
     }, {
         "id": 1082,
-        "name": "PHASE2_1082",
+        "name": 1082,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28126,10 +28126,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_715"
+        "oldName": "715"
     }, {
         "id": 1083,
-        "name": "PHASE2_1083",
+        "name": 1083,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28155,10 +28155,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_716"
+        "oldName": "716"
     }, {
         "id": 1084,
-        "name": "PHASE2_1084",
+        "name": 1084,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28184,10 +28184,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_717"
+        "oldName": "717"
     }, {
         "id": 1085,
-        "name": "PHASE2_1085",
+        "name": 1085,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28213,10 +28213,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_718"
+        "oldName": "718"
     }, {
         "id": 1086,
-        "name": "PHASE2_1086",
+        "name": 1086,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28242,10 +28242,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_719"
+        "oldName": "719"
     }, {
         "id": 1087,
-        "name": "PHASE2_1087",
+        "name": 1087,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28271,10 +28271,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_720"
+        "oldName": "720"
     }, {
         "id": 1088,
-        "name": "PHASE2_1088",
+        "name": 1088,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28300,10 +28300,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_721"
+        "oldName": "721"
     }, {
         "id": 1089,
-        "name": "PHASE2_1089",
+        "name": 1089,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28329,10 +28329,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_722"
+        "oldName": "722"
     }, {
         "id": 1090,
-        "name": "PHASE2_1090",
+        "name": 1090,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28358,10 +28358,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_723"
+        "oldName": "723"
     }, {
         "id": 1091,
-        "name": "PHASE2_1091",
+        "name": 1091,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28387,10 +28387,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_724"
+        "oldName": "724"
     }, {
         "id": 1092,
-        "name": "PHASE2_1092",
+        "name": 1092,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28416,10 +28416,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_725"
+        "oldName": "725"
     }, {
         "id": 1093,
-        "name": "PHASE2_1093",
+        "name": 1093,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28445,10 +28445,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_726"
+        "oldName": "726"
     }, {
         "id": 1094,
-        "name": "PHASE2_1094",
+        "name": 1094,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28474,10 +28474,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_727"
+        "oldName": "727"
     }, {
         "id": 1095,
-        "name": "PHASE2_1095",
+        "name": 1095,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28503,10 +28503,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_728"
+        "oldName": "728"
     }, {
         "id": 1096,
-        "name": "PHASE2_1096",
+        "name": 1096,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28532,10 +28532,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_729"
+        "oldName": "729"
     }, {
         "id": 1097,
-        "name": "PHASE2_1097",
+        "name": 1097,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28561,10 +28561,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_730"
+        "oldName": "730"
     }, {
         "id": 1098,
-        "name": "PHASE2_1098",
+        "name": 1098,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28590,10 +28590,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_731"
+        "oldName": "731"
     }, {
         "id": 1099,
-        "name": "PHASE2_1099",
+        "name": 1099,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28619,10 +28619,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_732"
+        "oldName": "732"
     }, {
         "id": 1100,
-        "name": "PHASE2_1100",
+        "name": 1100,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28648,10 +28648,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_733"
+        "oldName": "733"
     }, {
         "id": 1101,
-        "name": "PHASE2_1101",
+        "name": 1101,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28677,10 +28677,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_734"
+        "oldName": "734"
     }, {
         "id": 1102,
-        "name": "PHASE2_1102",
+        "name": 1102,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28706,10 +28706,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_735"
+        "oldName": "735"
     }, {
         "id": 1103,
-        "name": "PHASE2_1103",
+        "name": 1103,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28735,10 +28735,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_736"
+        "oldName": "736"
     }, {
         "id": 1104,
-        "name": "PHASE2_1104",
+        "name": 1104,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28764,10 +28764,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_737"
+        "oldName": "737"
     }, {
         "id": 1105,
-        "name": "PHASE2_1105",
+        "name": 1105,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28793,10 +28793,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_738"
+        "oldName": "738"
     }, {
         "id": 1106,
-        "name": "PHASE2_1106",
+        "name": 1106,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28822,10 +28822,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_739"
+        "oldName": "739"
     }, {
         "id": 1107,
-        "name": "PHASE2_1107",
+        "name": 1107,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28851,10 +28851,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_740"
+        "oldName": "740"
     }, {
         "id": 1108,
-        "name": "PHASE2_1108",
+        "name": 1108,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28880,10 +28880,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_741"
+        "oldName": "741"
     }, {
         "id": 1109,
-        "name": "PHASE2_1109",
+        "name": 1109,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28909,10 +28909,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_742"
+        "oldName": "742"
     }, {
         "id": 1110,
-        "name": "PHASE2_1110",
+        "name": 1110,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28938,10 +28938,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_743"
+        "oldName": "743"
     }, {
         "id": 1111,
-        "name": "PHASE2_1111",
+        "name": 1111,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28967,10 +28967,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_744"
+        "oldName": "744"
     }, {
         "id": 1112,
-        "name": "PHASE2_1112",
+        "name": 1112,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -28996,10 +28996,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_745"
+        "oldName": "745"
     }, {
         "id": 1113,
-        "name": "PHASE2_1113",
+        "name": 1113,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29025,10 +29025,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_746"
+        "oldName": "746"
     }, {
         "id": 1114,
-        "name": "PHASE2_1114",
+        "name": 1114,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29054,10 +29054,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_747"
+        "oldName": "747"
     }, {
         "id": 1115,
-        "name": "PHASE2_1115",
+        "name": 1115,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29083,10 +29083,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_748"
+        "oldName": "748"
     }, {
         "id": 1116,
-        "name": "PHASE2_1116",
+        "name": 1116,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29112,10 +29112,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_749"
+        "oldName": "749"
     }, {
         "id": 1117,
-        "name": "PHASE2_1117",
+        "name": 1117,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29141,10 +29141,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_750"
+        "oldName": "750"
     }, {
         "id": 1118,
-        "name": "PHASE2_1118",
+        "name": 1118,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29170,10 +29170,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_751"
+        "oldName": "751"
     }, {
         "id": 1119,
-        "name": "PHASE2_1119",
+        "name": 1119,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29199,10 +29199,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_752"
+        "oldName": "752"
     }, {
         "id": 1120,
-        "name": "PHASE2_1120",
+        "name": 1120,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29228,10 +29228,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_753"
+        "oldName": "753"
     }, {
         "id": 1121,
-        "name": "PHASE2_1121",
+        "name": 1121,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29257,10 +29257,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_754"
+        "oldName": "754"
     }, {
         "id": 1122,
-        "name": "PHASE2_1122",
+        "name": 1122,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29286,10 +29286,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_755"
+        "oldName": "755"
     }, {
         "id": 1123,
-        "name": "PHASE2_1123",
+        "name": 1123,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29315,10 +29315,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_756"
+        "oldName": "756"
     }, {
         "id": 1124,
-        "name": "PHASE2_1124",
+        "name": 1124,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29344,10 +29344,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_757"
+        "oldName": "757"
     }, {
         "id": 1125,
-        "name": "PHASE2_1125",
+        "name": 1125,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29373,10 +29373,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_758"
+        "oldName": "758"
     }, {
         "id": 1126,
-        "name": "PHASE2_1126",
+        "name": 1126,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29402,10 +29402,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_759"
+        "oldName": "759"
     }, {
         "id": 1127,
-        "name": "PHASE2_1127",
+        "name": 1127,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29431,10 +29431,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_760"
+        "oldName": "760"
     }, {
         "id": 1128,
-        "name": "PHASE2_1128",
+        "name": 1128,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29460,10 +29460,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_761"
+        "oldName": "761"
     }, {
         "id": 1129,
-        "name": "PHASE2_1129",
+        "name": 1129,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29489,10 +29489,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_762"
+        "oldName": "762"
     }, {
         "id": 1130,
-        "name": "PHASE2_1130",
+        "name": 1130,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29518,10 +29518,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_763"
+        "oldName": "763"
     }, {
         "id": 1131,
-        "name": "PHASE2_1131",
+        "name": 1131,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29547,10 +29547,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_765"
+        "oldName": "765"
     }, {
         "id": 1132,
-        "name": "PHASE2_1132",
+        "name": 1132,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29576,10 +29576,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_766"
+        "oldName": "766"
     }, {
         "id": 1133,
-        "name": "PHASE2_1133",
+        "name": 1133,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29605,10 +29605,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_767"
+        "oldName": "767"
     }, {
         "id": 1134,
-        "name": "PHASE2_1134",
+        "name": 1134,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29634,10 +29634,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_768"
+        "oldName": "768"
     }, {
         "id": 1135,
-        "name": "PHASE2_1135",
+        "name": 1135,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29663,10 +29663,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_769"
+        "oldName": "769"
     }, {
         "id": 1136,
-        "name": "PHASE2_1136",
+        "name": 1136,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29692,10 +29692,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_770"
+        "oldName": "770"
     }, {
         "id": 1137,
-        "name": "PHASE2_1137",
+        "name": 1137,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29721,10 +29721,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_771"
+        "oldName": "771"
     }, {
         "id": 1138,
-        "name": "PHASE2_1138",
+        "name": 1138,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29750,10 +29750,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_772"
+        "oldName": "772"
     }, {
         "id": 1139,
-        "name": "PHASE2_1139",
+        "name": 1139,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29779,10 +29779,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_773"
+        "oldName": "773"
     }, {
         "id": 1140,
-        "name": "PHASE2_1140",
+        "name": 1140,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29808,10 +29808,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_774"
+        "oldName": "774"
     }, {
         "id": 1141,
-        "name": "PHASE2_1141",
+        "name": 1141,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29837,10 +29837,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_775"
+        "oldName": "775"
     }, {
         "id": 1142,
-        "name": "PHASE2_1142",
+        "name": 1142,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29866,10 +29866,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_776"
+        "oldName": "776"
     }, {
         "id": 1143,
-        "name": "PHASE2_1143",
+        "name": 1143,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29895,10 +29895,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_777"
+        "oldName": "777"
     }, {
         "id": 1144,
-        "name": "PHASE2_1144",
+        "name": 1144,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29924,10 +29924,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_778"
+        "oldName": "778"
     }, {
         "id": 1145,
-        "name": "PHASE2_1145",
+        "name": 1145,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29953,10 +29953,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_779"
+        "oldName": "779"
     }, {
         "id": 1146,
-        "name": "PHASE2_1146",
+        "name": 1146,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -29982,10 +29982,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_780"
+        "oldName": "780"
     }, {
         "id": 1147,
-        "name": "PHASE2_1147",
+        "name": 1147,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30011,10 +30011,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_781"
+        "oldName": "781"
     }, {
         "id": 1148,
-        "name": "PHASE2_1148",
+        "name": 1148,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30040,10 +30040,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_782"
+        "oldName": "782"
     }, {
         "id": 1149,
-        "name": "PHASE2_1149",
+        "name": 1149,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30069,10 +30069,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_783"
+        "oldName": "783"
     }, {
         "id": 1150,
-        "name": "PHASE2_1150",
+        "name": 1150,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30098,10 +30098,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_784"
+        "oldName": "784"
     }, {
         "id": 1151,
-        "name": "PHASE2_1151",
+        "name": 1151,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30127,10 +30127,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_785"
+        "oldName": "785"
     }, {
         "id": 1152,
-        "name": "PHASE2_1152",
+        "name": 1152,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30156,10 +30156,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_786"
+        "oldName": "786"
     }, {
         "id": 1153,
-        "name": "PHASE2_1153",
+        "name": 1153,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30185,10 +30185,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_787"
+        "oldName": "787"
     }, {
         "id": 1154,
-        "name": "PHASE2_1154",
+        "name": 1154,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30214,10 +30214,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_788"
+        "oldName": "788"
     }, {
         "id": 1155,
-        "name": "PHASE2_1155",
+        "name": 1155,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30243,10 +30243,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_789"
+        "oldName": "789"
     }, {
         "id": 1156,
-        "name": "PHASE2_1156",
+        "name": 1156,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30272,10 +30272,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_790"
+        "oldName": "790"
     }, {
         "id": 1157,
-        "name": "PHASE2_1157",
+        "name": 1157,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30301,10 +30301,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_791"
+        "oldName": "791"
     }, {
         "id": 1158,
-        "name": "PHASE2_1158",
+        "name": 1158,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30330,10 +30330,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_792"
+        "oldName": "792"
     }, {
         "id": 1159,
-        "name": "PHASE2_1159",
+        "name": 1159,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30359,10 +30359,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_793"
+        "oldName": "793"
     }, {
         "id": 1160,
-        "name": "PHASE2_1160",
+        "name": 1160,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30388,10 +30388,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_794"
+        "oldName": "794"
     }, {
         "id": 1161,
-        "name": "PHASE2_1161",
+        "name": 1161,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30417,10 +30417,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_795"
+        "oldName": "795"
     }, {
         "id": 1162,
-        "name": "PHASE2_1162",
+        "name": 1162,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30446,10 +30446,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_796"
+        "oldName": "796"
     }, {
         "id": 1163,
-        "name": "PHASE2_1163",
+        "name": 1163,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30475,10 +30475,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_797"
+        "oldName": "797"
     }, {
         "id": 1164,
-        "name": "PHASE2_1164",
+        "name": 1164,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30504,10 +30504,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_798"
+        "oldName": "798"
     }, {
         "id": 1165,
-        "name": "PHASE2_1165",
+        "name": 1165,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30533,10 +30533,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_799"
+        "oldName": "799"
     }, {
         "id": 1166,
-        "name": "PHASE2_1166",
+        "name": 1166,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30562,10 +30562,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_800"
+        "oldName": "800"
     }, {
         "id": 1167,
-        "name": "PHASE2_1167",
+        "name": 1167,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30591,10 +30591,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_801"
+        "oldName": "801"
     }, {
         "id": 1168,
-        "name": "PHASE2_1168",
+        "name": 1168,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30620,10 +30620,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_802"
+        "oldName": "802"
     }, {
         "id": 1169,
-        "name": "PHASE2_1169",
+        "name": 1169,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30649,10 +30649,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_803"
+        "oldName": "803"
     }, {
         "id": 1170,
-        "name": "PHASE2_1170",
+        "name": 1170,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30678,10 +30678,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_804"
+        "oldName": "804"
     }, {
         "id": 1171,
-        "name": "PHASE2_1171",
+        "name": 1171,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30707,10 +30707,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_805"
+        "oldName": "805"
     }, {
         "id": 1172,
-        "name": "PHASE2_1172",
+        "name": 1172,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30736,10 +30736,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_806"
+        "oldName": "806"
     }, {
         "id": 1173,
-        "name": "PHASE2_1173",
+        "name": 1173,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30765,10 +30765,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_807"
+        "oldName": "807"
     }, {
         "id": 1174,
-        "name": "PHASE2_1174",
+        "name": 1174,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30794,10 +30794,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_808"
+        "oldName": "808"
     }, {
         "id": 1175,
-        "name": "PHASE2_1175",
+        "name": 1175,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30823,10 +30823,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_809"
+        "oldName": "809"
     }, {
         "id": 1176,
-        "name": "PHASE2_1176",
+        "name": 1176,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30852,10 +30852,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_810"
+        "oldName": "810"
     }, {
         "id": 1177,
-        "name": "PHASE2_1177",
+        "name": 1177,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30881,10 +30881,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_811"
+        "oldName": "811"
     }, {
         "id": 1178,
-        "name": "PHASE2_1178",
+        "name": 1178,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30910,10 +30910,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_812"
+        "oldName": "812"
     }, {
         "id": 1179,
-        "name": "PHASE2_1179",
+        "name": 1179,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30939,10 +30939,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_813"
+        "oldName": "813"
     }, {
         "id": 1180,
-        "name": "PHASE2_1180",
+        "name": 1180,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30968,10 +30968,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_814"
+        "oldName": "814"
     }, {
         "id": 1181,
-        "name": "PHASE2_1181",
+        "name": 1181,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -30997,10 +30997,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_815"
+        "oldName": "815"
     }, {
         "id": 1182,
-        "name": "PHASE2_1182",
+        "name": 1182,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31026,10 +31026,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_816"
+        "oldName": "816"
     }, {
         "id": 1183,
-        "name": "PHASE2_1183",
+        "name": 1183,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31055,10 +31055,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_817"
+        "oldName": "817"
     }, {
         "id": 1184,
-        "name": "PHASE2_1184",
+        "name": 1184,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31084,10 +31084,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_818"
+        "oldName": "818"
     }, {
         "id": 1185,
-        "name": "PHASE2_1185",
+        "name": 1185,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31113,10 +31113,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_819"
+        "oldName": "819"
     }, {
         "id": 1186,
-        "name": "PHASE2_1186",
+        "name": 1186,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31142,10 +31142,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_820"
+        "oldName": "820"
     }, {
         "id": 1187,
-        "name": "PHASE2_1187",
+        "name": 1187,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31171,10 +31171,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_821"
+        "oldName": "821"
     }, {
         "id": 1188,
-        "name": "PHASE2_1188",
+        "name": 1188,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31200,10 +31200,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_822"
+        "oldName": "822"
     }, {
         "id": 1189,
-        "name": "PHASE2_1189",
+        "name": 1189,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31229,10 +31229,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_823"
+        "oldName": "823"
     }, {
         "id": 1190,
-        "name": "PHASE2_1190",
+        "name": 1190,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31258,10 +31258,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_824"
+        "oldName": "824"
     }, {
         "id": 1191,
-        "name": "PHASE2_1191",
+        "name": 1191,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31287,10 +31287,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_825"
+        "oldName": "825"
     }, {
         "id": 1192,
-        "name": "PHASE2_1192",
+        "name": 1192,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31316,10 +31316,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_826"
+        "oldName": "826"
     }, {
         "id": 1193,
-        "name": "PHASE2_1193",
+        "name": 1193,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31345,10 +31345,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_827"
+        "oldName": "827"
     }, {
         "id": 1194,
-        "name": "PHASE2_1194",
+        "name": 1194,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31374,10 +31374,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_828"
+        "oldName": "828"
     }, {
         "id": 1195,
-        "name": "PHASE2_1195",
+        "name": 1195,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31403,10 +31403,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_829"
+        "oldName": "829"
     }, {
         "id": 1196,
-        "name": "PHASE2_1196",
+        "name": 1196,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31432,10 +31432,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_830"
+        "oldName": "830"
     }, {
         "id": 1197,
-        "name": "PHASE2_1197",
+        "name": 1197,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31461,10 +31461,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_831"
+        "oldName": "831"
     }, {
         "id": 1198,
-        "name": "PHASE2_1198",
+        "name": 1198,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31490,10 +31490,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_832"
+        "oldName": "832"
     }, {
         "id": 1199,
-        "name": "PHASE2_1199",
+        "name": 1199,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31519,10 +31519,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_833"
+        "oldName": "833"
     }, {
         "id": 1200,
-        "name": "PHASE2_1200",
+        "name": 1200,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31548,10 +31548,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_834"
+        "oldName": "834"
     }, {
         "id": 1201,
-        "name": "PHASE2_1201",
+        "name": 1201,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31577,10 +31577,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_835"
+        "oldName": "835"
     }, {
         "id": 1202,
-        "name": "PHASE2_1202",
+        "name": 1202,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31606,10 +31606,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_836"
+        "oldName": "836"
     }, {
         "id": 1203,
-        "name": "PHASE2_1203",
+        "name": 1203,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31635,10 +31635,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_837"
+        "oldName": "837"
     }, {
         "id": 1204,
-        "name": "PHASE2_1204",
+        "name": 1204,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31664,10 +31664,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_838"
+        "oldName": "838"
     }, {
         "id": 1205,
-        "name": "PHASE2_1205",
+        "name": 1205,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31693,10 +31693,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_839"
+        "oldName": "839"
     }, {
         "id": 1206,
-        "name": "PHASE2_1206",
+        "name": 1206,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31722,10 +31722,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_840"
+        "oldName": "840"
     }, {
         "id": 1207,
-        "name": "PHASE2_1207",
+        "name": 1207,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31751,10 +31751,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_841"
+        "oldName": "841"
     }, {
         "id": 1208,
-        "name": "PHASE2_1208",
+        "name": 1208,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31780,10 +31780,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_842"
+        "oldName": "842"
     }, {
         "id": 1209,
-        "name": "PHASE2_1209",
+        "name": 1209,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31809,10 +31809,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_843"
+        "oldName": "843"
     }, {
         "id": 1210,
-        "name": "PHASE2_1210",
+        "name": 1210,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31838,10 +31838,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_844"
+        "oldName": "844"
     }, {
         "id": 1211,
-        "name": "PHASE2_1211",
+        "name": 1211,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31867,10 +31867,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_845"
+        "oldName": "845"
     }, {
         "id": 1212,
-        "name": "PHASE2_1212",
+        "name": 1212,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31896,10 +31896,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_846"
+        "oldName": "846"
     }, {
         "id": 1213,
-        "name": "PHASE2_1213",
+        "name": 1213,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31925,10 +31925,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_847"
+        "oldName": "847"
     }, {
         "id": 1214,
-        "name": "PHASE2_1214",
+        "name": 1214,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31954,10 +31954,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_848"
+        "oldName": "848"
     }, {
         "id": 1215,
-        "name": "PHASE2_1215",
+        "name": 1215,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -31983,10 +31983,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_849"
+        "oldName": "849"
     }, {
         "id": 1216,
-        "name": "PHASE2_1216",
+        "name": 1216,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32012,10 +32012,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_850"
+        "oldName": "850"
     }, {
         "id": 1217,
-        "name": "PHASE2_1217",
+        "name": 1217,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32041,10 +32041,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_851"
+        "oldName": "851"
     }, {
         "id": 1218,
-        "name": "PHASE2_1218",
+        "name": 1218,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32070,10 +32070,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_852"
+        "oldName": "852"
     }, {
         "id": 1219,
-        "name": "PHASE2_1219",
+        "name": 1219,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32099,10 +32099,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_853"
+        "oldName": "853"
     }, {
         "id": 1220,
-        "name": "PHASE2_1220",
+        "name": 1220,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32128,10 +32128,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_854"
+        "oldName": "854"
     }, {
         "id": 1221,
-        "name": "PHASE2_1221",
+        "name": 1221,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32157,10 +32157,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_855"
+        "oldName": "855"
     }, {
         "id": 1222,
-        "name": "PHASE2_1222",
+        "name": 1222,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32186,10 +32186,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_856"
+        "oldName": "856"
     }, {
         "id": 1223,
-        "name": "PHASE2_1223",
+        "name": 1223,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32215,10 +32215,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_857"
+        "oldName": "857"
     }, {
         "id": 1224,
-        "name": "PHASE2_1224",
+        "name": 1224,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32244,10 +32244,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_858"
+        "oldName": "858"
     }, {
         "id": 1225,
-        "name": "PHASE2_1225",
+        "name": 1225,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32273,10 +32273,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_859"
+        "oldName": "859"
     }, {
         "id": 1226,
-        "name": "PHASE2_1226",
+        "name": 1226,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32302,10 +32302,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_860"
+        "oldName": "860"
     }, {
         "id": 1227,
-        "name": "PHASE2_1227",
+        "name": 1227,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32331,10 +32331,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_861"
+        "oldName": "861"
     }, {
         "id": 1228,
-        "name": "PHASE2_1228",
+        "name": 1228,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32360,10 +32360,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_862"
+        "oldName": "862"
     }, {
         "id": 1229,
-        "name": "PHASE2_1229",
+        "name": 1229,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32389,10 +32389,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_863"
+        "oldName": "863"
     }, {
         "id": 1230,
-        "name": "PHASE2_1230",
+        "name": 1230,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32418,10 +32418,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_864"
+        "oldName": "864"
     }, {
         "id": 1231,
-        "name": "PHASE2_1231",
+        "name": 1231,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32447,10 +32447,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_865"
+        "oldName": "865"
     }, {
         "id": 1232,
-        "name": "PHASE2_1232",
+        "name": 1232,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32476,10 +32476,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_866"
+        "oldName": "866"
     }, {
         "id": 1233,
-        "name": "PHASE2_1233",
+        "name": 1233,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32505,10 +32505,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_867"
+        "oldName": "867"
     }, {
         "id": 1234,
-        "name": "PHASE2_1234",
+        "name": 1234,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32534,10 +32534,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_868"
+        "oldName": "868"
     }, {
         "id": 1235,
-        "name": "PHASE2_1235",
+        "name": 1235,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32563,10 +32563,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_869"
+        "oldName": "869"
     }, {
         "id": 1236,
-        "name": "PHASE2_1236",
+        "name": 1236,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32592,10 +32592,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_870"
+        "oldName": "870"
     }, {
         "id": 1237,
-        "name": "PHASE2_1237",
+        "name": 1237,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32621,10 +32621,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_871"
+        "oldName": "871"
     }, {
         "id": 1238,
-        "name": "PHASE2_1238",
+        "name": 1238,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32650,10 +32650,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_872"
+        "oldName": "872"
     }, {
         "id": 1239,
-        "name": "PHASE2_1239",
+        "name": 1239,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32679,10 +32679,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_873"
+        "oldName": "873"
     }, {
         "id": 1240,
-        "name": "PHASE2_1240",
+        "name": 1240,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32708,10 +32708,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_874"
+        "oldName": "874"
     }, {
         "id": 1241,
-        "name": "PHASE2_1241",
+        "name": 1241,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32737,10 +32737,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_875"
+        "oldName": "875"
     }, {
         "id": 1242,
-        "name": "PHASE2_1242",
+        "name": 1242,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32766,10 +32766,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_876"
+        "oldName": "876"
     }, {
         "id": 1243,
-        "name": "PHASE2_1243",
+        "name": 1243,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32795,10 +32795,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_877"
+        "oldName": "877"
     }, {
         "id": 1244,
-        "name": "PHASE2_1244",
+        "name": 1244,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32824,10 +32824,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_878"
+        "oldName": "878"
     }, {
         "id": 1245,
-        "name": "PHASE2_1245",
+        "name": 1245,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32853,10 +32853,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_879"
+        "oldName": "879"
     }, {
         "id": 1246,
-        "name": "PHASE2_1246",
+        "name": 1246,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32882,10 +32882,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_880"
+        "oldName": "880"
     }, {
         "id": 1247,
-        "name": "PHASE2_1247",
+        "name": 1247,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32911,10 +32911,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_881"
+        "oldName": "881"
     }, {
         "id": 1248,
-        "name": "PHASE2_1248",
+        "name": 1248,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32940,10 +32940,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_882"
+        "oldName": "882"
     }, {
         "id": 1249,
-        "name": "PHASE2_1249",
+        "name": 1249,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32969,10 +32969,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_883"
+        "oldName": "883"
     }, {
         "id": 1250,
-        "name": "PHASE2_1250",
+        "name": 1250,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -32998,10 +32998,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_884"
+        "oldName": "884"
     }, {
         "id": 1251,
-        "name": "PHASE2_1251",
+        "name": 1251,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33027,10 +33027,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_885"
+        "oldName": "885"
     }, {
         "id": 1252,
-        "name": "PHASE2_1252",
+        "name": 1252,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33056,10 +33056,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_886"
+        "oldName": "886"
     }, {
         "id": 1253,
-        "name": "PHASE2_1253",
+        "name": 1253,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33085,10 +33085,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_887"
+        "oldName": "887"
     }, {
         "id": 1254,
-        "name": "PHASE2_1254",
+        "name": 1254,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33114,10 +33114,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_889"
+        "oldName": "889"
     }, {
         "id": 1255,
-        "name": "PHASE2_1255",
+        "name": 1255,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33143,10 +33143,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_890"
+        "oldName": "890"
     }, {
         "id": 1256,
-        "name": "PHASE2_1256",
+        "name": 1256,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33172,10 +33172,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_891"
+        "oldName": "891"
     }, {
         "id": 1257,
-        "name": "PHASE2_1257",
+        "name": 1257,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33201,10 +33201,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_892"
+        "oldName": "892"
     }, {
         "id": 1258,
-        "name": "PHASE2_1258",
+        "name": 1258,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33230,10 +33230,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_893"
+        "oldName": "893"
     }, {
         "id": 1259,
-        "name": "PHASE2_1259",
+        "name": 1259,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33259,10 +33259,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_894"
+        "oldName": "894"
     }, {
         "id": 1260,
-        "name": "PHASE2_1260",
+        "name": 1260,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33288,10 +33288,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_895"
+        "oldName": "895"
     }, {
         "id": 1261,
-        "name": "PHASE2_1261",
+        "name": 1261,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33317,10 +33317,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_896"
+        "oldName": "896"
     }, {
         "id": 1262,
-        "name": "PHASE2_1262",
+        "name": 1262,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33346,10 +33346,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_897"
+        "oldName": "897"
     }, {
         "id": 1263,
-        "name": "PHASE2_1263",
+        "name": 1263,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33375,10 +33375,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_898"
+        "oldName": "898"
     }, {
         "id": 1264,
-        "name": "PHASE2_1264",
+        "name": 1264,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33404,10 +33404,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_899"
+        "oldName": "899"
     }, {
         "id": 1265,
-        "name": "PHASE2_1265",
+        "name": 1265,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33433,10 +33433,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_900"
+        "oldName": "900"
     }, {
         "id": 1266,
-        "name": "PHASE2_1266",
+        "name": 1266,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33462,10 +33462,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_901"
+        "oldName": "901"
     }, {
         "id": 1267,
-        "name": "PHASE2_1267",
+        "name": 1267,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33491,10 +33491,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_902"
+        "oldName": "902"
     }, {
         "id": 1268,
-        "name": "PHASE2_1268",
+        "name": 1268,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33520,10 +33520,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_903"
+        "oldName": "903"
     }, {
         "id": 1269,
-        "name": "PHASE2_1269",
+        "name": 1269,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33549,10 +33549,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_904"
+        "oldName": "904"
     }, {
         "id": 1270,
-        "name": "PHASE2_1270",
+        "name": 1270,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33578,10 +33578,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_905"
+        "oldName": "905"
     }, {
         "id": 1271,
-        "name": "PHASE2_1271",
+        "name": 1271,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33607,10 +33607,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_906"
+        "oldName": "906"
     }, {
         "id": 1272,
-        "name": "PHASE2_1272",
+        "name": 1272,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33636,10 +33636,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_907"
+        "oldName": "907"
     }, {
         "id": 1273,
-        "name": "PHASE2_1273",
+        "name": 1273,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33665,10 +33665,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_908"
+        "oldName": "908"
     }, {
         "id": 1274,
-        "name": "PHASE2_1274",
+        "name": 1274,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33694,10 +33694,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_909"
+        "oldName": "909"
     }, {
         "id": 1275,
-        "name": "PHASE2_1275",
+        "name": 1275,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33723,10 +33723,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_910"
+        "oldName": "910"
     }, {
         "id": 1276,
-        "name": "PHASE2_1276",
+        "name": 1276,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33752,10 +33752,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_911"
+        "oldName": "911"
     }, {
         "id": 1277,
-        "name": "PHASE2_1277",
+        "name": 1277,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33781,10 +33781,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_912"
+        "oldName": "912"
     }, {
         "id": 1278,
-        "name": "PHASE2_1278",
+        "name": 1278,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33810,10 +33810,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_913"
+        "oldName": "913"
     }, {
         "id": 1279,
-        "name": "PHASE2_1279",
+        "name": 1279,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33839,10 +33839,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_914"
+        "oldName": "914"
     }, {
         "id": 1280,
-        "name": "PHASE2_1280",
+        "name": 1280,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33868,10 +33868,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_915"
+        "oldName": "915"
     }, {
         "id": 1281,
-        "name": "PHASE2_1281",
+        "name": 1281,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33897,10 +33897,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_916"
+        "oldName": "916"
     }, {
         "id": 1282,
-        "name": "PHASE2_1282",
+        "name": 1282,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33926,10 +33926,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_917"
+        "oldName": "917"
     }, {
         "id": 1283,
-        "name": "PHASE2_1283",
+        "name": 1283,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33955,10 +33955,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_918"
+        "oldName": "918"
     }, {
         "id": 1284,
-        "name": "PHASE2_1284",
+        "name": 1284,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -33984,10 +33984,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_919"
+        "oldName": "919"
     }, {
         "id": 1285,
-        "name": "PHASE2_1285",
+        "name": 1285,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34013,10 +34013,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_920"
+        "oldName": "920"
     }, {
         "id": 1286,
-        "name": "PHASE2_1286",
+        "name": 1286,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34042,10 +34042,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_921"
+        "oldName": "921"
     }, {
         "id": 1287,
-        "name": "PHASE2_1287",
+        "name": 1287,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34071,10 +34071,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_922"
+        "oldName": "922"
     }, {
         "id": 1288,
-        "name": "PHASE2_1288",
+        "name": 1288,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34100,10 +34100,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_923"
+        "oldName": "923"
     }, {
         "id": 1289,
-        "name": "PHASE2_1289",
+        "name": 1289,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34129,10 +34129,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_924"
+        "oldName": "924"
     }, {
         "id": 1290,
-        "name": "PHASE2_1290",
+        "name": 1290,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34158,10 +34158,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_925"
+        "oldName": "925"
     }, {
         "id": 1291,
-        "name": "PHASE2_1291",
+        "name": 1291,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34187,10 +34187,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_926"
+        "oldName": "926"
     }, {
         "id": 1292,
-        "name": "PHASE2_1292",
+        "name": 1292,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34216,10 +34216,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_927"
+        "oldName": "927"
     }, {
         "id": 1293,
-        "name": "PHASE2_1293",
+        "name": 1293,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34245,10 +34245,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_928"
+        "oldName": "928"
     }, {
         "id": 1294,
-        "name": "PHASE2_1294",
+        "name": 1294,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34274,10 +34274,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_929"
+        "oldName": "929"
     }, {
         "id": 1295,
-        "name": "PHASE2_1295",
+        "name": 1295,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34303,10 +34303,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_930"
+        "oldName": "930"
     }, {
         "id": 1296,
-        "name": "PHASE2_1296",
+        "name": 1296,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34332,10 +34332,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_931"
+        "oldName": "931"
     }, {
         "id": 1297,
-        "name": "PHASE2_1297",
+        "name": 1297,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34361,10 +34361,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_932"
+        "oldName": "932"
     }, {
         "id": 1298,
-        "name": "PHASE2_1298",
+        "name": 1298,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34390,10 +34390,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_933"
+        "oldName": "933"
     }, {
         "id": 1299,
-        "name": "PHASE2_1299",
+        "name": 1299,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34419,10 +34419,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_934"
+        "oldName": "934"
     }, {
         "id": 1300,
-        "name": "PHASE2_1300",
+        "name": 1300,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34448,10 +34448,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_935"
+        "oldName": "935"
     }, {
         "id": 1301,
-        "name": "PHASE2_1301",
+        "name": 1301,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34477,10 +34477,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_936"
+        "oldName": "936"
     }, {
         "id": 1302,
-        "name": "PHASE2_1302",
+        "name": 1302,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34506,10 +34506,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_937"
+        "oldName": "937"
     }, {
         "id": 1303,
-        "name": "PHASE2_1303",
+        "name": 1303,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34535,10 +34535,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_938"
+        "oldName": "938"
     }, {
         "id": 1304,
-        "name": "PHASE2_1304",
+        "name": 1304,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34564,10 +34564,10 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_939"
+        "oldName": "939"
     }, {
         "id": 1305,
-        "name": "PHASE2_1305",
+        "name": 1305,
         "levels": [{
             "tileSize": 256,
             "size": 256,
@@ -34593,7 +34593,7 @@ let tails = [
         },
         "linkHotspots": [],
         "infoHotspots": [],
-        "oldName": "PHASE2_940"
+        "oldName": "940"
     }
 ];
 

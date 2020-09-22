@@ -3,5 +3,6 @@ window.onload = function () {
 }
 
 function logout() {
-    alert('Not work in test')
+    window.localStorage.removeItem('token');
+    auth_status_object.auth_check();
 }

@@ -33,15 +33,10 @@ img {
     transition: transform 500ms;
 }
 
-
-.blur {
-    filter: blur(5px);
-}
-
 .main {
     max-width: 1600px;
     background: rgb(253, 253, 253);
-    
+
 }
 
 .global {
@@ -108,6 +103,10 @@ img {
     padding: 4px;
 }
 
+input {
+    width: 100%;
+}
+
 @media (min-width: 479px) {
     .main-title {
         font-size: 22px;
@@ -133,4 +132,3 @@ img {
         width: 52px;
     }
 }
-

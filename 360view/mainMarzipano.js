@@ -66,8 +66,8 @@
     function createScene(sceneData) {
         var urlPrefix = "tiles";
         var source = Marzipano.ImageUrlSource.fromString(
-            "../assets/img/360view/" + urlPrefix + "/" + sceneData.name.toLowerCase() + "/{z}/{f}/{y}/{x}.jpg", {
-                cubeMapPreviewUrl: "../assets/img/360view/" + urlPrefix + "/" + sceneData.name.toLowerCase() + "/preview.jpg"
+            "../assets/img/360view/" + urlPrefix + "/" + sceneData.name + "/{z}/{f}/{y}/{x}.jpg", {
+                cubeMapPreviewUrl: "../assets/img/360view/" + urlPrefix + "/" + sceneData.name + "/preview.jpg"
             });
         var geometry = new Marzipano.CubeGeometry(sceneData.levels);
 
@@ -304,7 +304,7 @@
 
     //OBS
     switchPhoto360Observable.subscribe((data) => {
-        currentScene = tails.find(scene => scene.name === clickedPin)
+        currentScene = tails.find(scene => scene.name == pointName)
         let scene = createScene(currentScene);
         switchScene(scene);
     });

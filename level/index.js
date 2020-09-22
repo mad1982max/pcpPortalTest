@@ -1,10 +1,6 @@
-let header, footer, container;
-let level, floorSrc, coverSrc, set, svg, svgHeight, floorLayer, mainLayer, floor;
-let zoom;
-let aside;
-let isAsideVis;
-let asideContent;
-let setFlagObj = {};
+let level, floorSrc, svg, mainLayer, floor;
+let zoomObj, isAsideVis, pointsOnLevel, currentCluster, subLevel;
+let scaleEdge = 1.6;
 let transform = {
     zoom: {
         x: 0,
@@ -19,39 +15,27 @@ let transform = {
 }
 let oldScale = 1;
 let clusterInitObj = [200, 0];
-
-let setsToShow = [];
-let pointsOnLevel;
 let subLevelToShow = 'sub_0';
-let pinSize;
-
 let isFirstFloorLoading = true;
-let highlghtedVisible = false;
-let currentCluster;
-let subLevelData;
-let subLevel;
 
 window.onload = onloadFn;
-
 function defineData4Floor() {
     let paramsString = window.location.search;
     let searchParams = new URLSearchParams(paramsString);
     isAsideVis = searchParams.get("isAsideVis") || 1;
     level = searchParams.get("level");
     subLevel = getSubLevel(level);
-    if(subLevel.isSub) {
-        floorSrc = `../assets/img/level/${level}_${subLevelToShow}.png`;
-    } else {
-        floorSrc = `../assets/img/level/${level}.png`;
-    }    
+    floorSrc = floorSrcFn(level, subLevel.isSub, subLevelToShow);
     pointsOnLevel = points.filter(point => point.level === level);
 }
 
+function floorSrcFn(level, isSubLevelExist, subLevelToShow) {
+    let tail = isSubLevelExist ? `_${subLevelToShow}` : "";
+    return `../assets/img/level/${level}${tail}.png`
+}
+
 function onloadFn() {
-    defineData4Floor();
-    header = document.querySelector(".header");
-    footer = document.querySelector(".footer");
-    container = document.getElementById("container");
+    defineData4Floor();   
     let showHideBtn = document.querySelector(".hideAside");
     showHideBtn.addEventListener('click', toggleAsideFn);
     let asideSvg = document.getElementById('asideSvg');    
@@ -63,7 +47,7 @@ function onloadFn() {
 
         asideSvg.onload = function() {
             asideSvg.style.opacity = 1;
-            asideContent = asideSvg.contentDocument;
+            let asideContent = asideSvg.contentDocument;
             reColorizeSubFloor(subLevelToShow);
             let floorRect = [...asideContent.querySelectorAll('.block')];
             floorRect.forEach(singleBlock => {
@@ -131,7 +115,6 @@ function clickSubFloor(e) {
             .attr("opacity", "0");
     }
     
-    //document.body.style.opacity = 0;
     deleteSet('svg', '.set');
     deleteSet('svg', '.showTiedPins');    
     
@@ -150,13 +133,13 @@ function clickSubFloor(e) {
 
     let sensitive = defineSensitiveOnCurrentZoom(oldScale, clusterInitObj);
     let dataForClusters = clusterize(pointsArr, sensitive);
-    pinSize = oldScale <=1.6 ? "big":"small";
+    let pinSize = oldScale <= scaleEdge ? "big":"small";
     drawSet(dataForClusters, pinSize);
 }
 
 function defineSensitiveOnCurrentZoom(scale, clusterInitObj) {
     let sensitive;
-    if (scale <= 1.6) {
+    if (scale <= scaleEdge) {
         sensitive = clusterInitObj[0]
     // } else if (oldScale > 1.5 && oldScale <= 2) {
     //     sensitive = clusterInitObj[1]
@@ -167,10 +150,12 @@ function defineSensitiveOnCurrentZoom(scale, clusterInitObj) {
 }
 
 function resize() {
-    let headerFooterHeight = header.offsetHeight + footer.offsetHeight;
+    const headerH = document.querySelector(".header").offsetHeight;
+    const footerH = document.querySelector(".footer").offsetHeight;
+
     let wHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     let wWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    let svgHeight = wHeight - headerFooterHeight;
+    let svgHeight = wHeight - (headerH + footerH);
 
     if (wWidth > svgHeight * transform.initPicWidth / transform.initPicH) {
         transform.k = svgHeight / transform.initPicH;
@@ -181,6 +166,7 @@ function resize() {
         transform.x = 0;
         transform.y = (svgHeight / transform.k - transform.initPicH) / 2;
     }
+    let container = document.getElementById("container");
     container.style.height = `${svgHeight}px`;
     container.style.width = `${wWidth}px`;
 
@@ -196,6 +182,7 @@ function getSubLevel(level) {
 
 function buildSvg() {
     svg = d3.select("#container").append("svg");
+
     svg
         .attr("class", "svgContainer")
         .attr("height", "100%")
@@ -207,7 +194,7 @@ function buildSvg() {
         .attr("opacity", "0")
         .attr("transform", `scale(${transform.k}) translate(${transform.x},${transform.y})`)
 
-    floorLayer = mainLayer.append("g")
+    let floorLayer = mainLayer.append("g")
     floorLayer
         .attr("class", "floorLayer")
         .on('click', () => {
@@ -244,14 +231,14 @@ function buildSvg() {
     //     .duration(500)
     //     .attr("opacity", "1");
 
-    zoom = d3.zoom()
+    zoomObj = d3.zoom()
         .scaleExtent([0.3, 10])
         .on("zoom", () => {
             deleteSet('svg', '.showTiedPins');
             zoomed();
             rebuildClusters();
         });
-    svg.call(zoom);
+    svg.call(zoomObj);
     //d3.select("svg").on("dblclick.zoom", null);
 }
 
@@ -279,13 +266,13 @@ function rebuildClusters() {
     let pointsArr = subLevel.isSub ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
     let sensitive = defineSensitiveOnCurrentZoom(scale, clusterInitObj)
     let dataForClusters = clusterize(pointsArr, sensitive);
-    pinSize = oldScale <=1.6 ? "big":"small";
+    let pinSize = oldScale <= scaleEdge ? "big":"small";
 
     drawSet(dataForClusters, pinSize);
 }
 
 function drawSet(currentSet, sizePoint = "big") {
-    set = mainLayer.append("g");
+    let set = mainLayer.append("g");
     set.attr("class", "set")
         .selectAll("g")
         .data(currentSet)
@@ -310,13 +297,14 @@ function drawSet(currentSet, sizePoint = "big") {
         .attr("font-size", d => d.pointsCopy.length > 1 ? 48 : sizePoint === "big" ? 20 : 12)
         .attr("fill", "white")
         .attr("font-family", "sans-serif")
-        .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "3" : "1")
-        .attr("dx", d => d.pointsCopy.length > 1 ? "-1" : sizePoint === "big" ? "0" : "0")
+        .attr("dy", d => d.pointsCopy.length > 1 ? 12 : sizePoint === "big" ? 3 : 1)
+        .attr("dx", d => d.pointsCopy.length > 1 ? -1 : 0)
         .attr("pointer-events", "none")
         .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
 }
 
 function reColorizeSubFloor(subLevelToShow) {
+    let asideContent = document.getElementById('asideSvg').contentDocument;
     let blocks = [...asideContent.querySelectorAll('.block')];
     blocks.forEach(block => {
         block.style.stroke = 'none';
@@ -379,24 +367,23 @@ function deleteSet(base, selector) {
     if (element) element.remove();
 }
 
-function clickedOnshowTiedPinsed(d) {
-    let {
-        name,
-        phase
-    } = d;
-    let subQuery = subLevel.isSub ? subLevelToShow : "_";
-    window.open("../360view/index.html?level=" + level + "&sub=" + subQuery + "&name=" + name + "&phase=" + phase, "_self");
+function buildQueryString(pointObj, isSubFlag, subLevelToShow) {
+    let { name } = pointObj;
+    let subQuery = isSubFlag ? subLevelToShow : "_";
+    let queryString = "../360view/index.html?level=" + level + "&sub=" + subQuery + "&name=" + name;
+    return queryString;
 }
 
-function clickedOnPin(d) {
-    let points = d.pointsCopy;
-    if (points.length === 1) {
-        let {
-            name,
-            phase
-        } = points[0];
-        let subQuery = subLevel.isSub ? subLevelToShow : "_";
-        window.open("../360view/index.html?level=" + level + "&sub=" + subQuery + "&name=" + name + "&phase=" + phase, "_self");
+function clickedOnshowTiedPinsed(d) {
+    let query = buildQueryString(d, subLevel.isSub, subLevelToShow)
+    window.open(query, "_self");
+}
+
+function clickedOnPin(d) { 
+    let cluster = d.pointsCopy;
+    if (cluster.length === 1) {
+        let query = buildQueryString(cluster[0], subLevel.isSub, subLevelToShow);        
+        window.open(query, "_self");
     } else {
         deleteSet('svg', '.showTiedPins');
         let aside = document.querySelector('.aside');
@@ -406,8 +393,7 @@ function clickedOnPin(d) {
             shevronAnimation(aside, asideBtn);
         }
 
-        if (currentCluster === d.id) {
-            
+        if (currentCluster === d.id) {            
             currentCluster = null;
         } else {
             showTiedPins(d, true);
