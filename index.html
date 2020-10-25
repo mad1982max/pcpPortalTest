@@ -1,187 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Dolwin Alpha</title>
-    <script src="./shares/js/auth.js"></script>
-    <script>
-        auth_status_object.add_auth_callback(function (resolved) {
-            let authContainer = document.getElementById('auth-container').classList;
-            let blurContainer = document.querySelector('.global').classList;
-            if (resolved) {
-                authContainer.add('hide');
-                blurContainer.remove('blur');
-            } else {
-                authContainer.remove('hide');
-                blurContainer.add('blur');
-            }
-        });
-    </script>
-    <link href="./vendors/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./shares/css/header_footer.css">
-    <link rel="stylesheet" href="./main.css">
-</head>
 
-<body>
-    <div id="auth-container" class="d-flex align-items-center justify-content-center">
-        <div class="authWrapper">
-            <form class="d-flex flex-column">
-                <label>
-                    <span>Login:</span>
-                    <input type="text" name="username" class="form-control" pattern="[0-9a-zA-Z]*">
-                </label>
-                <label>
-                    <span>Password:</span>
-                    <input type="password" name="password" class="form-control">
-                </label>
-                <input type="submit" class="btn btn-primary" value="Log in">
-            </form>
-        </div>
-    </div>
+    <link href="./vendors/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./shares/css/header_footer.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
 
+  <body>
     <div class="container-fluid global blur px-0">
-        <div class="container-fluid header px-0">
-            <div class="row justify-content-between px-0 mx-0 bg-black">
-                <div class="pl-2">
-                    VCOG PCP PORTAL
-                </div>
-                <div class="col-auto pr-2 d-flex align-items-center">
-                    <button class="btn btn-logout" onclick="logout()" type="button">
-                        <img src="./assets/img/icons/logout.png" alt="">
-                    </button>
-                </div>
-            </div>
+      <div class="container-fluid header px-0">
+        <div class="row justify-content-between px-0 mx-0 bg-black">
+          <div class="pl-2">VCOG PCP PORTAL</div>
+          <div class="col-auto pr-2 d-flex align-items-center">
+            <button
+              class="btn btn-logout"
+              onclick="alert('not work in test')"
+              type="button"
+            >
+              <img src="./assets/img/icons/logout.png" alt="" />
+            </button>
+          </div>
         </div>
-        <div class="container-fluid main">
-            <div class="row">
-                <div class="col main-title text-center h3 mb-0 mt-1 p-2">TENNET'S OFSHORE PROJECTS GERMANY</div>
-            </div>
+      </div>
+      <div class="container-fluid main">
+        <div class="row">
+          <div class="col main-title text-center h3 mb-0 mt-1 p-2">
+            TENNET'S OFSHORE PROJECTS GERMANY
+          </div>
+        </div>
 
-            <div class="row mainRow row-cols-1 row-cols-sm-2 row-cols-lg-3">
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/BorWin1.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            BorWin1
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/BorWin2.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            BorWin2
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/BorWin3.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            BorWin3
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/HelWin1.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            HelWin1
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/HelWin2.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            HelWin2
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject">
-                            <a href='./levels/index.html'>
-                                <img src="./assets/img/platforms/DolWin1.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            DolWin1
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/DolWin2.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            DolWin2
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/DolWin3.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            DolWin3
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapperObject">
-                    <div class="wrapper-shadow">
-                        <div class="wrapperBGObject imgGrey">
-                            <a href="#">
-                                <img src="./assets/img/platforms/SylWin1.jpg" alt="img">
-                            </a>
-                        </div>
-                        <div class="title">
-                            SylWin1
-                        </div>
-                    </div>
-                </div>
+        <div class="row mainRow row-cols-1 row-cols-sm-2 row-cols-lg-3">
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/BorWin1.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">BorWin1</div>
             </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/BorWin2.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">BorWin2</div>
+            </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/BorWin3.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">BorWin3</div>
+            </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/HelWin1.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">HelWin1</div>
+            </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/HelWin2.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">HelWin2</div>
+            </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject">
+                <a href="./levels/index.html">
+                  <img src="./assets/img/platforms/DolWin1.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">DolWin1</div>
+            </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/DolWin2.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">DolWin2</div>
+            </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/DolWin3.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">DolWin3</div>
+            </div>
+          </div>
+          <div class="wrapperObject">
+            <div class="wrapper-shadow">
+              <div class="wrapperBGObject imgGrey">
+                <a href="#">
+                  <img src="./assets/img/platforms/SylWin1.jpg" alt="img" />
+                </a>
+              </div>
+              <div class="title">SylWin1</div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="footer container-fluid text-right">
-        <div class="logo px-2">
-            <a href="https://visco.no/" target="_blank" rel="noopener noreferrer"> VIS<span class="logoC">C</span>O</a>
-        </div>
+      <div class="logo px-2">
+        <a href="https://visco.no/" target="_blank" rel="noopener noreferrer">
+          VIS<span class="logoC">C</span>O</a
+        >
+      </div>
     </div>
     <script src="./shares/js/on-form-submit.js"></script>
     <script src="./vendors/js/jquery-3.0.0.slim.min.js"></script>
     <script src="./vendors/js/bootstrap.bundle.min.js"></script>
     <script src="./index.js"></script>
-</body>
-
+  </body>
 </html>

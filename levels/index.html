@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Dolwin Alpha</title>
-    <script src="../shares/js/auth.js"></script>
-    <script>
-        auth_status_object.add_auth_callback(function (resolved) {
-            if (!resolved) {
-                window.location = '/';
-            }
-        });
-    </script>
-    <link href="../vendors/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../shares/css/header_footer.css">
-    <link rel="stylesheet" href="./main.css">
-</head>
 
-<body>
+    <link href="../vendors/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../shares/css/header_footer.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
     <div class="container-fluid header">
-        <div class="row justify-content-between">
-            <div class="col-auto pl-1 d-flex align-items-center">
-                <button class="btn btn-back" onclick="clickBack()" type="button" id="backButton">
-                    <img class="backArrow" src="../assets/img/icons/back_arrow.svg" alt="">
-                </button>
-            </div>
-            <div class="col-auto">
-                <div class="">
-                    DOLWIN ALPHA
-                </div>
-            </div>
-            <div class="col-auto px-0 btn-menu d-flex">
-                <div class="d-flex align-items-center">
-                    <a class="btn btn-menu btn-download" href="ftp://@79.160.140.197">
-                        <img src="../assets/img/icons/download.svg" alt="">
-                    </a>
-                </div>
-            </div>
+      <div class="row justify-content-between">
+        <div class="col-auto pl-1 d-flex align-items-center">
+          <button
+            class="btn btn-back"
+            onclick="clickBack()"
+            type="button"
+            id="backButton"
+          >
+            <img
+              class="backArrow"
+              src="../assets/img/icons/back_arrow.svg"
+              alt=""
+            />
+          </button>
         </div>
+        <div class="col-auto">
+          <div class="">DOLWIN ALPHA</div>
+        </div>
+        <div class="col-auto px-0 btn-menu d-flex">
+          <div class="d-flex align-items-center">
+            <a
+              class="btn btn-menu btn-download"
+              onclick="alert('not work in test')"
+            >
+              <img src="../assets/img/icons/download.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    <object id="svg" type="image/svg+xml">
-    </object>
+    <object id="svg" type="image/svg+xml"></object>
     <div class="footer container-fluid text-right">
-        <div class="logo px-2">
-            <a href="https://visco.no/" target="_blank" rel="noopener noreferrer"> VIS<span class="logoC">C</span>O</a>
-        </div>
+      <div class="logo px-2">
+        <a href="https://visco.no/" target="_blank" rel="noopener noreferrer">
+          VIS<span class="logoC">C</span>O</a
+        >
+      </div>
     </div>
     <script src="../vendors/js/jquery-3.0.0.slim.min.js"></script>
     <script src="../vendors/js/bootstrap.bundle.min.js"></script>
     <script src="./index.js"></script>
-</body>
-
+  </body>
 </html>
