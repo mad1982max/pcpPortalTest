@@ -1,4 +1,6 @@
-window.onload = function () {
+window.addEventListener("load", loadFn)
+
+function loadFn() {
     document.body.style.opacity = 1;
 }
 

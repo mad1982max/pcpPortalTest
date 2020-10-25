@@ -8,19 +8,18 @@ body {
     height: 100%;
 }
 
-body {
-    background: rgb(253, 253, 253);
-    opacity: 0;
-    transition: opacity 500ms;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: rgb(253, 253, 253);
+    opacity: 0;
+    transition: opacity 700ms;
+    display: flex;
+    flex-direction: column;
 }
 
 .mainRow {
@@ -31,6 +30,11 @@ body {
 img {
     width: 100%;
     transition: transform 500ms;
+}
+
+
+.blur {
+    filter: blur(5px);
 }
 
 .main {
@@ -46,7 +50,6 @@ img {
 .footer {
     flex-shrink: 0;
 }
-
 
 .wrapperObject {
     padding: 10px;
@@ -103,6 +106,24 @@ img {
     padding: 4px;
 }
 
+#auth-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.authWrapper {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 500px;
+}
+
 input {
     width: 100%;
 }
@@ -130,5 +151,9 @@ input {
 @media (min-width: 991px) {
     .btn-logout {
         width: 52px;
+    }
+
+    .main-title {
+        font-size: 28px;
     }
 }

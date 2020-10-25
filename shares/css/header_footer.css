@@ -8,6 +8,15 @@ a {
     color: white;
 }
 
+.bg-black {
+    background:black; 
+    color:white
+}
+
+* {
+    box-sizing: border-box;
+}
+
 a:hover {
     text-decoration: none;
     color: rgb(226, 222, 222);
@@ -30,7 +39,6 @@ img {
     padding: 7px;
     font-size: 18px;
     font-family: OstrichSans-Black;
-    margin: 0;
     line-height: 100%;    
 }
 
@@ -110,7 +118,7 @@ button:focus, a.btn {
     }
 
     .footer {
-        padding: 6px;
+        padding: 4px;
         font-size: 26px;
     }
 }

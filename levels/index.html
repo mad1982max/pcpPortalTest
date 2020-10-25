@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Dolwin Alpha</title>
+    <script src="../shares/js/auth.js"></script>
+    <script>
+        auth_status_object.add_auth_callback(function (resolved) {
+            if (!resolved) {
+                window.location = '/';
+            }
+        });
+    </script>
     <link href="../vendors/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../shares/css/header_footer.css">
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row header justify-content-between">
+    <div class="container-fluid header">
+        <div class="row justify-content-between">
             <div class="col-auto pl-1 d-flex align-items-center">
                 <button class="btn btn-back" onclick="clickBack()" type="button" id="backButton">
                     <img class="backArrow" src="../assets/img/icons/back_arrow.svg" alt="">
@@ -25,23 +33,19 @@
                 </div>
             </div>
             <div class="col-auto px-0 btn-menu d-flex">
-                <div class="dropdown d-flex align-items-center">
-                    <a class="btn btn-menu btn-download" onclick="alert('not work in test')">
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-menu btn-download" href="ftp://@79.160.140.197">
                         <img src="../assets/img/icons/download.svg" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid body-main px-0">
-
-    </div>
     <object id="svg" type="image/svg+xml">
     </object>
     <div class="footer container-fluid text-right">
-        <div class="logo text-right px-2">
-            <a class="text-right" href="https://visco.no/" target="_blank" rel="noopener noreferrer"> VIS<span
-                    class="logoC">C</span>O</a>
+        <div class="logo px-2">
+            <a href="https://visco.no/" target="_blank" rel="noopener noreferrer"> VIS<span class="logoC">C</span>O</a>
         </div>
     </div>
     <script src="../vendors/js/jquery-3.0.0.slim.min.js"></script>

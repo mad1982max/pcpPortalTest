@@ -6,21 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Dolwin Alpha</title>
-
+    <script src="./shares/js/auth.js"></script>
+    <script>
+        auth_status_object.add_auth_callback(function (resolved) {
+            let authContainer = document.getElementById('auth-container').classList;
+            let blurContainer = document.querySelector('.global').classList;
+            if (resolved) {
+                authContainer.add('hide');
+                blurContainer.remove('blur');
+            } else {
+                authContainer.remove('hide');
+                blurContainer.add('blur');
+            }
+        });
+    </script>
     <link href="./vendors/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./shares/css/header_footer.css">
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-    <div class="container-fluid global px-0">
+    <div id="auth-container" class="d-flex align-items-center justify-content-center">
+        <div class="authWrapper">
+            <form class="d-flex flex-column">
+                <label>
+                    <span>Login:</span>
+                    <input type="text" name="username" class="form-control" pattern="[0-9a-zA-Z]*">
+                </label>
+                <label>
+                    <span>Password:</span>
+                    <input type="password" name="password" class="form-control">
+                </label>
+                <input type="submit" class="btn btn-primary" value="Log in">
+            </form>
+        </div>
+    </div>
+
+    <div class="container-fluid global blur px-0">
         <div class="container-fluid header px-0">
-            <div class="row justify-content-between px-0 mx-0" style="background:black; color:white">
-                <div class="pl-2" style="background:black; color:white">
+            <div class="row justify-content-between px-0 mx-0 bg-black">
+                <div class="pl-2">
                     VCOG PCP PORTAL
                 </div>
                 <div class="col-auto pr-2 d-flex align-items-center">
-                    <button class="btn btn-logout" onclick="alert('not work in test')" type="button">
+                    <button class="btn btn-logout" onclick="logout()" type="button">
                         <img src="./assets/img/icons/logout.png" alt="">
                     </button>
                 </div>
@@ -145,9 +174,8 @@
     </div>
 
     <div class="footer container-fluid text-right">
-        <div class="logo text-right px-2">
-            <a class="text-right" href="https://visco.no/" target="_blank" rel="noopener noreferrer"> VIS<span
-                    class="logoC">C</span>O</a>
+        <div class="logo px-2">
+            <a href="https://visco.no/" target="_blank" rel="noopener noreferrer"> VIS<span class="logoC">C</span>O</a>
         </div>
     </div>
     <script src="./shares/js/on-form-submit.js"></script>

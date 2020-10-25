@@ -1,5 +1,4 @@
-let obj, oldFloor;
-let resizeDebounce = debounce(resizeFn, 250);
+let svgObj, oldFloorSize;
 
 const style = {
     hoverFillColor: 'rgba(0,0,0,0.2)',
@@ -10,25 +9,25 @@ const style = {
 };
 const widthEdge = 600;
 
-window.onload = function () {    
-    obj = document.getElementById('svg');
-    resizeFn();
+const resizeDebounce = debounce(resizeWindFn, 250);
+
+window.onload = function () {
+    svgObj = document.getElementById('svg');
+    resizeWindFn();
 
     window.addEventListener('resize', () => {
         document.body.style.opacity = 0;
         resizeDebounce();
     });
-    
-    obj.onload = function () {
-        let svgDocument = obj.contentDocument;
-        let img = svgDocument.querySelector('.floor');
-        img.setAttribute('width', '100%');
+
+    svgObj.onload = function () {
+        let svgDocument = svgObj.contentDocument;
 
         let floorRect = [...svgDocument.querySelectorAll('.block')];
         floorRect.forEach(singleBlock => {
             singleBlock.addEventListener('click', clickFloor);
-            singleBlock.addEventListener('mouseenter', mouseOverFloor);
-            singleBlock.addEventListener('mouseleave', mouseLeave);
+            singleBlock.addEventListener('mouseenter', (event) => colorizeFloors(event, false));
+            singleBlock.addEventListener('mouseleave', (event) => colorizeFloors(event));
         })
     };
 }
@@ -49,55 +48,64 @@ function debounce(func, wait, immediate) {
     };
 };
 
-
-function resizeFn() {
-    let header = document.querySelector('.header');
-    let footer = document.querySelector('.footer');
-    
-    let headerFooterHeight = header.offsetHeight + footer.offsetHeight;
-    let h = window.innerHeight || document.documentElement.clientHeight ||
-        document.body.clientHeight;
-    let w = window.innerWidth || document.documentElement.clientWidth ||
-        document.body.clientWidth;
-    let currentFloor = w < widthEdge && w < h ? "small" : "big"
-    if (currentFloor !== oldFloor) {
-        obj.setAttribute('data', `../assets/img/levels/levels_${currentFloor}.svg`);
-        oldFloor = currentFloor;
-    }
-    let hSVG = h - headerFooterHeight;
-    obj.style.height = hSVG + 'px';
+function resizeWindFn() {
+    setSvgHeight()
+    defineCurrentSvgImg()
     document.body.style.opacity = 1;
 }
 
-function mouseLeave() {
-    this.style.fill = 'none';
-    this.style.stroke = 'none';
-
-    let hoverFloor = this.id.split('.')[0];
-    let svgDocument = obj.contentDocument;
-    let deck = svgDocument.querySelector(`#pl_${hoverFloor}`);
-    deck.style.fill = 'none';
-    deck.style.stroke = 'none';
+function setSvgHeight() {
+    let header = document.querySelector('.header');
+    let footer = document.querySelector('.footer');
+    let headerFooterHeight = header.offsetHeight + footer.offsetHeight;
+    let windowHeight = window.innerHeight || document.documentElement.clientHeight ||
+        document.body.clientHeight;
+    svgObj.style.height = (windowHeight - headerFooterHeight) + 'px';
 }
 
-function mouseOverFloor() {
-    
-    let hoverFloor = this.id.split('.')[0];
-    this.style.fill = style.hoverFillColor;
-    this.style.stroke = style.hoverStrokeColor;
-    this.style.strokeWidth = style.strokeWidth;
-    this.style.cursor = 'pointer';
+function defineCurrentSvgImg() {
+    let windowWidth = window.innerWidth || document.documentElement.clientWidth ||
+        document.body.clientWidth;
+    let currentFloorSize = windowWidth < widthEdge ? "small" : "big"
+    if (currentFloorSize !== oldFloorSize) {
+        let imgString = `../assets/img/levels/levels_${currentFloorSize}.svg`;
+        svgObj.setAttribute('data', imgString);
+        oldFloorSize = currentFloorSize;
+    }
+}
 
-    let deck = obj.contentDocument.querySelector(`#pl_${hoverFloor}`);
-    deck.style.fill = style.deckFillColor;
-    deck.style.stroke = style.deckStrokeColor;
-    deck.style.strokeWidth = style.strokeWidth;
+function colorizeFloors(event, defaultValue = true) {
+
+    let element = event.target;
+    let hoverFloor = element.id.split('.')[0];
+    let deck = svgObj.contentDocument.querySelector(`#pl_${hoverFloor}`);
+
+    if (defaultValue) {
+        element.style.fill = 'none';
+        element.style.stroke = 'none';
+        if(deck) {
+            deck.style.fill = 'none';
+            deck.style.stroke = 'none';
+        }
+
+    } else {
+        element.style.fill = style.hoverFillColor;
+        element.style.stroke = style.hoverStrokeColor;
+        element.style.strokeWidth = style.strokeWidth;
+        element.style.cursor = 'pointer';
+
+        if(deck) {
+            deck.style.fill = style.deckFillColor;
+            deck.style.stroke = style.deckStrokeColor;
+            deck.style.strokeWidth = style.strokeWidth;
+        }
+    }
 }
 
 function clickBack() {
     setTimeout(function () {
         document.location.href = `../index.html`
-    }, 250);  // IOS
+    }, 250); // IOS
 }
 
 function clickFloor(e) {

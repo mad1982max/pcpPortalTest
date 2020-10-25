@@ -16,7 +16,7 @@
     <image
       class="floor"
        id="image20"
-       href= "./levels_small.jpg"     
+       xlink:href= "./levels_small.jpg"     
        preserveAspectRatio="none"
        height="1440"
        width="1066.6667" />

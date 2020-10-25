@@ -1,360 +1,277 @@
 let level, floorSrc, svg, mainLayer, floor;
-let zoomObj, isAsideVis, pointsOnLevel, currentCluster, subLevel;
-let scaleEdge = 1.6;
-let transform = {
-    zoom: {
-        x: 0,
-        y: 0,
-        k: 1
-    },
-    x: 0,
-    y: 0,
-    initPicWidth: 3000,
-    initPicH: 1850,
-    k: 0
-}
-let oldScale = 1;
-let clusterInitObj = [200, 0];
-let subLevelToShow = 'sub_0';
+let isAsideVis, pointsOnLevel, currentCluster, levelInfo;
+let prevScale = 1;
+let prevClusterPointId = 0;
+let initImgWidth = 3000;
+let initImgHeight = 1850;
+let minScale = 0.3;
+let maxScale = 10;
+let singlePinColor = "#FF2A2A";
+let clusterPinColor = "#00BD63";
+let defaultSubLevelToShow = 'sub_0';
 let isFirstFloorLoading = true;
+let asideVisible = false;
 
-window.onload = onloadFn;
-function defineData4Floor() {
-    let paramsString = window.location.search;
-    let searchParams = new URLSearchParams(paramsString);
-    isAsideVis = searchParams.get("isAsideVis") || 1;
-    level = searchParams.get("level");
-    subLevel = getSubLevel(level);
-    floorSrc = floorSrcFn(level, subLevel.isSub, subLevelToShow);
-    pointsOnLevel = points.filter(point => point.level === level);
+let subFloorStyle = {
+    hoverFillColor: 'rgba(0,0,0,0.2)',
+    hoverStrokeColor: '#fff64d',
+    hoverStrokeWidth: 5
 }
 
-function floorSrcFn(level, isSubLevelExist, subLevelToShow) {
-    let tail = isSubLevelExist ? `_${subLevelToShow}` : "";
+let clusterdata = [{
+        clusterPointId: 0,
+        sensivity: 200,
+        minScale: minScale,
+        maxScale: 1.6,
+        rCuster: 43,
+        textCluster: 48,
+        rPin: 25,
+        textPin: 20,
+        dyTextCluster: 14,
+        dyTextPin: 6
+    },
+    {
+        clusterPointId: 1,
+        sensivity: 0,
+        minScale: 1.6,
+        maxScale: maxScale,
+        rCuster: 43,
+        textCluster: 20,
+        rPin: 15,
+        textPin: 12,
+        dyTextCluster: 12,
+        dyTextPin: 4
+    }
+]
+
+//----------------------------------------------------------------
+window.onload = onloadFn;
+
+function defineData4Floor() {
+    const paramsString = window.location.search;
+    const searchParams = new URLSearchParams(paramsString);
+    asideVisible = searchParams.get("isAsideVis") || 1;
+    currentSubLevelToShow = searchParams.get("sub") || defaultSubLevelToShow;
+    level = searchParams.get("level");
+    levelInfo = levelsEdgeInfo.find(item => item.levelName == level);
+    floorSrc = floorSrcFn(level, levelInfo.isSub, currentSubLevelToShow);
+    pointsOnLevel = getPointOnLevel(points, levelInfo, currentSubLevelToShow);    
+}
+
+function floorSrcFn(level, isSubLevelExist, currentSubLevelToShow) {
+    let tail = isSubLevelExist ? `_${currentSubLevelToShow}` : "";
     return `../assets/img/level/${level}${tail}.png`
 }
 
+function getPointOnLevel(points, level, sub) {
+    if ((!level.isSub && sub !== "sub_0") || !level[sub]) {
+        console.log('**subLevel not exist on this level. sub will be set to default value (sub_0)**');
+        sub = "sub_0";
+    }
+    let levelMeasures = level[sub];
+    let pointsOnLevel;
+
+    if (levelMeasures.minH && levelMeasures.maxH) {
+        pointsOnLevel = points.filter(item => item.z >= levelMeasures.minH && item.z <= levelMeasures.maxH)
+    } else if (levelMeasures.minH && !levelMeasures.maxH) {
+        pointsOnLevel = points.filter(item => item.z >= levelMeasures.minH)
+    } else if (!levelMeasures.minH && levelMeasures.maxH) {
+        pointsOnLevel = points.filter(item => item.z <= levelMeasures.maxH)
+    } else {
+        console.log('**some error in minH, maxH**');
+    }
+    return pointsOnLevel
+}
+
 function onloadFn() {
-    defineData4Floor();   
-    let showHideBtn = document.querySelector(".hideAside");
+    defineData4Floor();
+    let showHideBtn = document.querySelector(".hideAsideBtn");
+
     showHideBtn.addEventListener('click', toggleAsideFn);
-    let asideSvg = document.getElementById('asideSvg');    
-    
-    if(subLevel.isSub) {
-        console.log('subLevel.edge', subLevel.edge)
+    window.addEventListener('resize', resizeFn);
+
+    buildSvg();
+    subLevelInit(levelInfo.isSub);
+}
+
+function subLevelInit() {
+    let aside = document.querySelector('.aside');
+
+    if (levelInfo.isSub) {
+        aside.style.opacity = 1;
+        let asideSvg = document.getElementById('asideSvg');
         let subLevelImg = `../assets/img/level/sub_${level}.svg`;
         asideSvg.setAttribute('data', subLevelImg);
 
-        asideSvg.onload = function() {
+        asideSvg.onload = function () {
             asideSvg.style.opacity = 1;
             let asideContent = asideSvg.contentDocument;
-            reColorizeSubFloor(subLevelToShow);
+            reColorizeSubFloor(asideContent, currentSubLevelToShow);
             let floorRect = [...asideContent.querySelectorAll('.block')];
             floorRect.forEach(singleBlock => {
                 singleBlock.addEventListener('click', clickSubFloor);
-                singleBlock.addEventListener('mouseenter', mouseOverSubFloor);
-                singleBlock.addEventListener('mouseleave', mouseLeaveSubFloor);
+                singleBlock.addEventListener('mouseenter', (e) => hoverColorizeSubFloors(e, true));
+                singleBlock.addEventListener('mouseleave', (e) => hoverColorizeSubFloors(e));
             })
-        }        
+        }
     } else {
-        let aside = document.querySelector('.aside');
-        aside.style.display = 'none';
-    }    
-
-    window.addEventListener("resize", resize);
-    resize();
-    buildSvg();
+        console.log('sub level NOT exists');
+    }
 }
 
-function mouseLeaveSubFloor() {
-    this.style.fill = 'none';
-    this.style.cursor = 'inherit';
+function hoverColorizeSubFloors(e, isHover = false) {
+    let element = e.target
+    if (isHover) {
+        element.style.fill = subFloorStyle.hoverFillColor;
+        element.style.cursor = 'pointer';
+    } else {
+        element.style.fill = 'none';
+        element.style.cursor = 'inherit';
+    }
 }
 
 function toggleAsideFn() {
     let aside = document.querySelector('.aside');
-    if(isAsideVis == 1) {
-        showHideAside(aside);
-        shevronAnimation(aside);
-    } else {
-        shevronAnimation(aside);
-    }  
-    isAsideVis = 1;
-    
+    aside.classList.toggle('hide');
+    asideBtnAmimation(aside);
 }
 
-function showHideAside(aside, toHide = false) {
-    if(toHide) {
-        aside.classList.add('hide');
-    } else {
-        aside.classList.toggle('hide');
+function showAsideMap() {
+    if (levelInfo.isSub) {
+        let aside = document.querySelector('.aside');
+        aside.classList.remove("hide")
+        asideBtnAmimation(aside)
     }
 }
 
-function shevronAnimation(aside) {
+function asideBtnAmimation(aside) {
     let shevron = document.querySelector('.shevron');
-    let hideAside = document.querySelector('.hideAside')
+    let hideAside = document.querySelector('.hideAsideBtn')
     let angle = 180;
     let hideSidePosition = 3;
-    if(aside.classList.contains('hide')) {
+    if (aside.classList.contains('hide')) {
         angle = 0;
         hideSidePosition = -48;
-    }    
+    }
     shevron.setAttribute("style", "transform: rotate(" + angle + "deg)");
     hideAside.style.left = hideSidePosition + 'px';
 }
 
-function mouseOverSubFloor() {
-    this.style.fill = 'rgba(0,0,0,0.2)';
-    this.style.cursor = 'pointer';
+function resizeFn() {
+    let freeHeight = getNewSvgHeight();
+    svg.attr('height', freeHeight)
 }
 
-function clickSubFloor(e) {
-    if(mainLayer) {
-        mainLayer
-            .attr("opacity", "0");
-    }
-    
-    deleteSet('svg', '.set');
-    deleteSet('svg', '.showTiedPins');    
-    
-    subLevelToShow = e.target.id;
-    reColorizeSubFloor(subLevelToShow);
-
-    floorSrc = `../assets/img/level/${level}_${subLevelToShow}.png`;
-    floor.attr("href", floorSrc);
-
-    let pointsArr;
-    if (subLevel.isSub) {
-        pointsArr = pointsOnLevel.filter(item => subLevelToShow === "sub_0" ? item.z_real < subLevel.edge : item.z_real > subLevel.edge);
-    } else {
-        pointsArr = pointsOnLevel;
-    }
-
-    let sensitive = defineSensitiveOnCurrentZoom(oldScale, clusterInitObj);
-    let dataForClusters = clusterize(pointsArr, sensitive);
-    let pinSize = oldScale <= scaleEdge ? "big":"small";
-    drawSet(dataForClusters, pinSize);
-}
-
-function defineSensitiveOnCurrentZoom(scale, clusterInitObj) {
-    let sensitive;
-    if (scale <= scaleEdge) {
-        sensitive = clusterInitObj[0]
-    // } else if (oldScale > 1.5 && oldScale <= 2) {
-    //     sensitive = clusterInitObj[1]
-    } else {
-        sensitive = clusterInitObj[1]
-    }
-    return sensitive;
-}
-
-function resize() {
-    const headerH = document.querySelector(".header").offsetHeight;
-    const footerH = document.querySelector(".footer").offsetHeight;
-
-    let wHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-    let wWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    let svgHeight = wHeight - (headerH + footerH);
-
-    if (wWidth > svgHeight * transform.initPicWidth / transform.initPicH) {
-        transform.k = svgHeight / transform.initPicH;
-        transform.x = (wWidth / transform.k - transform.initPicWidth) / 2;
-        transform.y = 0;
-    } else {
-        transform.k = wWidth / transform.initPicWidth;
-        transform.x = 0;
-        transform.y = (svgHeight / transform.k - transform.initPicH) / 2;
-    }
-    let container = document.getElementById("container");
-    container.style.height = `${svgHeight}px`;
-    container.style.width = `${wWidth}px`;
-
-    if (mainLayer) {
-        mainLayer
-            .attr("transform", `translate(${transform.zoom.x},${transform.zoom.y}) scale(${transform.k*transform.zoom.k}) translate(${transform.x},${transform.y})`);
-    }
-}
-
-function getSubLevel(level) {
-    return sublevels.find(lvl => lvl.level === level);
+function getNewSvgHeight() {
+    let header = document.querySelector('.header');
+    let footer = document.querySelector('.footer');
+    let headerFooterHeight = header.offsetHeight + footer.offsetHeight;
+    let windowHeight = window.innerHeight || document.documentElement.clientHeight ||
+        document.body.clientHeight;
+    return windowHeight - headerFooterHeight;
 }
 
 function buildSvg() {
+    let freeHeight = getNewSvgHeight();
     svg = d3.select("#container").append("svg");
-
     svg
         .attr("class", "svgContainer")
-        .attr("height", "100%")
-        .attr("width", "100%");
+        .attr("viewBox", [0, 0, initImgWidth, initImgHeight])
+        .attr("width", "100%")
+        .attr("height", freeHeight);
 
     mainLayer = svg.append("g");
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
-        .attr("transform", `scale(${transform.k}) translate(${transform.x},${transform.y})`)
 
     let floorLayer = mainLayer.append("g")
     floorLayer
         .attr("class", "floorLayer")
         .on('click', () => {
-            if (svg.select('showTiedPins')) deleteSet('svg', '.showTiedPins');
-            let aside = document.querySelector('.aside');
-            if(!aside.classList.contains('hide')) {
-                let asideBtn = document.querySelector('.hideAside');
-                showHideAside(aside, true);
-                shevronAnimation(aside, asideBtn);
-            }            
-            currentCluster = null;
+            if (svg.select('showPinsInCluster')) deleteSet('svg', '.showPinsInCluster');
         })
     floor = floorLayer.append("image");
     floor.attr("class", "currentFloor");
-    floor.attr("href", floorSrc);
-    floor.on("load", () => {        
+    floor.attr("xlink:href", floorSrc);
+    floor.on("load", () => {
+        pointsOnLevel = getPointOnLevel(points, levelInfo, currentSubLevelToShow);
+
+        console.log('level: ', level);
+        console.log('currentSubLevelToShow: ', currentSubLevelToShow);
+        console.log('pointsOnLevel: ', pointsOnLevel.length);
+        console.log('_______');
+
+        let currentClusterData = getCurrentClusterData(prevScale);
+        let currentSet = clusterize(pointsOnLevel, currentClusterData.sensivity);
+        drawSet(currentSet, currentClusterData);
 
         mainLayer
             .transition()
             .duration(400)
             .attr("opacity", "1");
 
-        if(isFirstFloorLoading) {
-            document.body.style.opacity = 1;
-            let pointsArr = subLevel.isSub ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
-            let currentSet = clusterize(pointsArr, clusterInitObj[0]);
-            toggleAsideFn();
-            drawSet(currentSet, 'big');
-            isFirstFloorLoading = false
-        }
+        if(asideVisible == 1) showAsideMap();
+        
     });
-    // mainLayer
-    //     .transition()
-    //     .duration(500)
-    //     .attr("opacity", "1");
 
-    zoomObj = d3.zoom()
-        .scaleExtent([0.3, 10])
+    let zoomObj = d3.zoom()
+        .scaleExtent([minScale, maxScale])
         .on("zoom", () => {
-            deleteSet('svg', '.showTiedPins');
+            deleteSet('svg', '.showPinsInCluster');
             zoomed();
             rebuildClusters();
         });
     svg.call(zoomObj);
-    //d3.select("svg").on("dblclick.zoom", null);
 }
 
-function getSubPoints(subFloor, allPoints, edge) {
-    let points = [];
-    switch(subFloor) {
-        case 'sub_0':
-            points = allPoints.filter(item => item.z_real < edge);
+function getCurrentClusterData(scale = 1) {
+    let currentClusterData;
+    for (let item of clusterdata) {
+        if (scale > item.minScale && scale < item.maxScale) {
+            currentClusterData = item;
             break;
-        case 'sub_1':
-            points = allPoints.filter(item => item.z_real > edge);
-            break;
-        default:
-            console.log('sub_XXX error');
+        }
     }
-    return points;
+    return currentClusterData
 }
 
-function rebuildClusters() {
-    let scale = d3.zoomTransform(svg.node()).k;
-    if (scale.toFixed(1) === oldScale.toFixed(1)) return;
-    oldScale = scale;
-    deleteSet('svg', '.set');
-
-    let pointsArr = subLevel.isSub ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
-    let sensitive = defineSensitiveOnCurrentZoom(scale, clusterInitObj)
-    let dataForClusters = clusterize(pointsArr, sensitive);
-    let pinSize = oldScale <= scaleEdge ? "big":"small";
-
-    drawSet(dataForClusters, pinSize);
-}
-
-function drawSet(currentSet, sizePoint = "big") {
+function drawSet(currentSet, currentClusterData, setName = 'set') {
+    let dataArr = setName !== 'set' ? currentSet.pointsCopy : currentSet
     let set = mainLayer.append("g");
-    set.attr("class", "set")
+    set.attr("class", setName)
         .selectAll("g")
-        .data(currentSet)
+        .data(dataArr)
         .join("g")
         .attr("pointer-events", "visible")
         .attr("cursor", "pointer")
         .attr("id", d => d.name)
         .append("circle")
-        .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
-        .attr("cx", d => d.centroid.x)
-        .attr("cy", d => d.centroid.y)
-        .attr("r", d => d.pointsCopy.length > 1 ? 43 : sizePoint === "big" ? 25 : 15)
+        .attr("fill", d => setName === 'set' && d.pointsCopy.length > 1 ? clusterPinColor : singlePinColor)
+        .attr("cx", d => setName !== 'set' ? d.x_img : d.centroid.x)
+        .attr("cy", d => setName !== 'set' ? d.y_img : d.centroid.y)
+        .attr("r", d => setName === 'set' && d.pointsCopy.length > 1 ? currentClusterData.rCuster : currentClusterData.rPin)
         .on("click", clickedOnPin)
     set
         .selectAll("g")
-        .data(currentSet)
+        .data(dataArr)
         .join("g")
         .append("text")
-        .attr("x", d => d.centroid.x)
-        .attr("y", d => d.centroid.y + 3)
+        .attr("x", d => setName !== 'set' ? d.x_img : d.centroid.x)
+        .attr("y", d => setName !== 'set' ? d.y_img : d.centroid.y)
         .attr("text-anchor", "middle")
-        .attr("font-size", d => d.pointsCopy.length > 1 ? 48 : sizePoint === "big" ? 20 : 12)
+        .attr("font-size", d => setName === 'set' && d.pointsCopy.length > 1 ? currentClusterData.textCluster : currentClusterData.textPin)
         .attr("fill", "white")
         .attr("font-family", "sans-serif")
-        .attr("dy", d => d.pointsCopy.length > 1 ? 12 : sizePoint === "big" ? 3 : 1)
-        .attr("dx", d => d.pointsCopy.length > 1 ? -1 : 0)
+        .attr("dy", d => setName === 'set' && d.pointsCopy.length > 1 ? currentClusterData.dyTextCluster : currentClusterData.dyTextPin)
+        .attr("dx", d => setName === 'set' ? d.pointsCopy.length > 1 ? -1 : 0 : -1)
         .attr("pointer-events", "none")
-        .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
+        .text(d => setName === 'set' ? d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name : d.name);
 }
 
-function reColorizeSubFloor(subLevelToShow) {
-    let asideContent = document.getElementById('asideSvg').contentDocument;
-    let blocks = [...asideContent.querySelectorAll('.block')];
-    blocks.forEach(block => {
-        block.style.stroke = 'none';
-    });
-    
-    let clickedBlock = asideContent.querySelector(`.${subLevelToShow}`);
-    clickedBlock.style.stroke = '#fff64d';
-    clickedBlock.style.strokeWidth = 5;
-}
-
-function showTiedPins(d, isBuild) {
-    if (d.pointsCopy.length === 1) return;
-    if (!isBuild) {
-        deleteSet('svg', '.showTiedPins');
-    }
-    if (isBuild) {
-        svg
-            .select('.mainLayer')
-            .append('g')
-            .attr('class', 'showTiedPins')
-            .selectAll('circle')
-            .data(d.pointsCopy)
-            .join("circle")
-            .attr('cx', d => d.x_img)
-            .attr('cy', d => d.y_img)
-            .attr('pointer-events', 'visible')
-            .attr('r', 25)
-            .attr('fill', "#FF2A2A")
-            .attr("cursor", "pointer")
-            .on("click", clickedOnshowTiedPinsed)
-
-        svg
-            .select('.mainLayer')
-            .append('g')
-            .attr('class', 'showTiedPins')
-            .selectAll('g')
-            .data(d.pointsCopy)
-            .join("g")
-            .append("text")
-            .attr("x", d => d.x_img)
-            .attr("y", d => d.y_img + 3)
-            .attr("text-anchor", "middle")
-            .attr("font-size", 20)
-            .attr("fill", "white")
-            .attr("font-family", "sans-serif")
-            .attr("dy", 3)
-            .attr("dx", 0)
-            .attr("pointer-events", "none")
-            .text(d => d.name);
-    }
+function zoomed() {
+    let transform = d3.event.transform;
+    mainLayer.attr("transform", transform);
 }
 
 function deleteSet(base, selector) {
@@ -367,64 +284,67 @@ function deleteSet(base, selector) {
     if (element) element.remove();
 }
 
+function rebuildClusters() {
+    let currentScale = d3.event.transform.k;
+    if (currentScale.toFixed(2) === prevScale.toFixed(2)) return;
+    prevScale = currentScale;
+
+    let currentClusterData = getCurrentClusterData(currentScale);
+    if (currentClusterData.clusterPointId === prevClusterPointId) return
+
+    console.log('--rebuild--');
+    prevClusterPointId = currentClusterData.clusterPointId
+
+    deleteSet('svg', '.set');
+    let currentSet = clusterize(pointsOnLevel, currentClusterData.sensivity);
+    drawSet(currentSet, currentClusterData);
+}
+
+function clickedOnPin(d) {
+    let cluster = d.pointsCopy;
+    if (!cluster || cluster.length === 1) {
+        let array = !cluster ? d : cluster[0];
+        let query = buildQueryString(array, levelInfo.isSub, currentSubLevelToShow);
+        console.log(query);
+        window.open(query, "_self");
+    } else {
+        deleteSet('svg', '.showPinsInCluster');
+        let currentClusterData = getCurrentClusterData(prevScale);
+        drawSet(d, currentClusterData, "showPinsInCluster");
+        currentCluster = d.id;
+    }
+};
+
 function buildQueryString(pointObj, isSubFlag, subLevelToShow) {
-    let { name } = pointObj;
-    let subQuery = isSubFlag ? subLevelToShow : "_";
+    let {
+        name
+    } = pointObj;
+    let subQuery = isSubFlag ? subLevelToShow : "sub_0";
     let queryString = "../360view/index.html?level=" + level + "&sub=" + subQuery + "&name=" + name;
     return queryString;
 }
 
-function clickedOnshowTiedPinsed(d) {
-    let query = buildQueryString(d, subLevel.isSub, subLevelToShow)
-    window.open(query, "_self");
+function reColorizeSubFloor(asideContent, subLevelToShow) {
+    let blocks = [...asideContent.querySelectorAll('.block')];
+    blocks.forEach(block => {
+        block.style.stroke = 'none';
+    });
+    let clickedBlock = asideContent.querySelector(`.${subLevelToShow}`);
+    clickedBlock.style.stroke = subFloorStyle.hoverStrokeColor;
+    clickedBlock.style.strokeWidth = subFloorStyle.hoverStrokeWidth;
 }
 
-function clickedOnPin(d) { 
-    let cluster = d.pointsCopy;
-    if (cluster.length === 1) {
-        let query = buildQueryString(cluster[0], subLevel.isSub, subLevelToShow);        
-        window.open(query, "_self");
-    } else {
-        deleteSet('svg', '.showTiedPins');
-        let aside = document.querySelector('.aside');
-        if(!aside.classList.contains('hide')) {
-            let asideBtn = document.querySelector('.hideAside');
-            showHideAside(aside, true);
-            shevronAnimation(aside, asideBtn);
-        }
-
-        if (currentCluster === d.id) {            
-            currentCluster = null;
-        } else {
-            showTiedPins(d, true);
-            currentCluster = d.id;
-        }
+function clickSubFloor(e) {
+    if (mainLayer) {
+        mainLayer
+            .attr("opacity", "0");
     }
-};
+    deleteSet('svg', '.set');
+    deleteSet('svg', '.showPinsInCluster');
+    currentSubLevelToShow = e.target.id;
+    let asideContent = document.getElementById('asideSvg').contentDocument;
+    reColorizeSubFloor(asideContent, currentSubLevelToShow);
 
-function centerizeFn() {
-    svg
-        .transition()
-        .duration(400)
-        .call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
-}
-
-function zoomed() {
-    let {
-        k,
-        x,
-        y
-    } = d3.event.transform;
-
-    let transform2 = d3Transform()
-        .translate([x, y])
-        .scale(k * transform.k)
-        .translate([transform.x, transform.y]);
-    mainLayer.attr("transform", transform2);
-
-    transform.zoom = {
-        x,
-        y,
-        k
-    };
+    floorSrc = `../assets/img/level/${level}_${currentSubLevelToShow}.png`;
+    floor.attr("xlink:href", floorSrc);
 }

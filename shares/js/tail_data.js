@@ -28759,7 +28759,7 @@ let tails = [
         "faceSize": 4096,
         "initialViewParameters": {
             "pitch": 0,
-            "yaw": 0,
+            "yaw": -0.1,
             "fov": 1.5707963267948966
         },
         "linkHotspots": [],
@@ -28788,7 +28788,7 @@ let tails = [
         "faceSize": 4096,
         "initialViewParameters": {
             "pitch": 0,
-            "yaw": 0,
+            "yaw": -0.8,
             "fov": 1.5707963267948966
         },
         "linkHotspots": [],
@@ -28817,7 +28817,7 @@ let tails = [
         "faceSize": 4096,
         "initialViewParameters": {
             "pitch": 0,
-            "yaw": 0,
+            "yaw": -1.1,
             "fov": 1.5707963267948966
         },
         "linkHotspots": [],
@@ -28846,7 +28846,7 @@ let tails = [
         "faceSize": 4096,
         "initialViewParameters": {
             "pitch": 0,
-            "yaw": 0,
+            "yaw": -1,
             "fov": 1.5707963267948966
         },
         "linkHotspots": [],
@@ -28875,7 +28875,7 @@ let tails = [
         "faceSize": 4096,
         "initialViewParameters": {
             "pitch": 0,
-            "yaw": 0,
+            "yaw": 1.85,
             "fov": 1.5707963267948966
         },
         "linkHotspots": [],

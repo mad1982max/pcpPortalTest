@@ -13,6 +13,8 @@ body {
     background: #303030;
     opacity: 0;
     transition: opacity 700ms;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -23,13 +25,6 @@ img {
     width: 100%;
 }
 
-.text-block {
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    position: absolute;
-    background: rgb(252, 251, 251);
-}
 
 .main-header-text {
     font-size: 30px;
@@ -59,12 +54,10 @@ object {
     height: 100%;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
+.header, .footer {
+    flex: 0 0 auto;
 }
 
-.body-main {
-    position: relative;
-    margin: auto;
+#svg {
+    flex: 1 0 auto;
 }
